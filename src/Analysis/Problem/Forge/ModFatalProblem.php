@@ -36,7 +36,8 @@ class ModFatalProblem extends ModProblem
         return [
             'mod-state' => '/U[LCHIJAD]*E\s+(?<modId>\w+)\{(?<modVersion>[^\}]+)\} \[(?<modName>[^\]]+)\] \((?<modFileName>[^\)]+)\)/',
             // client-only causes are handled by ClientOnlyModProblem
-            'failed-to-load' => '/^\s*(?<modName>[^\(\n]+) \((?<modId>[^\)]+)\) has failed to load correctly(?!\n' . ClientOnlyModProblem::CLIENT_ONLY_CAUSE . ')/m'
+            // the name and id stay on one line, otherwise every "(" makes the pattern scan the rest of the entry
+            'failed-to-load' => '/^\h*(?<modName>[^\(\n]+) \((?<modId>[^\)\n]+)\) has failed to load correctly(?!\n' . ClientOnlyModProblem::CLIENT_ONLY_CAUSE . ')/m'
         ];
     }
 

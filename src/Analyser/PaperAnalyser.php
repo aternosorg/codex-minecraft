@@ -15,6 +15,9 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Paper\PluginDataFolderProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\EventListenerMissingClassProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\CircularPluginDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\RestrictedPluginNameProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\NewerConfigVersionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ConfigNotWritableProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\WorldDefaultsMissingProblem;
 
 class PaperAnalyser extends BukkitAnalyser
 {
@@ -34,5 +37,8 @@ class PaperAnalyser extends BukkitAnalyser
         $this->addPossibleInsightClass(EventListenerMissingClassProblem::class);
         $this->addPossibleInsightClass(CircularPluginDependencyProblem::class);
         $this->addPossibleInsightClass(RestrictedPluginNameProblem::class);
+        $this->addPossibleInsightClass(NewerConfigVersionProblem::class);
+        $this->addPossibleInsightClass(ConfigNotWritableProblem::class);
+        $this->addPossibleInsightClass(WorldDefaultsMissingProblem::class);
     }
 }

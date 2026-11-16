@@ -3,10 +3,7 @@
 namespace Aternos\Codex\Minecraft\Test\Performance;
 
 use Aternos\Codex\Analysis\PatternInsightInterface;
-use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ClientOnlyModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem;
-use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModFatalProblem;
-use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ServerJarInPluginFolderProblem;
 use Aternos\Codex\Minecraft\Test\Logs\TestLog;
 use FilesystemIterator;
 use Generator;
@@ -75,10 +72,7 @@ class PatternSafetyTest extends TestCase
      * Which of them actually fails depends on whether PCRE JIT is enabled.
      */
     protected const array KNOWN_UNSAFE_PATTERNS = [
-        ClientOnlyModProblem::class => [0],
         ModDependencyProblem::class => ["loading-failed-exception"],
-        ModFatalProblem::class => ["failed-to-load"],
-        ServerJarInPluginFolderProblem::class => [0],
     ];
 
     /**

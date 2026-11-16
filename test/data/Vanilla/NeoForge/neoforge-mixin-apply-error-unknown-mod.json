@@ -1,0 +1,880 @@
+{
+    "id": "neoforge\/client",
+    "name": "NeoForge",
+    "type": "Client Log",
+    "version": "1.21.1",
+    "title": "NeoForge 1.21.1 Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[12:40:53.485] [main\/INFO] [Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[12:40:53.485] [main\/INFO] [Launcher\/MODLAUNCHER]: ModLauncher running: args [--username, Player, --version, neoforge-21.1.248, --gameDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft, --assetsDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft\\assets, --assetIndex, 17, --uuid, 00000000000000000000000000000000, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --clientId, 0, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480, --fml.neoForgeVersion, 21.1.248, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient] "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[12:40:53.491] [main\/INFO] [Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[12:40:53.491] [main\/INFO] [Launcher\/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.7 6-LTS "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[12:40:53.494] [main\/INFO] [Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[12:40:53.494] [main\/INFO] [Launcher\/MODLAUNCHER]: ModLauncher 11.0.5 main.901c6ea8 starting: java version 21.0.7 by Microsoft; OS Windows 10 arch amd64 version 10.0 "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[12:41:03.015] [main\/INFO] [LaunchServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[12:41:03.015] [main\/INFO] [LaunchServiceHandler\/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, neoforge-21.1.248, --gameDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft, --assetsDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft\\assets, --uuid, 00000000000000000000000000000000, --username, Player, --assetIndex, 17, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --clientId, 0, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480] "
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[12:41:05.592] [main\/FATAL] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[12:41:05.592] [main\/FATAL] [mixin\/]: Mixin apply for mod (unknown) failed mixins.essential.json:client.MixinMinecraft from mod (unknown) -> net.minecraft.client.Minecraft: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException @Shadow method m_91095_ in mixins.essential.json:client.MixinMinecraft from mod (unknown) was not located in the target class net.minecraft.client.Minecraft. Using refmap mixins.essential.refmap.json org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow method m_91095_ in mixins.essential.json:client.MixinMinecraft from mod (unknown) was not located in the target class net.minecraft.client.Minecraft. Using refmap mixins.essential.refmap.json"
+                },
+                {
+                    "number": 6,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:436) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                },
+                {
+                    "number": 7,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachShadowMethod(MixinPreProcessorStandard.java:412) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                },
+                {
+                    "number": 8,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:340) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                },
+                {
+                    "number": 9,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:299) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                },
+                {
+                    "number": 10,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                },
+                {
+                    "number": 11,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                },
+                {
+                    "number": 12,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:203) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                },
+                {
+                    "number": 13,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                },
+                {
+                    "number": 14,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-11.0.5.jar:11.0.5 main.901c6ea8] {}"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94) ~[modlauncher-11.0.5.jar:?] {}"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-11.0.5.jar:?] {}"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57) ~[modlauncher-11.0.5.jar:?] {}"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190) ~[securejarhandler-3.0.8.jar:?] {}"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311) [securejarhandler-3.0.8.jar:?] {}"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298) [securejarhandler-3.0.8.jar:?] {}"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214) [securejarhandler-3.0.8.jar:?] {}"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526) [?:?] {}"
+                },
+                {
+                    "number": 29,
+                    "content": "\tat java.base\/java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?] {}"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat java.base\/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) [?:?] {}"
+                },
+                {
+                    "number": 31,
+                    "content": "\tat java.base\/java.lang.Class.privateGetPublicMethods(Class.java:3603) [?:?] {}"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat java.base\/java.lang.Class.privateGetPublicMethods(Class.java:3609) [?:?] {}"
+                },
+                {
+                    "number": 33,
+                    "content": "\tat java.base\/java.lang.Class.getMethods(Class.java:2185) [?:?] {}"
+                },
+                {
+                    "number": 34,
+                    "content": "\tat MC-BOOTSTRAP\/fml_earlydisplay@4.0.43\/net.neoforged.fml.earlydisplay.DisplayWindow.updateModuleReads(DisplayWindow.java:606) [earlydisplay-4.0.43.jar#106!\/:4.0] {}"
+                },
+                {
+                    "number": 35,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.43\/net.neoforged.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:94) [loader-4.0.43.jar#107!\/:4.0] {}"
+                },
+                {
+                    "number": 36,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.43\/net.neoforged.fml.loading.FMLLoader.beforeStart(FMLLoader.java:166) [loader-4.0.43.jar#107!\/:4.0] {}"
+                },
+                {
+                    "number": 37,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.43\/net.neoforged.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:115) [loader-4.0.43.jar#107!\/:4.0] {}"
+                },
+                {
+                    "number": 38,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar#112!\/:?] {}"
+                },
+                {
+                    "number": 39,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar#112!\/:?] {}"
+                },
+                {
+                    "number": 40,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar#112!\/:?] {}"
+                },
+                {
+                    "number": 41,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar#112!\/:?] {}"
+                },
+                {
+                    "number": 42,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar#112!\/:?] {}"
+                },
+                {
+                    "number": 43,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar#112!\/:?] {}"
+                },
+                {
+                    "number": 44,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar#112!\/:?] {}"
+                },
+                {
+                    "number": 45,
+                    "content": "\tat cpw.mods.bootstraplauncher@2.0.2\/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}"
+                },
+                {
+                    "number": 46,
+                    "content": "\tat cpw.mods.bootstraplauncher@2.0.2\/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}"
+                },
+                {
+                    "number": 47,
+                    "content": ""
+                },
+                {
+                    "number": 48,
+                    "content": "Exception in thread \"main\" java.lang.RuntimeException: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered"
+                },
+                {
+                    "number": 49,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:32)"
+                },
+                {
+                    "number": 50,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)"
+                },
+                {
+                    "number": 51,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)"
+                },
+                {
+                    "number": 52,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.Launcher.run(Launcher.java:103)"
+                },
+                {
+                    "number": 53,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.Launcher.main(Launcher.java:74)"
+                },
+                {
+                    "number": 54,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)"
+                },
+                {
+                    "number": 55,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)"
+                },
+                {
+                    "number": 56,
+                    "content": "\tat cpw.mods.bootstraplauncher@2.0.2\/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210)"
+                },
+                {
+                    "number": 57,
+                    "content": "\tat cpw.mods.bootstraplauncher@2.0.2\/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69)"
+                },
+                {
+                    "number": 58,
+                    "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered"
+                },
+                {
+                    "number": 59,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)"
+                },
+                {
+                    "number": 60,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)"
+                },
+                {
+                    "number": 61,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)"
+                },
+                {
+                    "number": 62,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)"
+                },
+                {
+                    "number": 63,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)"
+                },
+                {
+                    "number": 64,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94)"
+                },
+                {
+                    "number": 65,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)"
+                },
+                {
+                    "number": 66,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57)"
+                },
+                {
+                    "number": 67,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190)"
+                },
+                {
+                    "number": 68,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298)"
+                },
+                {
+                    "number": 69,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311)"
+                },
+                {
+                    "number": 70,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298)"
+                },
+                {
+                    "number": 71,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214)"
+                },
+                {
+                    "number": 72,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526)"
+                },
+                {
+                    "number": 73,
+                    "content": "\tat java.base\/java.lang.Class.getDeclaredMethods0(Native Method)"
+                },
+                {
+                    "number": 74,
+                    "content": "\tat java.base\/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)"
+                },
+                {
+                    "number": 75,
+                    "content": "\tat java.base\/java.lang.Class.privateGetPublicMethods(Class.java:3603)"
+                },
+                {
+                    "number": 76,
+                    "content": "\tat java.base\/java.lang.Class.privateGetPublicMethods(Class.java:3609)"
+                },
+                {
+                    "number": 77,
+                    "content": "\tat java.base\/java.lang.Class.getMethods(Class.java:2185)"
+                },
+                {
+                    "number": 78,
+                    "content": "\tat MC-BOOTSTRAP\/fml_earlydisplay@4.0.43\/net.neoforged.fml.earlydisplay.DisplayWindow.updateModuleReads(DisplayWindow.java:606)"
+                },
+                {
+                    "number": 79,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.43\/net.neoforged.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:94)"
+                },
+                {
+                    "number": 80,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.43\/net.neoforged.fml.loading.FMLLoader.beforeStart(FMLLoader.java:166)"
+                },
+                {
+                    "number": 81,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.43\/net.neoforged.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:115)"
+                },
+                {
+                    "number": 82,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)"
+                },
+                {
+                    "number": 83,
+                    "content": "\t... 8 more"
+                },
+                {
+                    "number": 84,
+                    "content": "Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [mixins.essential.json:client.MixinMinecraft from mod (unknown)] from phase [DEFAULT] in config [mixins.essential.json] FAILED during APPLY"
+                },
+                {
+                    "number": 85,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:638)"
+                },
+                {
+                    "number": 86,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:589)"
+                },
+                {
+                    "number": 87,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379)"
+                },
+                {
+                    "number": 88,
+                    "content": "\t... 31 more"
+                },
+                {
+                    "number": 89,
+                    "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow method m_91095_ in mixins.essential.json:client.MixinMinecraft from mod (unknown) was not located in the target class net.minecraft.client.Minecraft. Using refmap mixins.essential.refmap.json"
+                },
+                {
+                    "number": 90,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:436)"
+                },
+                {
+                    "number": 91,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachShadowMethod(MixinPreProcessorStandard.java:412)"
+                },
+                {
+                    "number": 92,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:340)"
+                },
+                {
+                    "number": 93,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:299)"
+                },
+                {
+                    "number": 94,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277)"
+                },
+                {
+                    "number": 95,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288)"
+                },
+                {
+                    "number": 96,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:203)"
+                },
+                {
+                    "number": 97,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)"
+                },
+                {
+                    "number": 98,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)"
+                },
+                {
+                    "number": 99,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)"
+                },
+                {
+                    "number": 100,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod with the mixin config 'mixins.essential.json' has a fatal error.",
+                "counter": 1,
+                "entry": {
+                    "level": 2,
+                    "time": null,
+                    "prefix": "[12:41:05.592] [main\/FATAL] [mixin\/]:",
+                    "lines": [
+                        {
+                            "number": 5,
+                            "content": "[12:41:05.592] [main\/FATAL] [mixin\/]: Mixin apply for mod (unknown) failed mixins.essential.json:client.MixinMinecraft from mod (unknown) -> net.minecraft.client.Minecraft: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException @Shadow method m_91095_ in mixins.essential.json:client.MixinMinecraft from mod (unknown) was not located in the target class net.minecraft.client.Minecraft. Using refmap mixins.essential.refmap.json org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow method m_91095_ in mixins.essential.json:client.MixinMinecraft from mod (unknown) was not located in the target class net.minecraft.client.Minecraft. Using refmap mixins.essential.refmap.json"
+                        },
+                        {
+                            "number": 6,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:436) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachShadowMethod(MixinPreProcessorStandard.java:412) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:340) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:299) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:203) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[sponge-mixin-0.15.2 mixin.0.8.7.jar:0.15.2 mixin.0.8.7] {}"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-11.0.5.jar:11.0.5 main.901c6ea8] {}"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94) ~[modlauncher-11.0.5.jar:?] {}"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-11.0.5.jar:?] {}"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57) ~[modlauncher-11.0.5.jar:?] {}"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190) ~[securejarhandler-3.0.8.jar:?] {}"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311) [securejarhandler-3.0.8.jar:?] {}"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298) [securejarhandler-3.0.8.jar:?] {}"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214) [securejarhandler-3.0.8.jar:?] {}"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526) [?:?] {}"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\tat java.base\/java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?] {}"
+                        },
+                        {
+                            "number": 30,
+                            "content": "\tat java.base\/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) [?:?] {}"
+                        },
+                        {
+                            "number": 31,
+                            "content": "\tat java.base\/java.lang.Class.privateGetPublicMethods(Class.java:3603) [?:?] {}"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\tat java.base\/java.lang.Class.privateGetPublicMethods(Class.java:3609) [?:?] {}"
+                        },
+                        {
+                            "number": 33,
+                            "content": "\tat java.base\/java.lang.Class.getMethods(Class.java:2185) [?:?] {}"
+                        },
+                        {
+                            "number": 34,
+                            "content": "\tat MC-BOOTSTRAP\/fml_earlydisplay@4.0.43\/net.neoforged.fml.earlydisplay.DisplayWindow.updateModuleReads(DisplayWindow.java:606) [earlydisplay-4.0.43.jar#106!\/:4.0] {}"
+                        },
+                        {
+                            "number": 35,
+                            "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.43\/net.neoforged.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:94) [loader-4.0.43.jar#107!\/:4.0] {}"
+                        },
+                        {
+                            "number": 36,
+                            "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.43\/net.neoforged.fml.loading.FMLLoader.beforeStart(FMLLoader.java:166) [loader-4.0.43.jar#107!\/:4.0] {}"
+                        },
+                        {
+                            "number": 37,
+                            "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.43\/net.neoforged.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:115) [loader-4.0.43.jar#107!\/:4.0] {}"
+                        },
+                        {
+                            "number": 38,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar#112!\/:?] {}"
+                        },
+                        {
+                            "number": 39,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar#112!\/:?] {}"
+                        },
+                        {
+                            "number": 40,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar#112!\/:?] {}"
+                        },
+                        {
+                            "number": 41,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar#112!\/:?] {}"
+                        },
+                        {
+                            "number": 42,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar#112!\/:?] {}"
+                        },
+                        {
+                            "number": 43,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar#112!\/:?] {}"
+                        },
+                        {
+                            "number": 44,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar#112!\/:?] {}"
+                        },
+                        {
+                            "number": 45,
+                            "content": "\tat cpw.mods.bootstraplauncher@2.0.2\/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}"
+                        },
+                        {
+                            "number": 46,
+                            "content": "\tat cpw.mods.bootstraplauncher@2.0.2\/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}"
+                        },
+                        {
+                            "number": 47,
+                            "content": ""
+                        },
+                        {
+                            "number": 48,
+                            "content": "Exception in thread \"main\" java.lang.RuntimeException: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered"
+                        },
+                        {
+                            "number": 49,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:32)"
+                        },
+                        {
+                            "number": 50,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)"
+                        },
+                        {
+                            "number": 51,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)"
+                        },
+                        {
+                            "number": 52,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.Launcher.run(Launcher.java:103)"
+                        },
+                        {
+                            "number": 53,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.Launcher.main(Launcher.java:74)"
+                        },
+                        {
+                            "number": 54,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)"
+                        },
+                        {
+                            "number": 55,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)"
+                        },
+                        {
+                            "number": 56,
+                            "content": "\tat cpw.mods.bootstraplauncher@2.0.2\/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210)"
+                        },
+                        {
+                            "number": 57,
+                            "content": "\tat cpw.mods.bootstraplauncher@2.0.2\/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69)"
+                        },
+                        {
+                            "number": 58,
+                            "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered"
+                        },
+                        {
+                            "number": 59,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)"
+                        },
+                        {
+                            "number": 60,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)"
+                        },
+                        {
+                            "number": 61,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)"
+                        },
+                        {
+                            "number": 62,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)"
+                        },
+                        {
+                            "number": 63,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)"
+                        },
+                        {
+                            "number": 64,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94)"
+                        },
+                        {
+                            "number": 65,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)"
+                        },
+                        {
+                            "number": 66,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57)"
+                        },
+                        {
+                            "number": 67,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190)"
+                        },
+                        {
+                            "number": 68,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298)"
+                        },
+                        {
+                            "number": 69,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311)"
+                        },
+                        {
+                            "number": 70,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298)"
+                        },
+                        {
+                            "number": 71,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214)"
+                        },
+                        {
+                            "number": 72,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526)"
+                        },
+                        {
+                            "number": 73,
+                            "content": "\tat java.base\/java.lang.Class.getDeclaredMethods0(Native Method)"
+                        },
+                        {
+                            "number": 74,
+                            "content": "\tat java.base\/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)"
+                        },
+                        {
+                            "number": 75,
+                            "content": "\tat java.base\/java.lang.Class.privateGetPublicMethods(Class.java:3603)"
+                        },
+                        {
+                            "number": 76,
+                            "content": "\tat java.base\/java.lang.Class.privateGetPublicMethods(Class.java:3609)"
+                        },
+                        {
+                            "number": 77,
+                            "content": "\tat java.base\/java.lang.Class.getMethods(Class.java:2185)"
+                        },
+                        {
+                            "number": 78,
+                            "content": "\tat MC-BOOTSTRAP\/fml_earlydisplay@4.0.43\/net.neoforged.fml.earlydisplay.DisplayWindow.updateModuleReads(DisplayWindow.java:606)"
+                        },
+                        {
+                            "number": 79,
+                            "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.43\/net.neoforged.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:94)"
+                        },
+                        {
+                            "number": 80,
+                            "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.43\/net.neoforged.fml.loading.FMLLoader.beforeStart(FMLLoader.java:166)"
+                        },
+                        {
+                            "number": 81,
+                            "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.43\/net.neoforged.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:115)"
+                        },
+                        {
+                            "number": 82,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)"
+                        },
+                        {
+                            "number": 83,
+                            "content": "\t... 8 more"
+                        },
+                        {
+                            "number": 84,
+                            "content": "Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [mixins.essential.json:client.MixinMinecraft from mod (unknown)] from phase [DEFAULT] in config [mixins.essential.json] FAILED during APPLY"
+                        },
+                        {
+                            "number": 85,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:638)"
+                        },
+                        {
+                            "number": 86,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:589)"
+                        },
+                        {
+                            "number": 87,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379)"
+                        },
+                        {
+                            "number": 88,
+                            "content": "\t... 31 more"
+                        },
+                        {
+                            "number": 89,
+                            "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow method m_91095_ in mixins.essential.json:client.MixinMinecraft from mod (unknown) was not located in the target class net.minecraft.client.Minecraft. Using refmap mixins.essential.refmap.json"
+                        },
+                        {
+                            "number": 90,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:436)"
+                        },
+                        {
+                            "number": 91,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachShadowMethod(MixinPreProcessorStandard.java:412)"
+                        },
+                        {
+                            "number": 92,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:340)"
+                        },
+                        {
+                            "number": 93,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:299)"
+                        },
+                        {
+                            "number": 94,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277)"
+                        },
+                        {
+                            "number": 95,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288)"
+                        },
+                        {
+                            "number": 96,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:203)"
+                        },
+                        {
+                            "number": 97,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)"
+                        },
+                        {
+                            "number": 98,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)"
+                        },
+                        {
+                            "number": 99,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)"
+                        },
+                        {
+                            "number": 100,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": []
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.21.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[12:40:53.485] [main\/INFO] [Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[12:40:53.485] [main\/INFO] [Launcher\/MODLAUNCHER]: ModLauncher running: args [--username, Player, --version, neoforge-21.1.248, --gameDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft, --assetsDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft\\assets, --assetIndex, 17, --uuid, 00000000000000000000000000000000, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --clientId, 0, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480, --fml.neoForgeVersion, 21.1.248, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient] "
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.1"
+            },
+            {
+                "message": "NeoForge version: 21.1.248",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[12:40:53.485] [main\/INFO] [Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[12:40:53.485] [main\/INFO] [Launcher\/MODLAUNCHER]: ModLauncher running: args [--username, Player, --version, neoforge-21.1.248, --gameDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft, --assetsDir, C:\\Users\\********\\AppData\\Roaming\\.minecraft\\assets, --assetIndex, 17, --uuid, 00000000000000000000000000000000, --accessToken, \u2744\u2744\u2744\u2744\u2744\u2744\u2744\u2744, --clientId, 0, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480, --fml.neoForgeVersion, 21.1.248, --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient] "
+                        }
+                    ]
+                },
+                "label": "NeoForge version",
+                "value": "21.1.248"
+            }
+        ]
+    }
+}

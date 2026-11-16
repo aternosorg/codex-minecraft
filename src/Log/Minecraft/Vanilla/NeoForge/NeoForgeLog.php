@@ -5,6 +5,7 @@ namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\NeoForge;
 use Aternos\Codex\Analyser\AnalyserInterface;
 use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\NeoForgeAnalyser;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge\ForgeLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaLog;
 use Aternos\Codex\Minecraft\Parser\ForgeParser;
 use Aternos\Codex\Minecraft\Parser\Parser;
@@ -13,7 +14,10 @@ use Aternos\Codex\Parser\PatternParser;
 
 abstract class NeoForgeLog extends VanillaLog
 {
-    protected static string $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}:?){3}(?:\.[0-9]+)?\] \[[^\]]+\/(\w+)\](?: \[([^\]]+)\])?:).*$/';
+    /**
+     * Same entry format as Forge, see ForgeLog::$pattern.
+     */
+    protected static string $pattern = '/^(\[(?:\S+ )?(?:[0-9]{2}:?){3}(?:\.[0-9]+)?\] (?:\[[^\]\/]+\] )?\[[^\]]+\/(\w+)\](?: \[([^\]]+)\])?:).*$/';
 
     /**
      * @inheritDoc
@@ -22,7 +26,7 @@ abstract class NeoForgeLog extends VanillaLog
     {
         return array_merge(parent::getDetectors(), [
             (new SinglePatternDetector())->setPattern('/NeoForge mod loading/'),
-            (new SinglePatternDetector())->setPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: ModLauncher running: .*--fml\.neoForgeVersion/m')
+            (new SinglePatternDetector())->setPattern('/' . ForgeLog::MAIN_INFO_PREFIX . 'ModLauncher running: .*--fml\.neoForgeVersion/m')
         ]);
     }
 
