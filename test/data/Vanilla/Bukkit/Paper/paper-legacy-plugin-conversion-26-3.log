@@ -1,0 +1,52 @@
+Starting org.bukkit.craftbukkit.Main
+2026-11-11T15:24:27.488146Z ServerMain WARN Advanced terminal features are not available in this environment
+[16:24:27 INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.3+1-LTS-2; Oracle Corporation null) on Mac OS X 27.2.1 (aarch64)
+[16:24:27 INFO]: [bootstrap] Loading Paper 26.3-248-main@0727243 (2026-11-10T11:35:52Z) for Minecraft 26.3
+[16:24:27 INFO]: [PluginInitializerManager] Initializing plugins...
+[16:24:27 INFO]: [PluginInitializerManager] Initialized 1 plugin
+[16:24:27 INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - LegacyBrokenClass (1.0)
+[16:24:30 INFO]: Loaded 1866 advancements
+[16:24:30 INFO]: Starting minecraft server version 26.3
+[16:24:30 INFO]: Loading properties
+[16:24:30 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)
+[16:24:31 WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[16:24:35 WARN]: Legacy plugin LegacyBrokenClass v1.0 does not specify an api-version.
+[16:24:35 INFO]: [LegacyBrokenClass] Loading server plugin LegacyBrokenClass v1.0
+[16:24:35 INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[16:24:35 INFO]: Prepared spawn area in 0 ms
+[16:24:35 INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[16:24:35 INFO]: Prepared spawn area in 0 ms
+[16:24:35 INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[16:24:35 INFO]: Prepared spawn area in 0 ms
+[16:24:35 INFO]: Done preparing level "world" (0.155s)
+[16:24:35 INFO]: [LegacyBrokenClass] Enabling LegacyBrokenClass v1.0*
+[16:24:35 ERROR]: Fatal error trying to convert LegacyBrokenClass v1.0:com/repro/BrokenClass.class
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at org.objectweb.asm.ClassReader.getItem(ClassReader.java:3578) ~[asm-9.9.1.jar:9.9.1]
+	at org.objectweb.asm.SymbolTable.<init>(SymbolTable.java:167) ~[asm-9.9.1.jar:9.9.1]
+	at org.objectweb.asm.ClassWriter.<init>(ClassWriter.java:266) ~[asm-9.9.1.jar:9.9.1]
+	at org.bukkit.craftbukkit.util.Commodore.convert(Commodore.java:210) ~[paper-26.3.jar:26.3-248-0727243]
+	at org.bukkit.craftbukkit.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:407) ~[paper-26.3.jar:26.3-248-0727243]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:240) ~[paper-api-26.3.build.248-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.3.build.248-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.3.build.248-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:458) ~[?:?]
+	at p17-legacy-broken-class.jar//com.repro.LegacyBrokenClassPlugin.onEnable(LegacyBrokenClassPlugin.java:13) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-26.3.build.248-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:201) ~[paper-26.3.jar:26.3-248-0727243]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.3.jar:26.3-248-0727243]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:519) ~[paper-api-26.3.build.248-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:616) ~[paper-26.3.jar:26.3-248-0727243]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:573) ~[paper-26.3.jar:26.3-248-0727243]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:642) ~[paper-26.3.jar:26.3-248-0727243]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:343) ~[paper-26.3.jar:26.3-248-0727243]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-26.3.jar:26.3-248-0727243]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299) ~[paper-26.3.jar:26.3-248-0727243]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:24:35 WARN]: [LegacyBrokenClass] could not load BrokenClass: java.lang.ClassFormatError: Illegal class modifiers in class com/repro/BrokenClass: 0x201
+[16:24:36 INFO]: [spark] Starting background profiler...

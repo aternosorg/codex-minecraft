@@ -5,6 +5,7 @@ namespace Aternos\Codex\Minecraft\Analyser;
 use Aternos\Codex\Analysis\PatternInsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\ChunkLoadExceptionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\LegacyPluginConversionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\AuthMeShutdownProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\MultiverseLoadProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\PermissionsExConfigProblem;
@@ -42,6 +43,7 @@ class BukkitAnalyser extends VanillaAnalyser
             PluginDependenciesProblem::class,
             UnsupportedApiVersionProblem::class,
             UnsupportedClassVersionProblem::class,
+            LegacyPluginConversionProblem::class,
         ];
     }
 

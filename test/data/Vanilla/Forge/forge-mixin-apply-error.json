@@ -1,0 +1,1303 @@
+{
+    "id": "forge\/client",
+    "name": "Forge",
+    "type": "Client Log",
+    "version": "1.20.1",
+    "title": "Forge 1.20.1 Client Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:15:10] [main\/INFO] [cp.mo.mo.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[17:15:10] [main\/INFO] [cp.mo.mo.Launcher\/MODLAUNCHER]: ModLauncher running: args [--username, Player, --version, 1.20.1, --gameDir, C:\/Users\/********\/AppData\/Roaming\/PrismLauncher\/instances\/Gizmo Modpack\/minecraft, --assetsDir, C:\/Users\/********\/AppData\/Roaming\/PrismLauncher\/assets, --assetIndex, 5, --uuid, <PROFILE ID>, --accessToken, ????????, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:15:10] [main\/INFO] [cp.mo.mo.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[17:15:10] [main\/INFO] [cp.mo.mo.Launcher\/MODLAUNCHER]: ModLauncher 10.0.9 10.0.9 main.dcd20f30 starting: java version 17.0.8 by Microsoft; OS Windows 11 arch amd64 version 10.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:15:10] [main\/INFO] [ne.mi.fm.lo.ImmediateWindowHandler\/]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[17:15:10] [main\/INFO] [ne.mi.fm.lo.ImmediateWindowHandler\/]: Loading ImmediateWindowProvider fmlearlywindow"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:15:18] [main\/INFO] [cp.mo.mo.LaunchServiceHandler\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[17:15:18] [main\/INFO] [cp.mo.mo.LaunchServiceHandler\/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, C:\\Users\\********\\AppData\\Roaming\\PrismLauncher\\instances\\Gizmo Modpack\\minecraft, --assetsDir, C:\\Users\\********\\AppData\\Roaming\\PrismLauncher\\assets, --uuid, <PROFILE ID>, --username, Player, --assetIndex, 5, --accessToken, ????????, --userType, msa, --versionType, release, --width, 854, --height, 480]"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[17:15:30] [main\/FATAL] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[17:15:30] [main\/FATAL] [mixin\/]: Mixin apply for mod fabric_resource_loader_v0 failed fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0 -> net.minecraft.server.packs.resources.ReloadableResourceManager: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on getResourcePackNames could not find any targets matching 'Lnet\/minecraft\/server\/packs\/resources\/ReloadableResourceManager;m_203825_(Ljava\/util\/List;)Ljava\/lang\/Object;' in net.minecraft.server.packs.resources.ReloadableResourceManager. Using refmap fabric-resource-loader-v0-refmap.json [PREINJECT Applicator Phase -> fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0 -> Prepare Injections ->  -> handler$dcj000$fabric_resource_loader_v0$getResourcePackNames(Ljava\/util\/List;Lorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfoReturnable;)V -> Parse]"
+                },
+                {
+                    "number": 6,
+                    "content": "org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on getResourcePackNames could not find any targets matching 'Lnet\/minecraft\/server\/packs\/resources\/ReloadableResourceManager;m_203825_(Ljava\/util\/List;)Ljava\/lang\/Object;' in net.minecraft.server.packs.resources.ReloadableResourceManager. Using refmap fabric-resource-loader-v0-refmap.json [PREINJECT Applicator Phase -> fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0 -> Prepare Injections ->  -> handler$dcj000$fabric_resource_loader_v0$getResourcePackNames(Ljava\/util\/List;Lorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfoReturnable;)V -> Parse]"
+                },
+                {
+                    "number": 7,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.validateTargets(InjectionInfo.java:656) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 8,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findTargets(InjectionInfo.java:587) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 9,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:330) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 10,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:316) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 11,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:308) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 12,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:46) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 13,
+                    "content": "\tat jdk.internal.reflect.GeneratedConstructorAccessor53.newInstance(Unknown Source) ~[?:?] {}"
+                },
+                {
+                    "number": 14,
+                    "content": "\tat jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?] {}"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?] {}"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?] {}"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:149) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:708) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1329) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1053) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:395) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                },
+                {
+                    "number": 29,
+                    "content": "\tat cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar:10.0.9 10.0.9 main.dcd20f30] {}"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?] {}"
+                },
+                {
+                    "number": 31,
+                    "content": "\tat cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?] {}"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?] {}"
+                },
+                {
+                    "number": 33,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}"
+                },
+                {
+                    "number": 34,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}"
+                },
+                {
+                    "number": 35,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}"
+                },
+                {
+                    "number": 36,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}"
+                },
+                {
+                    "number": 37,
+                    "content": "\tat cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}"
+                },
+                {
+                    "number": 38,
+                    "content": "\tat java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}"
+                },
+                {
+                    "number": 39,
+                    "content": "\tat java.lang.Class.getDeclaredFields0(Native Method) ~[?:?] {re:mixin}"
+                },
+                {
+                    "number": 40,
+                    "content": "\tat java.lang.Class.privateGetDeclaredFields(Class.java:3297) ~[?:?] {re:mixin}"
+                },
+                {
+                    "number": 41,
+                    "content": "\tat java.lang.Class.getDeclaredFields(Class.java:2371) ~[?:?] {re:mixin}"
+                },
+                {
+                    "number": 42,
+                    "content": "\tat net.optifine.reflect.FieldLocatorTypes.<init>(FieldLocatorTypes.java:25) ~[OptiFine_1.20.1_HD_U_I6.jar#775!\/:?] {re:classloading}"
+                },
+                {
+                    "number": 43,
+                    "content": "\tat net.optifine.reflect.Reflector.<clinit>(Reflector.java:550) ~[OptiFine_1.20.1_HD_U_I6.jar#775!\/:?] {re:classloading}"
+                },
+                {
+                    "number": 44,
+                    "content": "\tat net.minecraft.CrashReport.m_127526_(CrashReport.java:176) ~[client-1.20.1-20230612.114412-srg.jar#412!\/:?] {re:computing_frames,xf:OptiFine:default,pl:connector_pre_launch:A,re:mixin,xf:OptiFine:default,pl:connector_pre_launch:A,re:classloading,xf:OptiFine:default,pl:mixin:APP:mixins.essential.json:crash.MixinCrashReport from mod (unknown),pl:mixin:A,pl:connector_pre_launch:A}"
+                },
+                {
+                    "number": 45,
+                    "content": "\tat net.minecraft.CrashReport.m_127529_(CrashReport.java:346) ~[client-1.20.1-20230612.114412-srg.jar#412!\/:?] {re:computing_frames,xf:OptiFine:default,pl:connector_pre_launch:A,re:mixin,xf:OptiFine:default,pl:connector_pre_launch:A,re:classloading,xf:OptiFine:default,pl:mixin:APP:mixins.essential.json:crash.MixinCrashReport from mod (unknown),pl:mixin:A,pl:connector_pre_launch:A}"
+                },
+                {
+                    "number": 46,
+                    "content": "\tat net.minecraft.client.main.Main.main(Main.java:149) ~[minecraft-1.20.1-client.jar:?] {re:classloading,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}"
+                },
+                {
+                    "number": 47,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}"
+                },
+                {
+                    "number": 48,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}"
+                },
+                {
+                    "number": 49,
+                    "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}"
+                },
+                {
+                    "number": 50,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}"
+                },
+                {
+                    "number": 51,
+                    "content": "\tat net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.10.jar:?] {}"
+                },
+                {
+                    "number": 52,
+                    "content": "\tat net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.10.jar:?] {}"
+                },
+                {
+                    "number": 53,
+                    "content": "\tat net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.4.10.jar:?] {}"
+                },
+                {
+                    "number": 54,
+                    "content": "\tat cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}"
+                },
+                {
+                    "number": 55,
+                    "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}"
+                },
+                {
+                    "number": 56,
+                    "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}"
+                },
+                {
+                    "number": 57,
+                    "content": "\tat cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}"
+                },
+                {
+                    "number": 58,
+                    "content": "\tat cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}"
+                },
+                {
+                    "number": 59,
+                    "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}"
+                },
+                {
+                    "number": 60,
+                    "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}"
+                },
+                {
+                    "number": 61,
+                    "content": "\tat cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}"
+                },
+                {
+                    "number": 62,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}"
+                },
+                {
+                    "number": 63,
+                    "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}"
+                },
+                {
+                    "number": 64,
+                    "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}"
+                },
+                {
+                    "number": 65,
+                    "content": "\tat java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}"
+                },
+                {
+                    "number": 66,
+                    "content": "\tat io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) ~[?:?] {}"
+                },
+                {
+                    "number": 67,
+                    "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115) ~[?:?] {}"
+                },
+                {
+                    "number": 68,
+                    "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?] {}"
+                },
+                {
+                    "number": 69,
+                    "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?] {}"
+                },
+                {
+                    "number": 70,
+                    "content": "Exception caught from launcher"
+                },
+                {
+                    "number": 71,
+                    "content": "java.lang.reflect.InvocationTargetException"
+                },
+                {
+                    "number": 72,
+                    "content": "\tat java.base\/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)"
+                },
+                {
+                    "number": 73,
+                    "content": "\tat java.base\/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)"
+                },
+                {
+                    "number": 74,
+                    "content": "\tat java.base\/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)"
+                },
+                {
+                    "number": 75,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:568)"
+                },
+                {
+                    "number": 76,
+                    "content": "\tat io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67)"
+                },
+                {
+                    "number": 77,
+                    "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)"
+                },
+                {
+                    "number": 78,
+                    "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)"
+                },
+                {
+                    "number": 79,
+                    "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70)"
+                },
+                {
+                    "number": 80,
+                    "content": "Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException"
+                },
+                {
+                    "number": 81,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:32)"
+                },
+                {
+                    "number": 82,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)"
+                },
+                {
+                    "number": 83,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)"
+                },
+                {
+                    "number": 84,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)"
+                },
+                {
+                    "number": 85,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)"
+                },
+                {
+                    "number": 86,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)"
+                },
+                {
+                    "number": 87,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)"
+                },
+                {
+                    "number": 88,
+                    "content": "\tat cpw.mods.bootstraplauncher@1.1.2\/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)"
+                },
+                {
+                    "number": 89,
+                    "content": "\t... 8 more"
+                },
+                {
+                    "number": 90,
+                    "content": "Caused by: java.lang.reflect.InvocationTargetException"
+                },
+                {
+                    "number": 91,
+                    "content": "\tat java.base\/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)"
+                },
+                {
+                    "number": 92,
+                    "content": "\tat java.base\/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)"
+                },
+                {
+                    "number": 93,
+                    "content": "\tat java.base\/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)"
+                },
+                {
+                    "number": 94,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:568)"
+                },
+                {
+                    "number": 95,
+                    "content": "\tat MC-BOOTSTRAP\/fmlloader@1.20.1-47.4.10\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)"
+                },
+                {
+                    "number": 96,
+                    "content": "\tat MC-BOOTSTRAP\/fmlloader@1.20.1-47.4.10\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99)"
+                },
+                {
+                    "number": 97,
+                    "content": "\tat MC-BOOTSTRAP\/fmlloader@1.20.1-47.4.10\/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25)"
+                },
+                {
+                    "number": 98,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)"
+                },
+                {
+                    "number": 99,
+                    "content": "\t... 15 more"
+                },
+                {
+                    "number": 100,
+                    "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered"
+                },
+                {
+                    "number": 101,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)"
+                },
+                {
+                    "number": 102,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)"
+                },
+                {
+                    "number": 103,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)"
+                },
+                {
+                    "number": 104,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)"
+                },
+                {
+                    "number": 105,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)"
+                },
+                {
+                    "number": 106,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)"
+                },
+                {
+                    "number": 107,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)"
+                },
+                {
+                    "number": 108,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)"
+                },
+                {
+                    "number": 109,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)"
+                },
+                {
+                    "number": 110,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)"
+                },
+                {
+                    "number": 111,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)"
+                },
+                {
+                    "number": 112,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)"
+                },
+                {
+                    "number": 113,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)"
+                },
+                {
+                    "number": 114,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:525)"
+                },
+                {
+                    "number": 115,
+                    "content": "\tat java.base\/java.lang.Class.getDeclaredFields0(Native Method)"
+                },
+                {
+                    "number": 116,
+                    "content": "\tat java.base\/java.lang.Class.privateGetDeclaredFields(Class.java:3297)"
+                },
+                {
+                    "number": 117,
+                    "content": "\tat java.base\/java.lang.Class.getDeclaredFields(Class.java:2371)"
+                },
+                {
+                    "number": 118,
+                    "content": "\tat TRANSFORMER\/net.optifine\/net.optifine.reflect.FieldLocatorTypes.<init>(FieldLocatorTypes.java:25)"
+                },
+                {
+                    "number": 119,
+                    "content": "\tat TRANSFORMER\/net.optifine\/net.optifine.reflect.Reflector.<clinit>(Reflector.java:550)"
+                },
+                {
+                    "number": 120,
+                    "content": "\tat TRANSFORMER\/minecraft@1.20.1\/net.minecraft.CrashReport.m_127526_(CrashReport.java:176)"
+                },
+                {
+                    "number": 121,
+                    "content": "\tat TRANSFORMER\/minecraft@1.20.1\/net.minecraft.CrashReport.m_127529_(CrashReport.java:346)"
+                },
+                {
+                    "number": 122,
+                    "content": "\tat TRANSFORMER\/minecraft@1.20.1\/net.minecraft.client.main.Main.main(Main.java:149)"
+                },
+                {
+                    "number": 123,
+                    "content": "\t... 23 more"
+                },
+                {
+                    "number": 124,
+                    "content": "Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0] from phase [DEFAULT] in config [fabric-resource-loader-v0.mixins.json] FAILED during APPLY"
+                },
+                {
+                    "number": 125,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:638)"
+                },
+                {
+                    "number": 126,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:589)"
+                },
+                {
+                    "number": 127,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379)"
+                },
+                {
+                    "number": 128,
+                    "content": "\t... 44 more"
+                },
+                {
+                    "number": 129,
+                    "content": "Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on getResourcePackNames could not find any targets matching 'Lnet\/minecraft\/server\/packs\/resources\/ReloadableResourceManager;m_203825_(Ljava\/util\/List;)Ljava\/lang\/Object;' in net.minecraft.server.packs.resources.ReloadableResourceManager. Using refmap fabric-resource-loader-v0-refmap.json [PREINJECT Applicator Phase -> fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0 -> Prepare Injections ->  -> handler$dcj000$fabric_resource_loader_v0$getResourcePackNames(Ljava\/util\/List;Lorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfoReturnable;)V -> Parse]"
+                },
+                {
+                    "number": 130,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.validateTargets(InjectionInfo.java:656)"
+                },
+                {
+                    "number": 131,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findTargets(InjectionInfo.java:587)"
+                },
+                {
+                    "number": 132,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:330)"
+                },
+                {
+                    "number": 133,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:316)"
+                },
+                {
+                    "number": 134,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:308)"
+                },
+                {
+                    "number": 135,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:46)"
+                },
+                {
+                    "number": 136,
+                    "content": "\tat jdk.internal.reflect.GeneratedConstructorAccessor53.newInstance(Unknown Source)"
+                },
+                {
+                    "number": 137,
+                    "content": "\tat java.base\/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)"
+                },
+                {
+                    "number": 138,
+                    "content": "\tat java.base\/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)"
+                },
+                {
+                    "number": 139,
+                    "content": "\tat java.base\/java.lang.reflect.Constructor.newInstance(Constructor.java:480)"
+                },
+                {
+                    "number": 140,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:149)"
+                },
+                {
+                    "number": 141,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:708)"
+                },
+                {
+                    "number": 142,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1329)"
+                },
+                {
+                    "number": 143,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1053)"
+                },
+                {
+                    "number": 144,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:395)"
+                },
+                {
+                    "number": 145,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327)"
+                },
+                {
+                    "number": 146,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421)"
+                },
+                {
+                    "number": 147,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403)"
+                },
+                {
+                    "number": 148,
+                    "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)"
+                },
+                {
+                    "number": 149,
+                    "content": "\t... 44 more"
+                },
+                {
+                    "number": 150,
+                    "content": "Exiting with ERROR"
+                },
+                {
+                    "number": 151,
+                    "content": "Process exited with code 2."
+                },
+                {
+                    "number": 152,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'fabric_resource_loader_v0' has a fatal error.",
+                "counter": 1,
+                "entry": {
+                    "level": 2,
+                    "time": null,
+                    "prefix": "[17:15:30] [main\/FATAL] [mixin\/]:",
+                    "lines": [
+                        {
+                            "number": 5,
+                            "content": "[17:15:30] [main\/FATAL] [mixin\/]: Mixin apply for mod fabric_resource_loader_v0 failed fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0 -> net.minecraft.server.packs.resources.ReloadableResourceManager: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on getResourcePackNames could not find any targets matching 'Lnet\/minecraft\/server\/packs\/resources\/ReloadableResourceManager;m_203825_(Ljava\/util\/List;)Ljava\/lang\/Object;' in net.minecraft.server.packs.resources.ReloadableResourceManager. Using refmap fabric-resource-loader-v0-refmap.json [PREINJECT Applicator Phase -> fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0 -> Prepare Injections ->  -> handler$dcj000$fabric_resource_loader_v0$getResourcePackNames(Ljava\/util\/List;Lorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfoReturnable;)V -> Parse]"
+                        },
+                        {
+                            "number": 6,
+                            "content": "org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on getResourcePackNames could not find any targets matching 'Lnet\/minecraft\/server\/packs\/resources\/ReloadableResourceManager;m_203825_(Ljava\/util\/List;)Ljava\/lang\/Object;' in net.minecraft.server.packs.resources.ReloadableResourceManager. Using refmap fabric-resource-loader-v0-refmap.json [PREINJECT Applicator Phase -> fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0 -> Prepare Injections ->  -> handler$dcj000$fabric_resource_loader_v0$getResourcePackNames(Ljava\/util\/List;Lorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfoReturnable;)V -> Parse]"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.validateTargets(InjectionInfo.java:656) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findTargets(InjectionInfo.java:587) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:330) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:316) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:308) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:46) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat jdk.internal.reflect.GeneratedConstructorAccessor53.newInstance(Unknown Source) ~[?:?] {}"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?] {}"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?] {}"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?] {}"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:149) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:708) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1329) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1053) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:395) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5 Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4] {}"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\tat cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar:10.0.9 10.0.9 main.dcd20f30] {}"
+                        },
+                        {
+                            "number": 30,
+                            "content": "\tat cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?] {}"
+                        },
+                        {
+                            "number": 31,
+                            "content": "\tat cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?] {}"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\tat cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?] {}"
+                        },
+                        {
+                            "number": 33,
+                            "content": "\tat cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?] {}"
+                        },
+                        {
+                            "number": 34,
+                            "content": "\tat cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}"
+                        },
+                        {
+                            "number": 35,
+                            "content": "\tat cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}"
+                        },
+                        {
+                            "number": 36,
+                            "content": "\tat cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}"
+                        },
+                        {
+                            "number": 37,
+                            "content": "\tat cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}"
+                        },
+                        {
+                            "number": 38,
+                            "content": "\tat java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?] {}"
+                        },
+                        {
+                            "number": 39,
+                            "content": "\tat java.lang.Class.getDeclaredFields0(Native Method) ~[?:?] {re:mixin}"
+                        },
+                        {
+                            "number": 40,
+                            "content": "\tat java.lang.Class.privateGetDeclaredFields(Class.java:3297) ~[?:?] {re:mixin}"
+                        },
+                        {
+                            "number": 41,
+                            "content": "\tat java.lang.Class.getDeclaredFields(Class.java:2371) ~[?:?] {re:mixin}"
+                        },
+                        {
+                            "number": 42,
+                            "content": "\tat net.optifine.reflect.FieldLocatorTypes.<init>(FieldLocatorTypes.java:25) ~[OptiFine_1.20.1_HD_U_I6.jar#775!\/:?] {re:classloading}"
+                        },
+                        {
+                            "number": 43,
+                            "content": "\tat net.optifine.reflect.Reflector.<clinit>(Reflector.java:550) ~[OptiFine_1.20.1_HD_U_I6.jar#775!\/:?] {re:classloading}"
+                        },
+                        {
+                            "number": 44,
+                            "content": "\tat net.minecraft.CrashReport.m_127526_(CrashReport.java:176) ~[client-1.20.1-20230612.114412-srg.jar#412!\/:?] {re:computing_frames,xf:OptiFine:default,pl:connector_pre_launch:A,re:mixin,xf:OptiFine:default,pl:connector_pre_launch:A,re:classloading,xf:OptiFine:default,pl:mixin:APP:mixins.essential.json:crash.MixinCrashReport from mod (unknown),pl:mixin:A,pl:connector_pre_launch:A}"
+                        },
+                        {
+                            "number": 45,
+                            "content": "\tat net.minecraft.CrashReport.m_127529_(CrashReport.java:346) ~[client-1.20.1-20230612.114412-srg.jar#412!\/:?] {re:computing_frames,xf:OptiFine:default,pl:connector_pre_launch:A,re:mixin,xf:OptiFine:default,pl:connector_pre_launch:A,re:classloading,xf:OptiFine:default,pl:mixin:APP:mixins.essential.json:crash.MixinCrashReport from mod (unknown),pl:mixin:A,pl:connector_pre_launch:A}"
+                        },
+                        {
+                            "number": 46,
+                            "content": "\tat net.minecraft.client.main.Main.main(Main.java:149) ~[minecraft-1.20.1-client.jar:?] {re:classloading,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}"
+                        },
+                        {
+                            "number": 47,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}"
+                        },
+                        {
+                            "number": 48,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}"
+                        },
+                        {
+                            "number": 49,
+                            "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}"
+                        },
+                        {
+                            "number": 50,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}"
+                        },
+                        {
+                            "number": 51,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.10.jar:?] {}"
+                        },
+                        {
+                            "number": 52,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.10.jar:?] {}"
+                        },
+                        {
+                            "number": 53,
+                            "content": "\tat net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.4.10.jar:?] {}"
+                        },
+                        {
+                            "number": 54,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}"
+                        },
+                        {
+                            "number": 55,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}"
+                        },
+                        {
+                            "number": 56,
+                            "content": "\tat cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}"
+                        },
+                        {
+                            "number": 57,
+                            "content": "\tat cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}"
+                        },
+                        {
+                            "number": 58,
+                            "content": "\tat cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}"
+                        },
+                        {
+                            "number": 59,
+                            "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}"
+                        },
+                        {
+                            "number": 60,
+                            "content": "\tat cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}"
+                        },
+                        {
+                            "number": 61,
+                            "content": "\tat cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}"
+                        },
+                        {
+                            "number": 62,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}"
+                        },
+                        {
+                            "number": 63,
+                            "content": "\tat jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}"
+                        },
+                        {
+                            "number": 64,
+                            "content": "\tat jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}"
+                        },
+                        {
+                            "number": 65,
+                            "content": "\tat java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}"
+                        },
+                        {
+                            "number": 66,
+                            "content": "\tat io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) ~[?:?] {}"
+                        },
+                        {
+                            "number": 67,
+                            "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115) ~[?:?] {}"
+                        },
+                        {
+                            "number": 68,
+                            "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?] {}"
+                        },
+                        {
+                            "number": 69,
+                            "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?] {}"
+                        },
+                        {
+                            "number": 70,
+                            "content": "Exception caught from launcher"
+                        },
+                        {
+                            "number": 71,
+                            "content": "java.lang.reflect.InvocationTargetException"
+                        },
+                        {
+                            "number": 72,
+                            "content": "\tat java.base\/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)"
+                        },
+                        {
+                            "number": 73,
+                            "content": "\tat java.base\/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)"
+                        },
+                        {
+                            "number": 74,
+                            "content": "\tat java.base\/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)"
+                        },
+                        {
+                            "number": 75,
+                            "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:568)"
+                        },
+                        {
+                            "number": 76,
+                            "content": "\tat io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67)"
+                        },
+                        {
+                            "number": 77,
+                            "content": "\tat org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)"
+                        },
+                        {
+                            "number": 78,
+                            "content": "\tat org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)"
+                        },
+                        {
+                            "number": 79,
+                            "content": "\tat org.prismlauncher.EntryPoint.main(EntryPoint.java:70)"
+                        },
+                        {
+                            "number": 80,
+                            "content": "Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException"
+                        },
+                        {
+                            "number": 81,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:32)"
+                        },
+                        {
+                            "number": 82,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)"
+                        },
+                        {
+                            "number": 83,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)"
+                        },
+                        {
+                            "number": 84,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)"
+                        },
+                        {
+                            "number": 85,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)"
+                        },
+                        {
+                            "number": 86,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)"
+                        },
+                        {
+                            "number": 87,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)"
+                        },
+                        {
+                            "number": 88,
+                            "content": "\tat cpw.mods.bootstraplauncher@1.1.2\/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)"
+                        },
+                        {
+                            "number": 89,
+                            "content": "\t... 8 more"
+                        },
+                        {
+                            "number": 90,
+                            "content": "Caused by: java.lang.reflect.InvocationTargetException"
+                        },
+                        {
+                            "number": 91,
+                            "content": "\tat java.base\/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)"
+                        },
+                        {
+                            "number": 92,
+                            "content": "\tat java.base\/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)"
+                        },
+                        {
+                            "number": 93,
+                            "content": "\tat java.base\/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)"
+                        },
+                        {
+                            "number": 94,
+                            "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:568)"
+                        },
+                        {
+                            "number": 95,
+                            "content": "\tat MC-BOOTSTRAP\/fmlloader@1.20.1-47.4.10\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)"
+                        },
+                        {
+                            "number": 96,
+                            "content": "\tat MC-BOOTSTRAP\/fmlloader@1.20.1-47.4.10\/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99)"
+                        },
+                        {
+                            "number": 97,
+                            "content": "\tat MC-BOOTSTRAP\/fmlloader@1.20.1-47.4.10\/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25)"
+                        },
+                        {
+                            "number": 98,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)"
+                        },
+                        {
+                            "number": 99,
+                            "content": "\t... 15 more"
+                        },
+                        {
+                            "number": 100,
+                            "content": "Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered"
+                        },
+                        {
+                            "number": 101,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)"
+                        },
+                        {
+                            "number": 102,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)"
+                        },
+                        {
+                            "number": 103,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)"
+                        },
+                        {
+                            "number": 104,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)"
+                        },
+                        {
+                            "number": 105,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)"
+                        },
+                        {
+                            "number": 106,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)"
+                        },
+                        {
+                            "number": 107,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)"
+                        },
+                        {
+                            "number": 108,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@10.0.9\/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)"
+                        },
+                        {
+                            "number": 109,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)"
+                        },
+                        {
+                            "number": 110,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)"
+                        },
+                        {
+                            "number": 111,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)"
+                        },
+                        {
+                            "number": 112,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)"
+                        },
+                        {
+                            "number": 113,
+                            "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)"
+                        },
+                        {
+                            "number": 114,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:525)"
+                        },
+                        {
+                            "number": 115,
+                            "content": "\tat java.base\/java.lang.Class.getDeclaredFields0(Native Method)"
+                        },
+                        {
+                            "number": 116,
+                            "content": "\tat java.base\/java.lang.Class.privateGetDeclaredFields(Class.java:3297)"
+                        },
+                        {
+                            "number": 117,
+                            "content": "\tat java.base\/java.lang.Class.getDeclaredFields(Class.java:2371)"
+                        },
+                        {
+                            "number": 118,
+                            "content": "\tat TRANSFORMER\/net.optifine\/net.optifine.reflect.FieldLocatorTypes.<init>(FieldLocatorTypes.java:25)"
+                        },
+                        {
+                            "number": 119,
+                            "content": "\tat TRANSFORMER\/net.optifine\/net.optifine.reflect.Reflector.<clinit>(Reflector.java:550)"
+                        },
+                        {
+                            "number": 120,
+                            "content": "\tat TRANSFORMER\/minecraft@1.20.1\/net.minecraft.CrashReport.m_127526_(CrashReport.java:176)"
+                        },
+                        {
+                            "number": 121,
+                            "content": "\tat TRANSFORMER\/minecraft@1.20.1\/net.minecraft.CrashReport.m_127529_(CrashReport.java:346)"
+                        },
+                        {
+                            "number": 122,
+                            "content": "\tat TRANSFORMER\/minecraft@1.20.1\/net.minecraft.client.main.Main.main(Main.java:149)"
+                        },
+                        {
+                            "number": 123,
+                            "content": "\t... 23 more"
+                        },
+                        {
+                            "number": 124,
+                            "content": "Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0] from phase [DEFAULT] in config [fabric-resource-loader-v0.mixins.json] FAILED during APPLY"
+                        },
+                        {
+                            "number": 125,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:638)"
+                        },
+                        {
+                            "number": 126,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:589)"
+                        },
+                        {
+                            "number": 127,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379)"
+                        },
+                        {
+                            "number": 128,
+                            "content": "\t... 44 more"
+                        },
+                        {
+                            "number": 129,
+                            "content": "Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on getResourcePackNames could not find any targets matching 'Lnet\/minecraft\/server\/packs\/resources\/ReloadableResourceManager;m_203825_(Ljava\/util\/List;)Ljava\/lang\/Object;' in net.minecraft.server.packs.resources.ReloadableResourceManager. Using refmap fabric-resource-loader-v0-refmap.json [PREINJECT Applicator Phase -> fabric-resource-loader-v0.mixins.json:ReloadableResourceManagerImplMixin from mod fabric_resource_loader_v0 -> Prepare Injections ->  -> handler$dcj000$fabric_resource_loader_v0$getResourcePackNames(Ljava\/util\/List;Lorg\/spongepowered\/asm\/mixin\/injection\/callback\/CallbackInfoReturnable;)V -> Parse]"
+                        },
+                        {
+                            "number": 130,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.validateTargets(InjectionInfo.java:656)"
+                        },
+                        {
+                            "number": 131,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findTargets(InjectionInfo.java:587)"
+                        },
+                        {
+                            "number": 132,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:330)"
+                        },
+                        {
+                            "number": 133,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:316)"
+                        },
+                        {
+                            "number": 134,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:308)"
+                        },
+                        {
+                            "number": 135,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:46)"
+                        },
+                        {
+                            "number": 136,
+                            "content": "\tat jdk.internal.reflect.GeneratedConstructorAccessor53.newInstance(Unknown Source)"
+                        },
+                        {
+                            "number": 137,
+                            "content": "\tat java.base\/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)"
+                        },
+                        {
+                            "number": 138,
+                            "content": "\tat java.base\/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)"
+                        },
+                        {
+                            "number": 139,
+                            "content": "\tat java.base\/java.lang.reflect.Constructor.newInstance(Constructor.java:480)"
+                        },
+                        {
+                            "number": 140,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:149)"
+                        },
+                        {
+                            "number": 141,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:708)"
+                        },
+                        {
+                            "number": 142,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1329)"
+                        },
+                        {
+                            "number": 143,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1053)"
+                        },
+                        {
+                            "number": 144,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:395)"
+                        },
+                        {
+                            "number": 145,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327)"
+                        },
+                        {
+                            "number": 146,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421)"
+                        },
+                        {
+                            "number": 147,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403)"
+                        },
+                        {
+                            "number": 148,
+                            "content": "\tat MC-BOOTSTRAP\/org.spongepowered.mixin\/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)"
+                        },
+                        {
+                            "number": 149,
+                            "content": "\t... 44 more"
+                        },
+                        {
+                            "number": 150,
+                            "content": "Exiting with ERROR"
+                        },
+                        {
+                            "number": 151,
+                            "content": "Process exited with code 2."
+                        },
+                        {
+                            "number": 152,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'fabric_resource_loader_v0'."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'fabric_resource_loader_v0'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.20.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:15:10] [main\/INFO] [cp.mo.mo.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[17:15:10] [main\/INFO] [cp.mo.mo.Launcher\/MODLAUNCHER]: ModLauncher running: args [--username, Player, --version, 1.20.1, --gameDir, C:\/Users\/********\/AppData\/Roaming\/PrismLauncher\/instances\/Gizmo Modpack\/minecraft, --assetsDir, C:\/Users\/********\/AppData\/Roaming\/PrismLauncher\/assets, --assetIndex, 5, --uuid, <PROFILE ID>, --accessToken, ????????, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.20.1"
+            },
+            {
+                "message": "Forge version: 47.4.10",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:15:10] [main\/INFO] [cp.mo.mo.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[17:15:10] [main\/INFO] [cp.mo.mo.Launcher\/MODLAUNCHER]: ModLauncher running: args [--username, Player, --version, 1.20.1, --gameDir, C:\/Users\/********\/AppData\/Roaming\/PrismLauncher\/instances\/Gizmo Modpack\/minecraft, --assetsDir, C:\/Users\/********\/AppData\/Roaming\/PrismLauncher\/assets, --assetIndex, 5, --uuid, <PROFILE ID>, --accessToken, ????????, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]"
+                        }
+                    ]
+                },
+                "label": "Forge version",
+                "value": "47.4.10"
+            }
+        ]
+    }
+}

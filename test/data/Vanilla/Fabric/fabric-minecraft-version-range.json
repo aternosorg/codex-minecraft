@@ -1,0 +1,756 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Fabric 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:58:00] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[18:58:00] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:58:00] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[18:58:00] [main\/INFO]: Mappings not present!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[18:58:00] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[18:58:00] [main\/WARN]: Mod resolution failed"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:58:00] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[18:58:00] [main\/INFO]: Immediate reason: [HARD_DEP_INCOMPATIBLE_PRESELECTED foovcany 1.0.0 {depends minecraft @ [1.x]}, ROOT_FORCELOAD_SINGLE foovcany 1.0.0]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:58:00] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[18:58:00] [main\/INFO]: Reason: [HARD_DEP foovcany 1.0.0 {depends minecraft @ [1.x]}, HARD_DEP foovclist 1.0.0 {depends minecraft @ [26.1 || 26.2]}, HARD_DEP foovcmax 1.0.0 {depends minecraft @ [<=26.1]}, HARD_DEP foovcmin 1.0.0 {depends minecraft @ [>=26.4]}, HARD_DEP foovcpatch 1.0.0 {depends minecraft @ [~26.1]}]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:58:00] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[18:58:00] [main\/INFO]: Fix: add [], remove [], replace [[minecraft 26.3] -> add:minecraft 26.1 ([[26.1,26.1]]), [foovcany 1.0.0] -> add:foovcany 1 ([(-\u221e,\u221e)]), [foovcmin 1.0.0] -> add:foovcmin 1 ([(-\u221e,\u221e)])]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[18:58:00] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[18:58:00] [main\/ERROR]: Incompatible mods found!"
+                },
+                {
+                    "number": 9,
+                    "content": "net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!"
+                },
+                {
+                    "number": 10,
+                    "content": "A potential solution has been determined, this may resolve your problem:"
+                },
+                {
+                    "number": 11,
+                    "content": "\t - Replace 'Minecraft' (minecraft) 26.3 with version 26.1."
+                },
+                {
+                    "number": 12,
+                    "content": "\t - Replace mod 'Foo3' (foovcany) 1.0.0 with any version that is compatible with:"
+                },
+                {
+                    "number": 13,
+                    "content": "\t\t - minecraft, version 26.1"
+                },
+                {
+                    "number": 14,
+                    "content": "\t - Replace mod 'Foo' (foovcmin) 1.0.0 with any version that is compatible with:"
+                },
+                {
+                    "number": 15,
+                    "content": "\t\t - minecraft, version 26.1"
+                },
+                {
+                    "number": 16,
+                    "content": "More details:"
+                },
+                {
+                    "number": 17,
+                    "content": "\t - Mod 'Foo3' (foovcany) 1.0.0 requires any 1.x version of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                },
+                {
+                    "number": 18,
+                    "content": "\t - Mod 'Foo5' (foovclist) 1.0.0 requires version 26.1 or version 26.2 of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                },
+                {
+                    "number": 19,
+                    "content": "\t - Mod 'Foo4' (foovcmax) 1.0.0 requires version 26.1 or earlier of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                },
+                {
+                    "number": 20,
+                    "content": "\t - Mod 'Foo' (foovcmin) 1.0.0 requires version 26.4 or later of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                },
+                {
+                    "number": 21,
+                    "content": "\t - Mod 'Foo2' (foovcpatch) 1.0.0 requires any version between 26.1 (inclusive) and 26.2- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207)"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                },
+                {
+                    "number": 29,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'Foo' is not compatible with the Minecraft version 26.3.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[18:58:00] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 8,
+                            "content": "[18:58:00] [main\/ERROR]: Incompatible mods found!"
+                        },
+                        {
+                            "number": 9,
+                            "content": "net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!"
+                        },
+                        {
+                            "number": 10,
+                            "content": "A potential solution has been determined, this may resolve your problem:"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t - Replace 'Minecraft' (minecraft) 26.3 with version 26.1."
+                        },
+                        {
+                            "number": 12,
+                            "content": "\t - Replace mod 'Foo3' (foovcany) 1.0.0 with any version that is compatible with:"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\t\t - minecraft, version 26.1"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\t - Replace mod 'Foo' (foovcmin) 1.0.0 with any version that is compatible with:"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\t\t - minecraft, version 26.1"
+                        },
+                        {
+                            "number": 16,
+                            "content": "More details:"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\t - Mod 'Foo3' (foovcany) 1.0.0 requires any 1.x version of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\t - Mod 'Foo5' (foovclist) 1.0.0 requires version 26.1 or version 26.2 of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\t - Mod 'Foo4' (foovcmax) 1.0.0 requires version 26.1 or earlier of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\t - Mod 'Foo' (foovcmin) 1.0.0 requires version 26.4 or later of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\t - Mod 'Foo2' (foovcpatch) 1.0.0 requires any version between 26.1 (inclusive) and 26.2- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207)"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 29,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the version '>=26.4' of your server software."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'Foo'."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'Foo2' is not compatible with the Minecraft version 26.3.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[18:58:00] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 8,
+                            "content": "[18:58:00] [main\/ERROR]: Incompatible mods found!"
+                        },
+                        {
+                            "number": 9,
+                            "content": "net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!"
+                        },
+                        {
+                            "number": 10,
+                            "content": "A potential solution has been determined, this may resolve your problem:"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t - Replace 'Minecraft' (minecraft) 26.3 with version 26.1."
+                        },
+                        {
+                            "number": 12,
+                            "content": "\t - Replace mod 'Foo3' (foovcany) 1.0.0 with any version that is compatible with:"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\t\t - minecraft, version 26.1"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\t - Replace mod 'Foo' (foovcmin) 1.0.0 with any version that is compatible with:"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\t\t - minecraft, version 26.1"
+                        },
+                        {
+                            "number": 16,
+                            "content": "More details:"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\t - Mod 'Foo3' (foovcany) 1.0.0 requires any 1.x version of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\t - Mod 'Foo5' (foovclist) 1.0.0 requires version 26.1 or version 26.2 of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\t - Mod 'Foo4' (foovcmax) 1.0.0 requires version 26.1 or earlier of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\t - Mod 'Foo' (foovcmin) 1.0.0 requires version 26.4 or later of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\t - Mod 'Foo2' (foovcpatch) 1.0.0 requires any version between 26.1 (inclusive) and 26.2- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207)"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 29,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the version '>=26.1, <26.2-' of your server software."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'Foo2'."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'Foo3' is not compatible with the Minecraft version 26.3.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[18:58:00] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 8,
+                            "content": "[18:58:00] [main\/ERROR]: Incompatible mods found!"
+                        },
+                        {
+                            "number": 9,
+                            "content": "net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!"
+                        },
+                        {
+                            "number": 10,
+                            "content": "A potential solution has been determined, this may resolve your problem:"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t - Replace 'Minecraft' (minecraft) 26.3 with version 26.1."
+                        },
+                        {
+                            "number": 12,
+                            "content": "\t - Replace mod 'Foo3' (foovcany) 1.0.0 with any version that is compatible with:"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\t\t - minecraft, version 26.1"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\t - Replace mod 'Foo' (foovcmin) 1.0.0 with any version that is compatible with:"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\t\t - minecraft, version 26.1"
+                        },
+                        {
+                            "number": 16,
+                            "content": "More details:"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\t - Mod 'Foo3' (foovcany) 1.0.0 requires any 1.x version of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\t - Mod 'Foo5' (foovclist) 1.0.0 requires version 26.1 or version 26.2 of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\t - Mod 'Foo4' (foovcmax) 1.0.0 requires version 26.1 or earlier of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\t - Mod 'Foo' (foovcmin) 1.0.0 requires version 26.4 or later of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\t - Mod 'Foo2' (foovcpatch) 1.0.0 requires any version between 26.1 (inclusive) and 26.2- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207)"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 29,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the version '1.x' of your server software."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'Foo3'."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'Foo4' is not compatible with the Minecraft version 26.3.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[18:58:00] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 8,
+                            "content": "[18:58:00] [main\/ERROR]: Incompatible mods found!"
+                        },
+                        {
+                            "number": 9,
+                            "content": "net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!"
+                        },
+                        {
+                            "number": 10,
+                            "content": "A potential solution has been determined, this may resolve your problem:"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t - Replace 'Minecraft' (minecraft) 26.3 with version 26.1."
+                        },
+                        {
+                            "number": 12,
+                            "content": "\t - Replace mod 'Foo3' (foovcany) 1.0.0 with any version that is compatible with:"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\t\t - minecraft, version 26.1"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\t - Replace mod 'Foo' (foovcmin) 1.0.0 with any version that is compatible with:"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\t\t - minecraft, version 26.1"
+                        },
+                        {
+                            "number": 16,
+                            "content": "More details:"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\t - Mod 'Foo3' (foovcany) 1.0.0 requires any 1.x version of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\t - Mod 'Foo5' (foovclist) 1.0.0 requires version 26.1 or version 26.2 of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\t - Mod 'Foo4' (foovcmax) 1.0.0 requires version 26.1 or earlier of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\t - Mod 'Foo' (foovcmin) 1.0.0 requires version 26.4 or later of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\t - Mod 'Foo2' (foovcpatch) 1.0.0 requires any version between 26.1 (inclusive) and 26.2- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207)"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 29,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the version '<=26.1' of your server software."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'Foo4'."
+                    }
+                ]
+            },
+            {
+                "message": "The mod 'Foo5' is not compatible with the Minecraft version 26.3.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[18:58:00] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 8,
+                            "content": "[18:58:00] [main\/ERROR]: Incompatible mods found!"
+                        },
+                        {
+                            "number": 9,
+                            "content": "net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!"
+                        },
+                        {
+                            "number": 10,
+                            "content": "A potential solution has been determined, this may resolve your problem:"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t - Replace 'Minecraft' (minecraft) 26.3 with version 26.1."
+                        },
+                        {
+                            "number": 12,
+                            "content": "\t - Replace mod 'Foo3' (foovcany) 1.0.0 with any version that is compatible with:"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\t\t - minecraft, version 26.1"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\t - Replace mod 'Foo' (foovcmin) 1.0.0 with any version that is compatible with:"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\t\t - minecraft, version 26.1"
+                        },
+                        {
+                            "number": 16,
+                            "content": "More details:"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\t - Mod 'Foo3' (foovcany) 1.0.0 requires any 1.x version of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\t - Mod 'Foo5' (foovclist) 1.0.0 requires version 26.1 or version 26.2 of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\t - Mod 'Foo4' (foovcmax) 1.0.0 requires version 26.1 or earlier of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\t - Mod 'Foo' (foovcmin) 1.0.0 requires version 26.4 or later of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\t - Mod 'Foo2' (foovcpatch) 1.0.0 requires any version between 26.1 (inclusive) and 26.2- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207)"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 29,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the version '26.1 or 26.2' of your server software."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'Foo5'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:58:00] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[18:58:00] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            },
+            {
+                "message": "Fabric loader version: 0.20.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:58:00] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[18:58:00] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.20.1"
+            }
+        ]
+    }
+}
