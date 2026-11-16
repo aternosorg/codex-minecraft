@@ -17,6 +17,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Paper\CircularPluginDependencyProbl
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\RestrictedPluginNameProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\NewerConfigVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ConfigNotWritableProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\WorldDefaultsMissingProblem;
 
 class PaperAnalyser extends BukkitAnalyser
 {
@@ -38,5 +39,6 @@ class PaperAnalyser extends BukkitAnalyser
         $this->addPossibleInsightClass(RestrictedPluginNameProblem::class);
         $this->addPossibleInsightClass(NewerConfigVersionProblem::class);
         $this->addPossibleInsightClass(ConfigNotWritableProblem::class);
+        $this->addPossibleInsightClass(WorldDefaultsMissingProblem::class);
     }
 }
