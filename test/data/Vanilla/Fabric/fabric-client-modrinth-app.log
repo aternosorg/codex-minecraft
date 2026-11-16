@@ -1,0 +1,16 @@
+# Minecraft launcher log started at 2026-08-16 09:45:13
+# Instance: Example Pack
+[09:45:19] [main] [FabricLoader/GameProvider/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.19.3
+[09:45:19] [main] [FabricLoader/GameRemap/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[09:45:19] [main] [FabricLoader/INFO]: Loading 670 mods:
+	- fabricloader 0.19.3
+	- java 17
+	- minecraft 1.20.1
+	- necronomicon 1.6.0
+[09:45:47] [main] [FabricLoader/Mixin/WARN]: Mixin apply for mod necronomicon failed necronomicon-common.mixins.json:item.AnimatedItemNameMixin from mod necronomicon -> net.minecraft.class_1799: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$kjf002$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
+org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$kjf002$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
+	at org.spongepowered.asm.mixin.injection.selectors.TargetSelectors.validate(TargetSelectors.java:346)
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:369)
+[09:45:51] [Render thread] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:45:51] [Render thread] [net.minecraft.class_310/INFO]: Setting user: Player
+# Process exited with status: exit code: 0xffffffff
