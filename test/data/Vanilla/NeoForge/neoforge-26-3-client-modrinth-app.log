@@ -1,0 +1,41 @@
+[23:15:17] [main] [net.neoforged.fml.startup.Entrypoint/INFO]: JVM Uptime at startup: 542ms
+[23:15:17] [main] [net.neoforged.fml.loading.FMLLoader/INFO]: Starting FancyModLoader version 12.0.12 (CLIENT in PROD)
+[23:15:17] [main] [net.neoforged.fml.loading.FMLLoader/INFO]: Game directory: /Users/********/Library/Application Support/ModrinthApp/profiles/NeoForge 26.3
+[23:15:18] [main] [net.neoforged.fml.loading.EarlyServiceDiscovery/INFO]: Found 2 early service jars (out of 108) in 42ms
+[23:15:18] [main] [net.neoforged.fml.loading.FMLLoader/INFO]: Loading FML Early Services:
+[23:15:18] [main] [net.neoforged.fml.loading.FMLLoader/INFO]: - /Users/********/Library/Application Support/ModrinthApp/meta/libraries/net/neoforged/fancymodloader/loader/12.0.12/loader-12.0.12.jar
+[23:15:18] [main] [net.neoforged.fml.loading.FMLLoader/INFO]: - /Users/********/Library/Application Support/ModrinthApp/meta/libraries/net/neoforged/fancymodloader/earlydisplay/12.0.12/earlydisplay-12.0.12.jar
+[23:15:18] [main] [net.neoforged.fml.loading.ImmediateWindowHandler/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[23:15:19] [main] [net.neoforged.fml.earlydisplay.render.backend.opengl.GlRenderer/INFO]: GL info: Apple M5 Pro GL version 4.1 Metal - 91.7, Apple
+[23:15:19] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/INFO]: Marking unmodified client jar as claimed to prevent loading: /Users/********/Library/Application Support/ModrinthApp/meta/versions/26.3-26.3.0.103/26.3-26.3.0.103.jar
+[23:15:19] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/INFO]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
+[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "minecraft-client-patched-26.3.0.103.jar" [locator: game locator, reader: mod manifest]
+[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found mod file "neoforge-26.3.0.103-universal.jar" [locator: game locator, reader: mod manifest]
+[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/INFO]: Found 2 dependencies adding them to mods collection
+[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.5.jar" [parent: neoforge-26.3.0.103-universal.jar, locator: jarinjar, reader: mod manifest]
+[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Found library file "net.neoforged.neoforge-coremods-26.3.0.103.jar" [parent: neoforge-26.3.0.103-universal.jar, locator: jarinjar, reader: mod manifest]
+[23:15:20] [ForkJoinPool.commonPool-worker-1] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/INFO]: Mod List:
+		Name Version (Mod Id)
+		Minecraft 26.3 (minecraft)
+		NeoForge **.**.**.** (neoforge)
+[23:15:20] [main] [mixin/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/********/Library/Application%20Support/ModrinthApp/meta/libraries/net/fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/sponge-mixin-0.17.4+mixin.0.8.7.jar Service=FML Env=CLIENT
+[23:15:20] [main] [net.neoforged.fml.loading.FMLLoader/INFO]: Loading FML Plugins:
+[23:15:20] [main] [net.neoforged.fml.loading.FMLLoader/INFO]: - ~libraries/net/neoforged/neoforge/**.**.**.**/neoforge-26.3.0.103-universal.jar > net.neoforged.neoforge-coremods-26.3.0.103.jar
+[23:15:20] [main] [net.neoforged.fml.loading.FMLLoader/INFO]: Building game content classloader:
+ - minecraft (jar(~libraries/net/neoforged/minecraft-client-patched/**.**.**.**/minecraft-client-patched-26.3.0.103.jar))
+ - mixinextras.neoforge (jar(~libraries/net/neoforged/neoforge/**.**.**.**/neoforge-26.3.0.103-universal.jar > mixinextras-neoforge-0.5.5.jar))
+ - neoforge (jar(~libraries/net/neoforged/neoforge/**.**.**.**/neoforge-26.3.0.103-universal.jar))
+ - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
+[23:15:20] [main] [net.neoforged.fml.loading.FMLLoader/INFO]: Built game content classloader in 11ms
+[23:15:22] [Datafixer Bootstrap #0] [com.mojang.datafixers.DataFixerBuilder/INFO]: 310 Datafixer optimizations took 257 milliseconds
+[23:15:22] [main] [oshi.software.os.mac.MacOperatingSystem/WARN]: Unable to parse version 27.2 to a codename.
+[23:15:22] [pool-7-thread-1] [MixinExtras|Service/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[23:15:26] [modloading-worker-0] [net.neoforged.neoforge.common.NeoForgeMod/INFO]: NeoForge mod loading, version 26.3.0.103, for MC 26.3
+[23:15:27] [Render thread] [com.mojang.authlib.services.MinecraftServicesDiscoveryService/INFO]: Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[23:15:27] [Render thread] [net.minecraft.client.Minecraft/INFO]: Setting user: {MINECRAFT_USERNAME}
+[23:15:27] [Render thread] [net.minecraft.client.Minecraft/INFO]: Backend library: LWJGL version 3.4.3+4
+[23:15:27] [Render thread] [com.mojang.renderpearl.backend.vulkan.VulkanBackend/WARN]: Device [Apple M5 Pro] supports all extensions from FeatureSet [Vulkan Portability Subset], making required
+[23:15:27] [Render thread] [net.minecraft.client.Minecraft/INFO]: Using graphics backend OpenGL, using drivers: 4.1 Metal - 91.7
+[23:15:27] [Render thread] [net.minecraft.client.Minecraft/INFO]: Using graphics device: Apple M5 Pro (Apple)
+[23:15:27] [Render thread] [net.minecraft.client.Minecraft/INFO]: Using graphics device extensions: GL_ARB_draw_indirect, GL_EXT_texture_filter_anisotropic
+[23:15:27] [Render thread] [com.mojang.blaze3d.platform.Window/INFO]: Created window using SDL video driver: cocoa
