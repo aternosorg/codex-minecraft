@@ -434,6 +434,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_cache_dir_create_failed_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-cache-dir-create-failed-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_cache_dir_not_directory_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-cache-dir-not-directory-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_circular_plugin_dependency_26_3(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-circular-plugin-dependency-26-3.log');

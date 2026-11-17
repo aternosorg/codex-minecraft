@@ -132,5 +132,6 @@
   "default-world-plugin-not-enabled-problem": "The setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml' uses the plugin '{{plugin-name}}', but the plugin is not enabled before the worlds are loaded.",
   "default-world-plugin-not-provided-problem": "The setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml' uses the plugin '{{plugin-name}}', but the plugin does not support this setting.",
   "bukkit-yml-world-setting-solution": "Check the setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml'.",
-  "legacy-plugin-problem": "The plugin '{{plugin-name}}' was made for Minecraft versions before 1.13 and might not work correctly."
+  "legacy-plugin-problem": "The plugin '{{plugin-name}}' was made for Minecraft versions before 1.13 and might not work correctly.",
+  "paper-cache-dir-problem": "Paper cannot use its cache folder '{{path}}'. The server cannot start without it."
 }
