@@ -16,6 +16,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricMixinProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModIncompatibleMinecraftVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModJavaVersionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricNonFabricModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OutOfMemoryErrorProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\ModOutOfMemoryErrorProblem;
 
@@ -36,6 +37,7 @@ class FabricAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(FabricMixinApplyProblem::class);
         $this->addPossibleInsightClass(FabricIncompatibleModsProblem::class);
         $this->addPossibleInsightClass(FabricDuplicateModProblem::class);
+        $this->addPossibleInsightClass(FabricNonFabricModProblem::class);
         $this->addPossibleInsightClass(FabricEntryStageProblem::class);
         $this->addPossibleInsightClass(FabricClientOnlyModProblem::class);
     }
