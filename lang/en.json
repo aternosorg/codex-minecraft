@@ -151,5 +151,6 @@
   "main-thread-check-problem": "The thread '{{thread-name}}' tried to do '{{action}}' outside of the main thread of the server, which is not allowed.",
   "invalid-enum-value-problem": "A Paper configuration file contains the invalid value '{{value}}'. Allowed values are: {{allowed-values}}.",
   "use-valid-enum-value-solution": "Search the Paper configuration files for '{{value}}' and replace it with one of the allowed values.",
-  "world-data-corrupted-problem": "The server could not load the world data. The world files are probably corrupted."
+  "world-data-corrupted-problem": "The server could not load the world data. The world files are probably corrupted.",
+  "server-icon-invalid-problem": "The server icon '{{file-path}}' could not be loaded. It must be a PNG image of 64x64 pixels."
 }
