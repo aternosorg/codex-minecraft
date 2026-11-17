@@ -125,5 +125,7 @@
   "fabric-loader-update-solution": "Update Fabric Loader to version {{loader-version}} or later.",
   "paper-config-not-writable-problem": "The configuration file '{{path}}' could not be saved. Settings missing from the file use their default values.",
   "paper-world-defaults-missing-problem": "The file '{{path}}' with the default world settings does not exist. Paper cannot load new worlds without it.",
-  "paper-world-defaults-restore-solution": "Restore the file '{{path}}' from a backup or restart the server to create it again with default values."
+  "paper-world-defaults-restore-solution": "Restore the file '{{path}}' from a backup or restart the server to create it again with default values.",
+  "paper-velocity-secret-missing-problem": "Velocity forwarding is enabled in '{{file-path}}', but no secret is set. Players cannot join through the Velocity proxy.",
+  "paper-velocity-secret-set-solution": "Set '{{setting}}' in '{{file-path}}' to the forwarding secret of your Velocity proxy, which is in the file 'forwarding.secret' of the proxy."
 }

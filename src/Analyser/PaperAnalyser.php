@@ -18,6 +18,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Paper\RestrictedPluginNameProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\NewerConfigVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ConfigNotWritableProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\WorldDefaultsMissingProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\VelocitySecretMissingProblem;
 
 class PaperAnalyser extends BukkitAnalyser
 {
@@ -40,5 +41,6 @@ class PaperAnalyser extends BukkitAnalyser
         $this->addPossibleInsightClass(NewerConfigVersionProblem::class);
         $this->addPossibleInsightClass(ConfigNotWritableProblem::class);
         $this->addPossibleInsightClass(WorldDefaultsMissingProblem::class);
+        $this->addPossibleInsightClass(VelocitySecretMissingProblem::class);
     }
 }
