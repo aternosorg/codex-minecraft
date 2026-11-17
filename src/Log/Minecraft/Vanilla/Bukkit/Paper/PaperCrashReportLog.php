@@ -3,6 +3,8 @@
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper;
 
 use Aternos\Codex\Detective\MultiPatternDetector;
+use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\MinecraftCrashReportAnalyser;
+use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\PaperCrashReportAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaCrashReportTrait;
 use Aternos\Codex\Minecraft\Log\Type\CrashReportLogTypeInterface;
 
@@ -26,5 +28,13 @@ class PaperCrashReportLog extends PaperLog implements CrashReportLogTypeInterfac
                 ->addPattern("/^---- Minecraft Crash Report ----$/m")
                 ->addPattern("/^\s+Is Modded: Definitely; Server brand changed to 'Paper'$/m")
         ];
+    }
+
+    /**
+     * @return MinecraftCrashReportAnalyser
+     */
+    public static function getDefaultAnalyser(): MinecraftCrashReportAnalyser
+    {
+        return new PaperCrashReportAnalyser();
     }
 }

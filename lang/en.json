@@ -144,5 +144,8 @@
   "permission-remove-solution": "Remove the permission '{{permission}}' from '{{file-path}}'.",
   "watchdog-problem": "The main thread of the server is blocked, so the watchdog logged a thread dump.",
   "watchdog-thread-dump-solution": "Look for plugins in the thread dump of the 'Server thread' below the message, and update or remove the plugin that blocks the server.",
-  "paper-cache-dir-problem": "Paper cannot use its cache folder '{{path}}'. The server cannot start without it."
+  "paper-cache-dir-problem": "Paper cannot use its cache folder '{{path}}'. The server cannot start without it.",
+  "paper-configuration-parse-problem": "The Paper configuration file '{{file-path}}' is not valid YAML. The error is in line {{line}}, column {{column}}.",
+  "paper-configuration-parse-unknown-file-problem": "A Paper configuration file is not valid YAML.",
+  "paper-configuration-syntax-fix-solution": "Fix the YAML syntax in '{{file-path}}' in line {{line}}, column {{column}}, for example the indentation."
 }

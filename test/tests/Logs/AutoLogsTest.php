@@ -474,6 +474,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_configuration_parse_error_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-configuration-parse-error-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_crash_report_configuration_parse_error_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-crash-report-configuration-parse-error-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_default_world_provider_unavailable_26_3(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-default-world-provider-unavailable-26-3.log');

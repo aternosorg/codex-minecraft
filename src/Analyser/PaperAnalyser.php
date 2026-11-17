@@ -20,6 +20,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ConfigNotWritableProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\NewerConfigVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\VelocitySecretMissingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\WorldDefaultsMissingProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ConfigurationParseProblem;
 
 class PaperAnalyser extends BukkitAnalyser
 {
@@ -44,5 +45,6 @@ class PaperAnalyser extends BukkitAnalyser
         $this->addPossibleInsightClass(WorldDefaultsMissingProblem::class);
         $this->addPossibleInsightClass(VelocitySecretMissingProblem::class);
         $this->addPossibleInsightClass(CacheDirInvalidProblem::class);
+        $this->addPossibleInsightClass(ConfigurationParseProblem::class);
     }
 }
