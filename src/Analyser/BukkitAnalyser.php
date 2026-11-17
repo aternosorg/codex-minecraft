@@ -5,6 +5,7 @@ namespace Aternos\Codex\Minecraft\Analyser;
 use Aternos\Codex\Analysis\PatternInsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\ChunkLoadExceptionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\HelpYmlInvalidProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\EnumCompatibilityModeProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\DefaultWorldProviderProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\LegacyPluginConversionProblem;
@@ -50,6 +51,7 @@ class BukkitAnalyser extends VanillaAnalyser
             EnumCompatibilityModeProblem::class,
             DefaultWorldProviderProblem::class,
             LegacyPluginProblem::class,
+            HelpYmlInvalidProblem::class,
         ];
     }
 
