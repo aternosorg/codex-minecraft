@@ -22,6 +22,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Paper\VelocitySecretMissingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\WorldDefaultsMissingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ConfigurationParseProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\MainThreadCheckProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\InvalidEnumValueProblem;
 
 class PaperAnalyser extends BukkitAnalyser
 {
@@ -48,5 +49,6 @@ class PaperAnalyser extends BukkitAnalyser
         $this->addPossibleInsightClass(CacheDirInvalidProblem::class);
         $this->addPossibleInsightClass(ConfigurationParseProblem::class);
         $this->addPossibleInsightClass(MainThreadCheckProblem::class);
+        $this->addPossibleInsightClass(InvalidEnumValueProblem::class);
     }
 }
