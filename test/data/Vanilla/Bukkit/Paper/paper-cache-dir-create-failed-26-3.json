@@ -1,0 +1,1036 @@
+{
+    "id": "paper\/server",
+    "name": "Paper",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Paper 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting org.bukkit.craftbukkit.Main"
+                },
+                {
+                    "number": 2,
+                    "content": "2026-11-13T16:24:00.043963Z ServerMain WARN Advanced terminal features are not available in this environment"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:00 INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[17:24:00 INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.3+1-LTS-2; Oracle Corporation null) on Mac OS X 27.2.1 (aarch64)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:00 INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[17:24:00 INFO]: [bootstrap] Loading Paper 26.3-248-main@0727243 (2026-11-10T11:35:52Z) for Minecraft 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:00 INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[17:24:00 INFO]: [PluginInitializerManager] Initializing plugins..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:00 INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[17:24:00 INFO]: [PluginInitializerManager] Initialized 0 plugins"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:24:00 WARN]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[17:24:00 WARN]: [oshi.software.os.mac.MacOperatingSystem] Unable to parse version 27.2 to a codename."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:01 INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[17:24:01 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:01 INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[17:24:01 INFO]: [com.destroystokyo.paper.profile.PaperServicesDiscoveryService] Environment: Environment[discoveryUrl=https:\/\/discovery.minecraftservices.com\/minecraft\/client, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:01 INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[17:24:01 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 202,2ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:01 INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[17:24:01 INFO]: Found new data pack paper, loading it automatically"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:02 INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[17:24:02 INFO]: No existing world data, creating new world"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[17:24:02 ERROR]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[17:24:02 ERROR]: No key layers in MapLike[{}]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:02 INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[17:24:02 INFO]: Loaded 1866 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:02 INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[17:24:02 INFO]: Starting minecraft server version 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:02 INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[17:24:02 INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:02 INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[17:24:02 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)"
+                },
+                {
+                    "number": 18,
+                    "content": "2026-11-13T16:24:02.461102Z Log4j2-AsyncAppenderEventDispatcher-1-Async ERROR An exception occurred processing Appender File"
+                },
+                {
+                    "number": 19,
+                    "content": "org.apache.logging.log4j.core.appender.AppenderLoggingException: java.lang.NoClassDefFoundError: Could not initialize class org.bukkit.craftbukkit.map.CraftMapColorCache"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:164)"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:133)"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:124)"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:88)"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatch(AsyncAppenderEventDispatcher.java:178)"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatchAll(AsyncAppenderEventDispatcher.java:117)"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.run(AsyncAppenderEventDispatcher.java:92)"
+                },
+                {
+                    "number": 27,
+                    "content": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.bukkit.craftbukkit.map.CraftMapColorCache"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat java.base\/java.lang.Class.forName0(Native Method)"
+                },
+                {
+                    "number": 29,
+                    "content": "\tat java.base\/java.lang.Class.forName(Class.java:547)"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat org.apache.logging.log4j.util.LoaderUtil.loadClass(LoaderUtil.java:212)"
+                },
+                {
+                    "number": 31,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.lambda$static$1(ThrowableExtendedStackTraceRenderer.java:196)"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.loadClass(ThrowableExtendedStackTraceRenderer.java:180)"
+                },
+                {
+                    "number": 33,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.createClassResourceInfoByName(ThrowableExtendedStackTraceRenderer.java:166)"
+                },
+                {
+                    "number": 34,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.ofThrowable(ThrowableExtendedStackTraceRenderer.java:96)"
+                },
+                {
+                    "number": 35,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.access$000(ThrowableExtendedStackTraceRenderer.java:81)"
+                },
+                {
+                    "number": 36,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.createContext(ThrowableExtendedStackTraceRenderer.java:43)"
+                },
+                {
+                    "number": 37,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.createContext(ThrowableExtendedStackTraceRenderer.java:34)"
+                },
+                {
+                    "number": 38,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableStackTraceRenderer.renderThrowable(ThrowableStackTraceRenderer.java:55)"
+                },
+                {
+                    "number": 39,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowablePatternConverter.format(ThrowablePatternConverter.java:130)"
+                },
+                {
+                    "number": 40,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.PatternFormatter.format(PatternFormatter.java:44)"
+                },
+                {
+                    "number": 41,
+                    "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout$PatternSelectorSerializer.toSerializable(PatternLayout.java:566)"
+                },
+                {
+                    "number": 42,
+                    "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout.toText(PatternLayout.java:251)"
+                },
+                {
+                    "number": 43,
+                    "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:237)"
+                },
+                {
+                    "number": 44,
+                    "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:57)"
+                },
+                {
+                    "number": 45,
+                    "content": "\tat org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:227)"
+                },
+                {
+                    "number": 46,
+                    "content": "\tat org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:220)"
+                },
+                {
+                    "number": 47,
+                    "content": "\tat org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:211)"
+                },
+                {
+                    "number": 48,
+                    "content": "\tat org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender.append(RollingRandomAccessFileAppender.java:395)"
+                },
+                {
+                    "number": 49,
+                    "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:160)"
+                },
+                {
+                    "number": 50,
+                    "content": "\t... 6 more"
+                },
+                {
+                    "number": 51,
+                    "content": "Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Error creating .paper cache dir [in thread \"Server thread\"]"
+                },
+                {
+                    "number": 52,
+                    "content": "\tat io.papermc.paper.util.PaperCacheDir.get(PaperCacheDir.java:19)"
+                },
+                {
+                    "number": 53,
+                    "content": "\tat io.papermc.paper.util.PaperCacheDir.get(PaperCacheDir.java:29)"
+                },
+                {
+                    "number": 54,
+                    "content": "\tat org.bukkit.craftbukkit.map.CraftMapColorCache.<clinit>(CraftMapColorCache.java:25)"
+                },
+                {
+                    "number": 55,
+                    "content": "\tat org.bukkit.craftbukkit.CraftServer.<init>(CraftServer.java:460)"
+                },
+                {
+                    "number": 56,
+                    "content": "\tat net.minecraft.server.players.PlayerList.<init>(PlayerList.java:146)"
+                },
+                {
+                    "number": 57,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:16)"
+                },
+                {
+                    "number": 58,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:233)"
+                },
+                {
+                    "number": 59,
+                    "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249)"
+                },
+                {
+                    "number": 60,
+                    "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299)"
+                },
+                {
+                    "number": 61,
+                    "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474)"
+                },
+                {
+                    "number": 62,
+                    "content": ""
+                },
+                {
+                    "number": 63,
+                    "content": "2026-11-13T16:24:02.461497Z Log4j2-AsyncAppenderEventDispatcher-1-Async ERROR An exception occurred processing Appender TerminalConsole"
+                },
+                {
+                    "number": 64,
+                    "content": "org.apache.logging.log4j.core.appender.AppenderLoggingException: java.lang.NoClassDefFoundError: Could not initialize class org.bukkit.craftbukkit.map.CraftMapColorCache"
+                },
+                {
+                    "number": 65,
+                    "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:164)"
+                },
+                {
+                    "number": 66,
+                    "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:133)"
+                },
+                {
+                    "number": 67,
+                    "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:124)"
+                },
+                {
+                    "number": 68,
+                    "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:88)"
+                },
+                {
+                    "number": 69,
+                    "content": "\tat org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatch(AsyncAppenderEventDispatcher.java:178)"
+                },
+                {
+                    "number": 70,
+                    "content": "\tat org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatchAll(AsyncAppenderEventDispatcher.java:117)"
+                },
+                {
+                    "number": 71,
+                    "content": "\tat org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.run(AsyncAppenderEventDispatcher.java:92)"
+                },
+                {
+                    "number": 72,
+                    "content": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.bukkit.craftbukkit.map.CraftMapColorCache"
+                },
+                {
+                    "number": 73,
+                    "content": "\tat java.base\/java.lang.Class.forName0(Native Method)"
+                },
+                {
+                    "number": 74,
+                    "content": "\tat java.base\/java.lang.Class.forName(Class.java:547)"
+                },
+                {
+                    "number": 75,
+                    "content": "\tat org.apache.logging.log4j.util.LoaderUtil.loadClass(LoaderUtil.java:212)"
+                },
+                {
+                    "number": 76,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.lambda$static$1(ThrowableExtendedStackTraceRenderer.java:196)"
+                },
+                {
+                    "number": 77,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.loadClass(ThrowableExtendedStackTraceRenderer.java:180)"
+                },
+                {
+                    "number": 78,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.createClassResourceInfoByName(ThrowableExtendedStackTraceRenderer.java:166)"
+                },
+                {
+                    "number": 79,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.ofThrowable(ThrowableExtendedStackTraceRenderer.java:96)"
+                },
+                {
+                    "number": 80,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.access$000(ThrowableExtendedStackTraceRenderer.java:81)"
+                },
+                {
+                    "number": 81,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.createContext(ThrowableExtendedStackTraceRenderer.java:43)"
+                },
+                {
+                    "number": 82,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.createContext(ThrowableExtendedStackTraceRenderer.java:34)"
+                },
+                {
+                    "number": 83,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableStackTraceRenderer.renderThrowable(ThrowableStackTraceRenderer.java:55)"
+                },
+                {
+                    "number": 84,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.ThrowablePatternConverter.format(ThrowablePatternConverter.java:130)"
+                },
+                {
+                    "number": 85,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.PatternFormatter.format(PatternFormatter.java:44)"
+                },
+                {
+                    "number": 86,
+                    "content": "\tat net.minecrell.terminalconsole.HighlightErrorConverter.format(HighlightErrorConverter.java:93)"
+                },
+                {
+                    "number": 87,
+                    "content": "\tat org.apache.logging.log4j.core.pattern.PatternFormatter.format(PatternFormatter.java:44)"
+                },
+                {
+                    "number": 88,
+                    "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout$PatternSelectorSerializer.toSerializable(PatternLayout.java:566)"
+                },
+                {
+                    "number": 89,
+                    "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout$PatternSelectorSerializer.toSerializable(PatternLayout.java:557)"
+                },
+                {
+                    "number": 90,
+                    "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout.toSerializable(PatternLayout.java:228)"
+                },
+                {
+                    "number": 91,
+                    "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout.toSerializable(PatternLayout.java:57)"
+                },
+                {
+                    "number": 92,
+                    "content": "\tat net.minecrell.terminalconsole.TerminalConsoleAppender.append(TerminalConsoleAppender.java:256)"
+                },
+                {
+                    "number": 93,
+                    "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:160)"
+                },
+                {
+                    "number": 94,
+                    "content": "\t... 6 more"
+                },
+                {
+                    "number": 95,
+                    "content": "Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Error creating .paper cache dir [in thread \"Server thread\"]"
+                },
+                {
+                    "number": 96,
+                    "content": "\tat io.papermc.paper.util.PaperCacheDir.get(PaperCacheDir.java:19)"
+                },
+                {
+                    "number": 97,
+                    "content": "\tat io.papermc.paper.util.PaperCacheDir.get(PaperCacheDir.java:29)"
+                },
+                {
+                    "number": 98,
+                    "content": "\tat org.bukkit.craftbukkit.map.CraftMapColorCache.<clinit>(CraftMapColorCache.java:25)"
+                },
+                {
+                    "number": 99,
+                    "content": "\tat org.bukkit.craftbukkit.CraftServer.<init>(CraftServer.java:460)"
+                },
+                {
+                    "number": 100,
+                    "content": "\tat net.minecraft.server.players.PlayerList.<init>(PlayerList.java:146)"
+                },
+                {
+                    "number": 101,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:16)"
+                },
+                {
+                    "number": 102,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:233)"
+                },
+                {
+                    "number": 103,
+                    "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249)"
+                },
+                {
+                    "number": 104,
+                    "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299)"
+                },
+                {
+                    "number": 105,
+                    "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474)"
+                },
+                {
+                    "number": 106,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:24:02 WARN]:",
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "[17:24:02 WARN]: [oshi.software.os.mac.MacOperatingSystem] Unable to parse version 27.2 to a codename."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[17:24:02 ERROR]:",
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "[17:24:02 ERROR]: This crash report has been saved to: \/srv\/server\/crash-reports\/crash-2026-11-13_17.24.02-server.txt"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:02 INFO]:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "[17:24:02 INFO]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:02 INFO]:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "[17:24:02 INFO]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:02 INFO]:",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "[17:24:02 INFO]: Waiting for all RegionFile I\/O tasks to complete..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:02 INFO]:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "[17:24:02 INFO]: All RegionFile I\/O tasks to complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:02 INFO]:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "[17:24:02 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:24:02 INFO]:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "[17:24:02 INFO]: [MoonriseCommon] Awaiting termination of I\/O pool for up to 60s..."
+                },
+                {
+                    "number": 115,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "Paper cannot use its cache folder '.paper'. The server cannot start without it.",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:24:02 INFO]:",
+                    "lines": [
+                        {
+                            "number": 17,
+                            "content": "[17:24:02 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)"
+                        },
+                        {
+                            "number": 18,
+                            "content": "2026-11-13T16:24:02.461102Z Log4j2-AsyncAppenderEventDispatcher-1-Async ERROR An exception occurred processing Appender File"
+                        },
+                        {
+                            "number": 19,
+                            "content": "org.apache.logging.log4j.core.appender.AppenderLoggingException: java.lang.NoClassDefFoundError: Could not initialize class org.bukkit.craftbukkit.map.CraftMapColorCache"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:164)"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:133)"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:124)"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:88)"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatch(AsyncAppenderEventDispatcher.java:178)"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatchAll(AsyncAppenderEventDispatcher.java:117)"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.run(AsyncAppenderEventDispatcher.java:92)"
+                        },
+                        {
+                            "number": 27,
+                            "content": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.bukkit.craftbukkit.map.CraftMapColorCache"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat java.base\/java.lang.Class.forName0(Native Method)"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\tat java.base\/java.lang.Class.forName(Class.java:547)"
+                        },
+                        {
+                            "number": 30,
+                            "content": "\tat org.apache.logging.log4j.util.LoaderUtil.loadClass(LoaderUtil.java:212)"
+                        },
+                        {
+                            "number": 31,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.lambda$static$1(ThrowableExtendedStackTraceRenderer.java:196)"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.loadClass(ThrowableExtendedStackTraceRenderer.java:180)"
+                        },
+                        {
+                            "number": 33,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.createClassResourceInfoByName(ThrowableExtendedStackTraceRenderer.java:166)"
+                        },
+                        {
+                            "number": 34,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.ofThrowable(ThrowableExtendedStackTraceRenderer.java:96)"
+                        },
+                        {
+                            "number": 35,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.access$000(ThrowableExtendedStackTraceRenderer.java:81)"
+                        },
+                        {
+                            "number": 36,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.createContext(ThrowableExtendedStackTraceRenderer.java:43)"
+                        },
+                        {
+                            "number": 37,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.createContext(ThrowableExtendedStackTraceRenderer.java:34)"
+                        },
+                        {
+                            "number": 38,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableStackTraceRenderer.renderThrowable(ThrowableStackTraceRenderer.java:55)"
+                        },
+                        {
+                            "number": 39,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowablePatternConverter.format(ThrowablePatternConverter.java:130)"
+                        },
+                        {
+                            "number": 40,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.PatternFormatter.format(PatternFormatter.java:44)"
+                        },
+                        {
+                            "number": 41,
+                            "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout$PatternSelectorSerializer.toSerializable(PatternLayout.java:566)"
+                        },
+                        {
+                            "number": 42,
+                            "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout.toText(PatternLayout.java:251)"
+                        },
+                        {
+                            "number": 43,
+                            "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:237)"
+                        },
+                        {
+                            "number": 44,
+                            "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:57)"
+                        },
+                        {
+                            "number": 45,
+                            "content": "\tat org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:227)"
+                        },
+                        {
+                            "number": 46,
+                            "content": "\tat org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:220)"
+                        },
+                        {
+                            "number": 47,
+                            "content": "\tat org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:211)"
+                        },
+                        {
+                            "number": 48,
+                            "content": "\tat org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender.append(RollingRandomAccessFileAppender.java:395)"
+                        },
+                        {
+                            "number": 49,
+                            "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:160)"
+                        },
+                        {
+                            "number": 50,
+                            "content": "\t... 6 more"
+                        },
+                        {
+                            "number": 51,
+                            "content": "Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Error creating .paper cache dir [in thread \"Server thread\"]"
+                        },
+                        {
+                            "number": 52,
+                            "content": "\tat io.papermc.paper.util.PaperCacheDir.get(PaperCacheDir.java:19)"
+                        },
+                        {
+                            "number": 53,
+                            "content": "\tat io.papermc.paper.util.PaperCacheDir.get(PaperCacheDir.java:29)"
+                        },
+                        {
+                            "number": 54,
+                            "content": "\tat org.bukkit.craftbukkit.map.CraftMapColorCache.<clinit>(CraftMapColorCache.java:25)"
+                        },
+                        {
+                            "number": 55,
+                            "content": "\tat org.bukkit.craftbukkit.CraftServer.<init>(CraftServer.java:460)"
+                        },
+                        {
+                            "number": 56,
+                            "content": "\tat net.minecraft.server.players.PlayerList.<init>(PlayerList.java:146)"
+                        },
+                        {
+                            "number": 57,
+                            "content": "\tat net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:16)"
+                        },
+                        {
+                            "number": 58,
+                            "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:233)"
+                        },
+                        {
+                            "number": 59,
+                            "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249)"
+                        },
+                        {
+                            "number": 60,
+                            "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299)"
+                        },
+                        {
+                            "number": 61,
+                            "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474)"
+                        },
+                        {
+                            "number": 62,
+                            "content": ""
+                        },
+                        {
+                            "number": 63,
+                            "content": "2026-11-13T16:24:02.461497Z Log4j2-AsyncAppenderEventDispatcher-1-Async ERROR An exception occurred processing Appender TerminalConsole"
+                        },
+                        {
+                            "number": 64,
+                            "content": "org.apache.logging.log4j.core.appender.AppenderLoggingException: java.lang.NoClassDefFoundError: Could not initialize class org.bukkit.craftbukkit.map.CraftMapColorCache"
+                        },
+                        {
+                            "number": 65,
+                            "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:164)"
+                        },
+                        {
+                            "number": 66,
+                            "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:133)"
+                        },
+                        {
+                            "number": 67,
+                            "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:124)"
+                        },
+                        {
+                            "number": 68,
+                            "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:88)"
+                        },
+                        {
+                            "number": 69,
+                            "content": "\tat org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatch(AsyncAppenderEventDispatcher.java:178)"
+                        },
+                        {
+                            "number": 70,
+                            "content": "\tat org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatchAll(AsyncAppenderEventDispatcher.java:117)"
+                        },
+                        {
+                            "number": 71,
+                            "content": "\tat org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.run(AsyncAppenderEventDispatcher.java:92)"
+                        },
+                        {
+                            "number": 72,
+                            "content": "Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.bukkit.craftbukkit.map.CraftMapColorCache"
+                        },
+                        {
+                            "number": 73,
+                            "content": "\tat java.base\/java.lang.Class.forName0(Native Method)"
+                        },
+                        {
+                            "number": 74,
+                            "content": "\tat java.base\/java.lang.Class.forName(Class.java:547)"
+                        },
+                        {
+                            "number": 75,
+                            "content": "\tat org.apache.logging.log4j.util.LoaderUtil.loadClass(LoaderUtil.java:212)"
+                        },
+                        {
+                            "number": 76,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.lambda$static$1(ThrowableExtendedStackTraceRenderer.java:196)"
+                        },
+                        {
+                            "number": 77,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.loadClass(ThrowableExtendedStackTraceRenderer.java:180)"
+                        },
+                        {
+                            "number": 78,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.createClassResourceInfoByName(ThrowableExtendedStackTraceRenderer.java:166)"
+                        },
+                        {
+                            "number": 79,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.ofThrowable(ThrowableExtendedStackTraceRenderer.java:96)"
+                        },
+                        {
+                            "number": 80,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.access$000(ThrowableExtendedStackTraceRenderer.java:81)"
+                        },
+                        {
+                            "number": 81,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.createContext(ThrowableExtendedStackTraceRenderer.java:43)"
+                        },
+                        {
+                            "number": 82,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.createContext(ThrowableExtendedStackTraceRenderer.java:34)"
+                        },
+                        {
+                            "number": 83,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowableStackTraceRenderer.renderThrowable(ThrowableStackTraceRenderer.java:55)"
+                        },
+                        {
+                            "number": 84,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.ThrowablePatternConverter.format(ThrowablePatternConverter.java:130)"
+                        },
+                        {
+                            "number": 85,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.PatternFormatter.format(PatternFormatter.java:44)"
+                        },
+                        {
+                            "number": 86,
+                            "content": "\tat net.minecrell.terminalconsole.HighlightErrorConverter.format(HighlightErrorConverter.java:93)"
+                        },
+                        {
+                            "number": 87,
+                            "content": "\tat org.apache.logging.log4j.core.pattern.PatternFormatter.format(PatternFormatter.java:44)"
+                        },
+                        {
+                            "number": 88,
+                            "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout$PatternSelectorSerializer.toSerializable(PatternLayout.java:566)"
+                        },
+                        {
+                            "number": 89,
+                            "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout$PatternSelectorSerializer.toSerializable(PatternLayout.java:557)"
+                        },
+                        {
+                            "number": 90,
+                            "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout.toSerializable(PatternLayout.java:228)"
+                        },
+                        {
+                            "number": 91,
+                            "content": "\tat org.apache.logging.log4j.core.layout.PatternLayout.toSerializable(PatternLayout.java:57)"
+                        },
+                        {
+                            "number": 92,
+                            "content": "\tat net.minecrell.terminalconsole.TerminalConsoleAppender.append(TerminalConsoleAppender.java:256)"
+                        },
+                        {
+                            "number": 93,
+                            "content": "\tat org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:160)"
+                        },
+                        {
+                            "number": 94,
+                            "content": "\t... 6 more"
+                        },
+                        {
+                            "number": 95,
+                            "content": "Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Error creating .paper cache dir [in thread \"Server thread\"]"
+                        },
+                        {
+                            "number": 96,
+                            "content": "\tat io.papermc.paper.util.PaperCacheDir.get(PaperCacheDir.java:19)"
+                        },
+                        {
+                            "number": 97,
+                            "content": "\tat io.papermc.paper.util.PaperCacheDir.get(PaperCacheDir.java:29)"
+                        },
+                        {
+                            "number": 98,
+                            "content": "\tat org.bukkit.craftbukkit.map.CraftMapColorCache.<clinit>(CraftMapColorCache.java:25)"
+                        },
+                        {
+                            "number": 99,
+                            "content": "\tat org.bukkit.craftbukkit.CraftServer.<init>(CraftServer.java:460)"
+                        },
+                        {
+                            "number": 100,
+                            "content": "\tat net.minecraft.server.players.PlayerList.<init>(PlayerList.java:146)"
+                        },
+                        {
+                            "number": 101,
+                            "content": "\tat net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:16)"
+                        },
+                        {
+                            "number": 102,
+                            "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:233)"
+                        },
+                        {
+                            "number": 103,
+                            "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249)"
+                        },
+                        {
+                            "number": 104,
+                            "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299)"
+                        },
+                        {
+                            "number": 105,
+                            "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474)"
+                        },
+                        {
+                            "number": 106,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Check the file permissions of '.paper'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:24:02 INFO]:",
+                    "lines": [
+                        {
+                            "number": 15,
+                            "content": "[17:24:02 INFO]: Starting minecraft server version 26.3"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            }
+        ]
+    }
+}

@@ -434,6 +434,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_cache_dir_create_failed_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-cache-dir-create-failed-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_cache_dir_not_directory_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-cache-dir-not-directory-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_circular_plugin_dependency_26_3(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-circular-plugin-dependency-26-3.log');
@@ -504,6 +524,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_help_yml_invalid_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-help-yml-invalid-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_legacy_plugin_26_3(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-legacy-plugin-26-3.log');
@@ -517,6 +547,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_paper_legacy_plugin_conversion_26_3(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-legacy-plugin-conversion-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_map_renderer_exception_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-map-renderer-exception-26-3.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -597,6 +637,36 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_paper_newer_world_config_version_26_1_1(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-newer-world-config-version-26-1-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_permission_already_defined_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-permission-already-defined-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_permissions_file_invalid_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-permissions-file-invalid-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_permissions_file_not_a_map_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-permissions-file-not-a-map-26-3.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -934,6 +1004,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_watchdog_not_responding_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-watchdog-not-responding-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_watchdog_stopped_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-watchdog-stopped-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_world_defaults_missing_26_3(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-world-defaults-missing-26-3.log');
@@ -1017,6 +1107,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_spigot_command_exception(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-command-exception.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_enum_compatibility_mode_26_1_2(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-enum-compatibility-mode-26-1-2.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
