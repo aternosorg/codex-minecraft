@@ -143,5 +143,6 @@
   "permissions-file-already-defined-problem": "The permission '{{permission}}' in '{{file-path}}' is already defined by the server or a plugin.",
   "permission-remove-solution": "Remove the permission '{{permission}}' from '{{file-path}}'.",
   "watchdog-problem": "The main thread of the server is blocked, so the watchdog logged a thread dump.",
-  "watchdog-thread-dump-solution": "Look for plugins in the thread dump of the 'Server thread' below the message, and update or remove the plugin that blocks the server."
+  "watchdog-thread-dump-solution": "Look for plugins in the thread dump of the 'Server thread' below the message, and update or remove the plugin that blocks the server.",
+  "paper-cache-dir-problem": "Paper cannot use its cache folder '{{path}}'. The server cannot start without it."
 }

@@ -1,0 +1,111 @@
+Starting org.bukkit.craftbukkit.Main
+2026-11-11T15:22:07.211421Z ServerMain WARN Advanced terminal features are not available in this environment
+[16:22:07 INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.3+1-LTS-2; Oracle Corporation null) on Mac OS X 27.2.1 (aarch64)
+[16:22:07 INFO]: [bootstrap] Loading Paper 26.3-248-main@0727243 (2026-11-10T11:35:52Z) for Minecraft 26.3
+[16:22:07 INFO]: [PluginInitializerManager] Initializing plugins...
+[16:22:07 INFO]: [PluginInitializerManager] Initialized 0 plugins
+[16:22:07 WARN]: [oshi.software.os.mac.MacOperatingSystem] Unable to parse version 27.2 to a codename.
+[16:22:08 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[16:22:08 INFO]: [com.destroystokyo.paper.profile.PaperServicesDiscoveryService] Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[16:22:08 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 158,0ms
+[16:22:09 INFO]: Loaded 1866 advancements
+[16:22:09 INFO]: Starting minecraft server version 26.3
+[16:22:09 INFO]: Loading properties
+[16:22:09 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)
+2026-11-11T15:22:09.783240Z Log4j2-AsyncAppenderEventDispatcher-1-Async ERROR An exception occurred processing Appender File
+org.apache.logging.log4j.core.appender.AppenderLoggingException: java.lang.NoClassDefFoundError: Could not initialize class org.bukkit.craftbukkit.map.CraftMapColorCache
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:164)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:133)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:124)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:88)
+	at org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatch(AsyncAppenderEventDispatcher.java:178)
+	at org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatchAll(AsyncAppenderEventDispatcher.java:117)
+	at org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.run(AsyncAppenderEventDispatcher.java:92)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.bukkit.craftbukkit.map.CraftMapColorCache
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:547)
+	at org.apache.logging.log4j.util.LoaderUtil.loadClass(LoaderUtil.java:212)
+	at org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.lambda$static$1(ThrowableExtendedStackTraceRenderer.java:196)
+	at org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.loadClass(ThrowableExtendedStackTraceRenderer.java:180)
+	at org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.createClassResourceInfoByName(ThrowableExtendedStackTraceRenderer.java:166)
+	at org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.ofThrowable(ThrowableExtendedStackTraceRenderer.java:96)
+	at org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.access$000(ThrowableExtendedStackTraceRenderer.java:81)
+	at org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.createContext(ThrowableExtendedStackTraceRenderer.java:43)
+	at org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.createContext(ThrowableExtendedStackTraceRenderer.java:34)
+	at org.apache.logging.log4j.core.pattern.ThrowableStackTraceRenderer.renderThrowable(ThrowableStackTraceRenderer.java:55)
+	at org.apache.logging.log4j.core.pattern.ThrowablePatternConverter.format(ThrowablePatternConverter.java:130)
+	at org.apache.logging.log4j.core.pattern.PatternFormatter.format(PatternFormatter.java:44)
+	at org.apache.logging.log4j.core.layout.PatternLayout$PatternSelectorSerializer.toSerializable(PatternLayout.java:566)
+	at org.apache.logging.log4j.core.layout.PatternLayout.toText(PatternLayout.java:251)
+	at org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:237)
+	at org.apache.logging.log4j.core.layout.PatternLayout.encode(PatternLayout.java:57)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:227)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:220)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:211)
+	at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender.append(RollingRandomAccessFileAppender.java:395)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:160)
+	... 6 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: .paper cache dir is not a directory [in thread "Server thread"]
+	at io.papermc.paper.util.PaperCacheDir.get(PaperCacheDir.java:23)
+	at io.papermc.paper.util.PaperCacheDir.get(PaperCacheDir.java:29)
+	at org.bukkit.craftbukkit.map.CraftMapColorCache.<clinit>(CraftMapColorCache.java:25)
+	at org.bukkit.craftbukkit.CraftServer.<init>(CraftServer.java:460)
+	at net.minecraft.server.players.PlayerList.<init>(PlayerList.java:146)
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:16)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:233)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+2026-11-11T15:22:09.783862Z Log4j2-AsyncAppenderEventDispatcher-1-Async ERROR An exception occurred processing Appender TerminalConsole
+org.apache.logging.log4j.core.appender.AppenderLoggingException: java.lang.NoClassDefFoundError: Could not initialize class org.bukkit.craftbukkit.map.CraftMapColorCache
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:164)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:133)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:124)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:88)
+	at org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatch(AsyncAppenderEventDispatcher.java:178)
+	at org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatchAll(AsyncAppenderEventDispatcher.java:117)
+	at org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.run(AsyncAppenderEventDispatcher.java:92)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.bukkit.craftbukkit.map.CraftMapColorCache
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:547)
+	at org.apache.logging.log4j.util.LoaderUtil.loadClass(LoaderUtil.java:212)
+	at org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.lambda$static$1(ThrowableExtendedStackTraceRenderer.java:196)
+	at org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.loadClass(ThrowableExtendedStackTraceRenderer.java:180)
+	at org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.createClassResourceInfoByName(ThrowableExtendedStackTraceRenderer.java:166)
+	at org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.ofThrowable(ThrowableExtendedStackTraceRenderer.java:96)
+	at org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer$ExtendedContext.access$000(ThrowableExtendedStackTraceRenderer.java:81)
+	at org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.createContext(ThrowableExtendedStackTraceRenderer.java:43)
+	at org.apache.logging.log4j.core.pattern.ThrowableExtendedStackTraceRenderer.createContext(ThrowableExtendedStackTraceRenderer.java:34)
+	at org.apache.logging.log4j.core.pattern.ThrowableStackTraceRenderer.renderThrowable(ThrowableStackTraceRenderer.java:55)
+	at org.apache.logging.log4j.core.pattern.ThrowablePatternConverter.format(ThrowablePatternConverter.java:130)
+	at org.apache.logging.log4j.core.pattern.PatternFormatter.format(PatternFormatter.java:44)
+	at net.minecrell.terminalconsole.HighlightErrorConverter.format(HighlightErrorConverter.java:93)
+	at org.apache.logging.log4j.core.pattern.PatternFormatter.format(PatternFormatter.java:44)
+	at org.apache.logging.log4j.core.layout.PatternLayout$PatternSelectorSerializer.toSerializable(PatternLayout.java:566)
+	at org.apache.logging.log4j.core.layout.PatternLayout$PatternSelectorSerializer.toSerializable(PatternLayout.java:557)
+	at org.apache.logging.log4j.core.layout.PatternLayout.toSerializable(PatternLayout.java:228)
+	at org.apache.logging.log4j.core.layout.PatternLayout.toSerializable(PatternLayout.java:57)
+	at net.minecrell.terminalconsole.TerminalConsoleAppender.append(TerminalConsoleAppender.java:256)
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:160)
+	... 6 more
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: .paper cache dir is not a directory [in thread "Server thread"]
+	at io.papermc.paper.util.PaperCacheDir.get(PaperCacheDir.java:23)
+	at io.papermc.paper.util.PaperCacheDir.get(PaperCacheDir.java:29)
+	at org.bukkit.craftbukkit.map.CraftMapColorCache.<clinit>(CraftMapColorCache.java:25)
+	at org.bukkit.craftbukkit.CraftServer.<init>(CraftServer.java:460)
+	at net.minecraft.server.players.PlayerList.<init>(PlayerList.java:146)
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:16)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:233)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[16:22:10 WARN]: [oshi.software.os.mac.MacOperatingSystem] Unable to parse version 27.2 to a codename.
+[16:22:10 ERROR]: This crash report has been saved to: /srv/server
+[16:22:10 INFO]: Stopping server
+[16:22:10 INFO]: Saving worlds
+[16:22:10 INFO]: Waiting for all RegionFile I/O tasks to complete...
+[16:22:10 INFO]: All RegionFile I/O tasks to complete
+[16:22:10 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:22:10 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
