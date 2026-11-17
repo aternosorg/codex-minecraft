@@ -127,5 +127,9 @@
   "paper-world-defaults-missing-problem": "The file '{{path}}' with the default world settings does not exist. Paper cannot load new worlds without it.",
   "paper-world-defaults-restore-solution": "Restore the file '{{path}}' from a backup or restart the server to create it again with default values.",
   "paper-velocity-secret-missing-problem": "Velocity forwarding is enabled in '{{file-path}}', but no secret is set. Players cannot join through the Velocity proxy.",
-  "paper-velocity-secret-set-solution": "Set '{{setting}}' in '{{file-path}}' to the forwarding secret of your Velocity proxy, which is in the file 'forwarding.secret' of the proxy."
+  "paper-velocity-secret-set-solution": "Set '{{setting}}' in '{{file-path}}' to the forwarding secret of your Velocity proxy, which is in the file 'forwarding.secret' of the proxy.",
+  "default-world-plugin-missing-problem": "The setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml' uses the plugin '{{plugin-name}}', but the plugin is not installed.",
+  "default-world-plugin-not-enabled-problem": "The setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml' uses the plugin '{{plugin-name}}', but the plugin is not enabled before the worlds are loaded.",
+  "default-world-plugin-not-provided-problem": "The setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml' uses the plugin '{{plugin-name}}', but the plugin does not support this setting.",
+  "bukkit-yml-world-setting-solution": "Check the setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml'."
 }
