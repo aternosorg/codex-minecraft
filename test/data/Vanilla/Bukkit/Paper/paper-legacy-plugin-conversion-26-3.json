@@ -389,6 +389,29 @@
     "analysis": {
         "problems": [
             {
+                "message": "The plugin 'LegacyBrokenClass' was made for Minecraft versions before 1.13 and might not work correctly.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[16:24:35 WARN]:",
+                    "lines": [
+                        {
+                            "number": 14,
+                            "content": "[16:24:35 WARN]: Legacy plugin LegacyBrokenClass v1.0 does not specify an api-version."
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'LegacyBrokenClass'."
+                    },
+                    {
+                        "message": "Remove the plugin 'LegacyBrokenClass'."
+                    }
+                ]
+            },
+            {
                 "message": "The legacy plugin 'LegacyBrokenClass' could not be converted for this server version.",
                 "counter": 1,
                 "entry": {

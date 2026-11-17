@@ -484,9 +484,39 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_help_yml_invalid_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-help-yml-invalid-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_legacy_plugin_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-legacy-plugin-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_legacy_plugin_conversion_26_3(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-legacy-plugin-conversion-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_map_renderer_exception_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-map-renderer-exception-26-3.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1017,6 +1047,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_spigot_command_exception(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-command-exception.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_enum_compatibility_mode_26_1_2(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-enum-compatibility-mode-26-1-2.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
