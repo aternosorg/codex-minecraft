@@ -1484,6 +1484,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_corrupt_mod_file(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-corrupt-mod-file.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_corrupt_nested_mod_file(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-corrupt-nested-mod-file.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_crash_report_client(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-crash-report-client.log');
