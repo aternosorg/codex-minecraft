@@ -16,12 +16,15 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricMixinProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModIncompatibleMinecraftVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModJavaVersionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OutOfMemoryErrorProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\ModOutOfMemoryErrorProblem;
 
 class FabricAnalyser extends VanillaAnalyser
 {
     public function __construct()
     {
         parent::__construct();
+        $this->overridePossibleInsightClass(OutOfMemoryErrorProblem::class, ModOutOfMemoryErrorProblem::class);
         $this->addPossibleInsightClass(FabricVersionInformation::class);
         $this->overridePossibleInsightClass(VanillaVersionInformation::class, FabricVanillaVersionInformation::class);
         $this->addPossibleInsightClass(FabricJavaVersionInformation::class);

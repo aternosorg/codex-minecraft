@@ -1,0 +1,745 @@
+{
+    "id": "vanilla\/server",
+    "name": "Vanilla",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Vanilla 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting net.minecraft.server.Main"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:49:56] [ServerMain\/WARN]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[15:49:56] [ServerMain\/WARN]: Unable to parse version 27.2 to a codename."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:49:59] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[15:49:59] [ServerMain\/INFO]: Environment: Environment[discoveryUrl=https:\/\/discovery.minecraftservices.com\/minecraft\/client, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:49:59] [Worker-Main-6\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[15:49:59] [Worker-Main-6\/INFO]: No existing world data, creating new world"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[15:49:59] [Worker-Main-6\/ERROR]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[15:49:59] [Worker-Main-6\/ERROR]: No key layers in MapLike[{}]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:50:00] [Worker-Main-11\/INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[15:50:00] [Worker-Main-11\/INFO]: Loaded 1866 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:50:00] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[15:50:00] [Server thread\/INFO]: Starting minecraft server version 26.3"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:50:00] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[15:50:00] [Server thread\/WARN]: To start the server with more ram, launch it as \"java -Xmx1024M -Xms1024M -jar minecraft_server.jar\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:50:00] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[15:50:00] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:50:00] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[15:50:00] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:50:00] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[15:50:00] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:50:00] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[15:50:00] [Server thread\/INFO]: Starting Minecraft server on *:25598"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:50:01] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[15:50:01] [Server thread\/WARN]: **** SERVER IS RUNNING IN OFFLINE\/INSECURE MODE!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:50:01] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[15:50:01] [Server thread\/WARN]: The server will make no attempt to authenticate usernames. Beware."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:50:01] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[15:50:01] [Server thread\/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:50:01] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[15:50:01] [Server thread\/WARN]: To change this, set \"online-mode\" to \"true\" in the server.properties file."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:50:01] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[15:50:01] [Server thread\/INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:50:01] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[15:50:01] [Server thread\/INFO]: Selecting global world spawn..."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[15:50:02] [Worker-Main-5\/ERROR]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[15:50:02] [Worker-Main-5\/ERROR]: Caught exception in thread Thread[#63,Worker-Main-5,5,main]"
+                },
+                {
+                    "number": 20,
+                    "content": "java.lang.OutOfMemoryError: Java heap space"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat java.base\/java.util.LinkedHashMap.newNode(LinkedHashMap.java:281)"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat java.base\/java.util.HashMap.putVal(HashMap.java:638)"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat java.base\/java.util.HashMap.put(HashMap.java:619)"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat java.base\/java.util.jar.Attributes.put(Attributes.java:157)"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat java.base\/java.util.jar.Attributes.putValue(Attributes.java:177)"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat java.base\/java.util.jar.Attributes.read(Attributes.java:423)"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat java.base\/java.util.jar.Manifest.read(Manifest.java:336)"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat java.base\/java.util.jar.Manifest.<init>(Manifest.java:106)"
+                },
+                {
+                    "number": 29,
+                    "content": "\tat java.base\/java.util.jar.JarFile.getManifestFromReference(JarFile.java:417)"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat java.base\/java.util.jar.JarFile.getManifest(JarFile.java:393)"
+                },
+                {
+                    "number": 31,
+                    "content": "\tat java.base\/jdk.internal.loader.URLClassPath$JarLoader$1.getManifest(URLClassPath.java:721)"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat java.base\/java.net.URLClassLoader.defineClass(URLClassLoader.java:421)"
+                },
+                {
+                    "number": 33,
+                    "content": "\tat java.base\/java.net.URLClassLoader.findClass(URLClassLoader.java:367)"
+                },
+                {
+                    "number": 34,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:557)"
+                },
+                {
+                    "number": 35,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:490)"
+                },
+                {
+                    "number": 36,
+                    "content": "\tat net.minecraft.server.MinecraftServer.wrapRunnable(MinecraftServer.java:878)"
+                },
+                {
+                    "number": 37,
+                    "content": "\tat net.minecraft.server.MinecraftServer.wrapRunnable(MinecraftServer.java:193)"
+                },
+                {
+                    "number": 38,
+                    "content": "\tat net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:110)"
+                },
+                {
+                    "number": 39,
+                    "content": "\tat net.minecraft.server.level.ServerLevel.onStructureStartsAvailable(ServerLevel.java:1722)"
+                },
+                {
+                    "number": 40,
+                    "content": "\tat net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateStructureStarts(ChunkStatusTasks.java:48)"
+                },
+                {
+                    "number": 41,
+                    "content": "\tat net.minecraft.world.level.chunk.status.ChunkPyramid$$Lambda\/0x00003e0001f43748.doWork(Unknown Source)"
+                },
+                {
+                    "number": 42,
+                    "content": "\tat net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:36)"
+                },
+                {
+                    "number": 43,
+                    "content": "\tat net.minecraft.server.level.ChunkMap.applyStep(ChunkMap.java:666)"
+                },
+                {
+                    "number": 44,
+                    "content": "\tat net.minecraft.server.level.GenerationChunkHolder.applyStep(GenerationChunkHolder.java:87)"
+                },
+                {
+                    "number": 45,
+                    "content": "\tat net.minecraft.server.level.ChunkGenerationTask.scheduleChunkInLayer(ChunkGenerationTask.java:144)"
+                },
+                {
+                    "number": 46,
+                    "content": "\tat net.minecraft.server.level.ChunkGenerationTask.scheduleLayer(ChunkGenerationTask.java:121)"
+                },
+                {
+                    "number": 47,
+                    "content": "\tat net.minecraft.server.level.ChunkGenerationTask.scheduleNextLayer(ChunkGenerationTask.java:72)"
+                },
+                {
+                    "number": 48,
+                    "content": "\tat net.minecraft.server.level.ChunkGenerationTask.runUntilWait(ChunkGenerationTask.java:57)"
+                },
+                {
+                    "number": 49,
+                    "content": "\tat net.minecraft.server.level.ChunkMap.lambda$runGenerationTask$0(ChunkMap.java:692)"
+                },
+                {
+                    "number": 50,
+                    "content": "\tat net.minecraft.server.level.ChunkMap$$Lambda\/0x00003e0001f888e8.run(Unknown Source)"
+                },
+                {
+                    "number": 51,
+                    "content": "\tat net.minecraft.server.level.ChunkTaskDispatcher.lambda$scheduleForExecution$1(ChunkTaskDispatcher.java:88)"
+                },
+                {
+                    "number": 52,
+                    "content": "\tat net.minecraft.server.level.ChunkTaskDispatcher$$Lambda\/0x00003e0001f89f48.accept(Unknown Source)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:50:02] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[15:50:02] [Server thread\/WARN]: Unable to parse version 27.2 to a codename."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[15:50:02] [Server thread\/ERROR]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[15:50:02] [Server thread\/ERROR]: Encountered an unexpected exception"
+                },
+                {
+                    "number": 55,
+                    "content": "net.minecraft.ReportedException: Exception initializing level"
+                },
+                {
+                    "number": 56,
+                    "content": "\tat net.minecraft.server.MinecraftServer.createLevels(MinecraftServer.java:464)"
+                },
+                {
+                    "number": 57,
+                    "content": "\tat net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:408)"
+                },
+                {
+                    "number": 58,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:221)"
+                },
+                {
+                    "number": 59,
+                    "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:720)"
+                },
+                {
+                    "number": 60,
+                    "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:310)"
+                },
+                {
+                    "number": 61,
+                    "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474)"
+                },
+                {
+                    "number": 62,
+                    "content": "Caused by: java.lang.OutOfMemoryError: Java heap space"
+                },
+                {
+                    "number": 63,
+                    "content": "\tat java.base\/jdk.internal.misc.Unsafe.allocateInstance(Native Method)"
+                },
+                {
+                    "number": 64,
+                    "content": "\tat java.base\/java.lang.invoke.DirectMethodHandle.allocateInstance(DirectMethodHandle.java:500)"
+                },
+                {
+                    "number": 65,
+                    "content": "\tat java.base\/java.lang.invoke.DirectMethodHandle$Holder.newInvokeSpecial(DirectMethodHandle$Holder)"
+                },
+                {
+                    "number": 66,
+                    "content": "\tat java.base\/java.lang.invoke.Invokers$Holder.linkToTargetMethod(Invokers$Holder)"
+                },
+                {
+                    "number": 67,
+                    "content": "\tat net.minecraft.server.level.ChunkMap.runGenerationTasks(ChunkMap.java:703)"
+                },
+                {
+                    "number": 68,
+                    "content": "\tat net.minecraft.server.level.ServerChunkCache.runDistanceManagerUpdates(ServerChunkCache.java:275)"
+                },
+                {
+                    "number": 69,
+                    "content": "\tat net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:626)"
+                },
+                {
+                    "number": 70,
+                    "content": "\tat net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:156)"
+                },
+                {
+                    "number": 71,
+                    "content": "\tat net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:146)"
+                },
+                {
+                    "number": 72,
+                    "content": "\tat net.minecraft.world.level.Level.getChunk(Level.java:215)"
+                },
+                {
+                    "number": 73,
+                    "content": "\tat net.minecraft.world.level.LevelReader.getChunk(LevelReader.java:150)"
+                },
+                {
+                    "number": 74,
+                    "content": "\tat net.minecraft.world.level.Level.getChunk(Level.java:210)"
+                },
+                {
+                    "number": 75,
+                    "content": "\tat net.minecraft.server.level.PlayerSpawnFinder.getLevelRespawnPos(PlayerSpawnFinder.java:159)"
+                },
+                {
+                    "number": 76,
+                    "content": "\tat net.minecraft.server.level.PlayerSpawnFinder.getSpawnPosInChunk(PlayerSpawnFinder.java:199)"
+                },
+                {
+                    "number": 77,
+                    "content": "\tat net.minecraft.server.MinecraftServer.setInitialSpawn(MinecraftServer.java:519)"
+                },
+                {
+                    "number": 78,
+                    "content": "\tat net.minecraft.server.MinecraftServer.createLevels(MinecraftServer.java:452)"
+                },
+                {
+                    "number": 79,
+                    "content": "\tat net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:408)"
+                },
+                {
+                    "number": 80,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:221)"
+                },
+                {
+                    "number": 81,
+                    "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:720)"
+                },
+                {
+                    "number": 82,
+                    "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:310)"
+                },
+                {
+                    "number": 83,
+                    "content": "\tat net.minecraft.server.MinecraftServer$$Lambda\/0x00003e0001e7a9b8.run(Unknown Source)"
+                },
+                {
+                    "number": 84,
+                    "content": "\tat java.base\/java.lang.Thread.runWith(Thread.java:1487)"
+                },
+                {
+                    "number": 85,
+                    "content": "\t... 1 more"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[15:50:02] [Worker-Main-5\/WARN]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[15:50:02] [Worker-Main-5\/WARN]: Unable to parse version 27.2 to a codename."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[15:50:02] [Server thread\/ERROR]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[15:50:02] [Server thread\/ERROR]: This crash report has been saved to: .\/crash-reports\/crash-2026-11-17_15.50.02-server.txt"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:50:02] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[15:50:02] [Server thread\/INFO]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:50:02] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[15:50:02] [Server thread\/INFO]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[15:50:02] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[15:50:02] [Server thread\/INFO]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[15:50:03] [Server thread\/ERROR]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[15:50:03] [Server thread\/ERROR]: Exception stopping the server"
+                },
+                {
+                    "number": 92,
+                    "content": "java.lang.OutOfMemoryError: Java heap space"
+                },
+                {
+                    "number": 93,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The server ran out of memory ('Java heap space').",
+                "counter": 3,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[15:50:02] [Worker-Main-5\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 19,
+                            "content": "[15:50:02] [Worker-Main-5\/ERROR]: Caught exception in thread Thread[#63,Worker-Main-5,5,main]"
+                        },
+                        {
+                            "number": 20,
+                            "content": "java.lang.OutOfMemoryError: Java heap space"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat java.base\/java.util.LinkedHashMap.newNode(LinkedHashMap.java:281)"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat java.base\/java.util.HashMap.putVal(HashMap.java:638)"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat java.base\/java.util.HashMap.put(HashMap.java:619)"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat java.base\/java.util.jar.Attributes.put(Attributes.java:157)"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat java.base\/java.util.jar.Attributes.putValue(Attributes.java:177)"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat java.base\/java.util.jar.Attributes.read(Attributes.java:423)"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat java.base\/java.util.jar.Manifest.read(Manifest.java:336)"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat java.base\/java.util.jar.Manifest.<init>(Manifest.java:106)"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\tat java.base\/java.util.jar.JarFile.getManifestFromReference(JarFile.java:417)"
+                        },
+                        {
+                            "number": 30,
+                            "content": "\tat java.base\/java.util.jar.JarFile.getManifest(JarFile.java:393)"
+                        },
+                        {
+                            "number": 31,
+                            "content": "\tat java.base\/jdk.internal.loader.URLClassPath$JarLoader$1.getManifest(URLClassPath.java:721)"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\tat java.base\/java.net.URLClassLoader.defineClass(URLClassLoader.java:421)"
+                        },
+                        {
+                            "number": 33,
+                            "content": "\tat java.base\/java.net.URLClassLoader.findClass(URLClassLoader.java:367)"
+                        },
+                        {
+                            "number": 34,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:557)"
+                        },
+                        {
+                            "number": 35,
+                            "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:490)"
+                        },
+                        {
+                            "number": 36,
+                            "content": "\tat net.minecraft.server.MinecraftServer.wrapRunnable(MinecraftServer.java:878)"
+                        },
+                        {
+                            "number": 37,
+                            "content": "\tat net.minecraft.server.MinecraftServer.wrapRunnable(MinecraftServer.java:193)"
+                        },
+                        {
+                            "number": 38,
+                            "content": "\tat net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:110)"
+                        },
+                        {
+                            "number": 39,
+                            "content": "\tat net.minecraft.server.level.ServerLevel.onStructureStartsAvailable(ServerLevel.java:1722)"
+                        },
+                        {
+                            "number": 40,
+                            "content": "\tat net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateStructureStarts(ChunkStatusTasks.java:48)"
+                        },
+                        {
+                            "number": 41,
+                            "content": "\tat net.minecraft.world.level.chunk.status.ChunkPyramid$$Lambda\/0x00003e0001f43748.doWork(Unknown Source)"
+                        },
+                        {
+                            "number": 42,
+                            "content": "\tat net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:36)"
+                        },
+                        {
+                            "number": 43,
+                            "content": "\tat net.minecraft.server.level.ChunkMap.applyStep(ChunkMap.java:666)"
+                        },
+                        {
+                            "number": 44,
+                            "content": "\tat net.minecraft.server.level.GenerationChunkHolder.applyStep(GenerationChunkHolder.java:87)"
+                        },
+                        {
+                            "number": 45,
+                            "content": "\tat net.minecraft.server.level.ChunkGenerationTask.scheduleChunkInLayer(ChunkGenerationTask.java:144)"
+                        },
+                        {
+                            "number": 46,
+                            "content": "\tat net.minecraft.server.level.ChunkGenerationTask.scheduleLayer(ChunkGenerationTask.java:121)"
+                        },
+                        {
+                            "number": 47,
+                            "content": "\tat net.minecraft.server.level.ChunkGenerationTask.scheduleNextLayer(ChunkGenerationTask.java:72)"
+                        },
+                        {
+                            "number": 48,
+                            "content": "\tat net.minecraft.server.level.ChunkGenerationTask.runUntilWait(ChunkGenerationTask.java:57)"
+                        },
+                        {
+                            "number": 49,
+                            "content": "\tat net.minecraft.server.level.ChunkMap.lambda$runGenerationTask$0(ChunkMap.java:692)"
+                        },
+                        {
+                            "number": 50,
+                            "content": "\tat net.minecraft.server.level.ChunkMap$$Lambda\/0x00003e0001f888e8.run(Unknown Source)"
+                        },
+                        {
+                            "number": 51,
+                            "content": "\tat net.minecraft.server.level.ChunkTaskDispatcher.lambda$scheduleForExecution$1(ChunkTaskDispatcher.java:88)"
+                        },
+                        {
+                            "number": 52,
+                            "content": "\tat net.minecraft.server.level.ChunkTaskDispatcher$$Lambda\/0x00003e0001f89f48.accept(Unknown Source)"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Give the server more memory."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[15:50:00] [Server thread\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 7,
+                            "content": "[15:50:00] [Server thread\/INFO]: Starting minecraft server version 26.3"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            }
+        ]
+    }
+}

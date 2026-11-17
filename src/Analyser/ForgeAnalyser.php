@@ -20,12 +20,15 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Forge\MultipleModulesExportProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\PTRLibDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldMissingModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldModVersionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OutOfMemoryErrorProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\ModOutOfMemoryErrorProblem;
 
 class ForgeAnalyser extends VanillaAnalyser
 {
     public function __construct()
     {
         parent::__construct();
+        $this->overridePossibleInsightClass(OutOfMemoryErrorProblem::class, ModOutOfMemoryErrorProblem::class);
         $this->addPossibleInsightClass(ForgeVersionInformation::class);
         $this->overridePossibleInsightClass(VanillaVersionInformation::class, ForgeVanillaVersionInformation::class);
         $this->addPossibleInsightClass(ForgeJavaVersionInformation::class);

@@ -26,6 +26,8 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\UnsupportedApiVersionProblem
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\UnsupportedClassVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\WatchdogProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\WorldDuplicateProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OutOfMemoryErrorProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginOutOfMemoryErrorProblem;
 
 class BukkitAnalyser extends VanillaAnalyser
 {
@@ -68,5 +70,6 @@ class BukkitAnalyser extends VanillaAnalyser
         foreach (static::getInsightClasses() as $insightClass) {
             $this->addPossibleInsightClass($insightClass);
         }
+        $this->overridePossibleInsightClass(OutOfMemoryErrorProblem::class, PluginOutOfMemoryErrorProblem::class);
     }
 }

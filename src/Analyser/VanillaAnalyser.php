@@ -9,6 +9,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\CodeOfConductFolderMissingP
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\DatapackParsingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\MalformedEncodingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OldPlayerDirectoryProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OutOfMemoryErrorProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OverworldSettingsMissingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\ServerIconInvalidProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\TickingBlockEntityProblem;
@@ -24,6 +25,7 @@ class VanillaAnalyser extends MinecraftAnalyser
         $this->addPossibleInsightClass(DatapackParsingProblem::class);
         $this->addPossibleInsightClass(MalformedEncodingProblem::class);
         $this->addPossibleInsightClass(OldPlayerDirectoryProblem::class);
+        $this->addPossibleInsightClass(OutOfMemoryErrorProblem::class);
         $this->addPossibleInsightClass(OverworldSettingsMissingProblem::class);
         $this->addPossibleInsightClass(ServerIconInvalidProblem::class);
         $this->addPossibleInsightClass(TickingBlockEntityProblem::class);
