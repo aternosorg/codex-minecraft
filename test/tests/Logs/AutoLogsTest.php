@@ -684,6 +684,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_out_of_memory_error_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-out-of-memory-error-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_permission_already_defined_26_3(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-permission-already-defined-26-3.log');
@@ -2667,6 +2677,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_vanilla_old_player_directory(): void
     {
         $log = new TestLog('Vanilla/vanilla-old-player-directory.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_vanilla_out_of_memory_error_26_3(): void
+    {
+        $log = new TestLog('Vanilla/vanilla-out-of-memory-error-26-3.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
