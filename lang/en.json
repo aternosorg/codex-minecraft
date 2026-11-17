@@ -131,5 +131,7 @@
   "default-world-plugin-missing-problem": "The setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml' uses the plugin '{{plugin-name}}', but the plugin is not installed.",
   "default-world-plugin-not-enabled-problem": "The setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml' uses the plugin '{{plugin-name}}', but the plugin is not enabled before the worlds are loaded.",
   "default-world-plugin-not-provided-problem": "The setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml' uses the plugin '{{plugin-name}}', but the plugin does not support this setting.",
-  "bukkit-yml-world-setting-solution": "Check the setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml'."
+  "bukkit-yml-world-setting-solution": "Check the setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml'.",
+  "watchdog-problem": "The main thread of the server is blocked, so the watchdog logged a thread dump.",
+  "watchdog-thread-dump-solution": "Look for plugins in the thread dump of the 'Server thread' below the message, and update or remove the plugin that blocks the server."
 }
