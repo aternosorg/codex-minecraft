@@ -1,0 +1,1161 @@
+{
+    "id": "paper\/server",
+    "name": "Paper",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Paper 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting org.bukkit.craftbukkit.Main"
+                },
+                {
+                    "number": 2,
+                    "content": "2026-11-13T16:25:23.098971Z ServerMain WARN Advanced terminal features are not available in this environment"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:23 INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[17:25:23 INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.3+1-LTS-2; Oracle Corporation null) on Mac OS X 27.2.1 (aarch64)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:23 INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[17:25:23 INFO]: [bootstrap] Loading Paper 26.3-248-main@0727243 (2026-11-10T11:35:52Z) for Minecraft 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:23 INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[17:25:23 INFO]: [PluginInitializerManager] Initializing plugins..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:23 INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[17:25:23 INFO]: [PluginInitializerManager] Initialized 2 plugins"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:23 INFO]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[17:25:23 INFO]: [PluginInitializerManager] Bukkit plugins (2):"
+                },
+                {
+                    "number": 8,
+                    "content": " - LateGen (1.0), StartupGen (1.0)"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:25:23 WARN]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[17:25:23 WARN]: [oshi.software.os.mac.MacOperatingSystem] Unable to parse version 27.2 to a codename."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:24 INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[17:25:24 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:24 INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[17:25:24 INFO]: [com.destroystokyo.paper.profile.PaperServicesDiscoveryService] Environment: Environment[discoveryUrl=https:\/\/discovery.minecraftservices.com\/minecraft\/client, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:24 INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[17:25:24 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 165,1ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[17:25:25 INFO]: Loaded 1866 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[17:25:25 INFO]: Starting minecraft server version 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[17:25:25 INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[17:25:25 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[17:25:25 INFO]: [spark] This server bundles the spark profiler. For more information please visit https:\/\/docs.papermc.io\/paper\/profiling"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[17:25:25 INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[17:25:25 INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[17:25:25 INFO]: [ca.spottedleaf.moonrise.common.util.FMA] FMA supported: true for all ARMv8 platforms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[17:25:25 INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I\/O threads"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[17:25:25 INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[17:25:25 INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[17:25:25 INFO]: Starting Minecraft server on *:25599"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[17:25:25 INFO]: Paper: Using libdeflate (macOS ARM64 \/ Apple Silicon) compression from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[17:25:25 INFO]: Paper: Using native (macOS ARM64 \/ Apple Silicon) cipher from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[17:25:25 INFO]: [LateGen] Loading server plugin LateGen v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[17:25:25 INFO]: [StartupGen] Loading server plugin StartupGen v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[17:25:25 INFO]: [StartupGen] Enabling StartupGen v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[17:25:25 INFO]: [StartupGen] TestPlugin enabled, data folder: plugins\/StartupGen"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:25:25 WARN]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[17:25:25 WARN]: **** SERVER IS RUNNING IN OFFLINE\/INSECURE MODE!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:25:25 WARN]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[17:25:25 WARN]: The server will make no attempt to authenticate usernames. Beware."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:25:25 WARN]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[17:25:25 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[17:25:25 WARN]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[17:25:25 WARN]: To change this, set \"online-mode\" to \"true\" in the server.properties file."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[17:25:25 INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[17:25:25 ERROR]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[17:25:25 ERROR]: Could not set generator for default world 'world': Plugin 'LateGen v1.0' is not enabled yet (is it load:STARTUP?)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[17:25:25 ERROR]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[17:25:25 ERROR]: Could not set biome provider for default world 'world': Plugin 'LateGen v1.0' is not enabled yet (is it load:STARTUP?)"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[17:25:25 ERROR]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[17:25:25 ERROR]: Could not set generator for default world 'world_nether': Plugin 'StartupGen v1.0' lacks a default world generator"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[17:25:25 ERROR]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[17:25:25 ERROR]: Could not set biome provider for default world 'world_nether': Plugin 'StartupGen v1.0' lacks a default world biome provider"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[17:25:25 ERROR]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[17:25:25 ERROR]: Could not set generator for default world 'world_the_end': Plugin 'MissingGen' does not exist"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[17:25:25 ERROR]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[17:25:25 ERROR]: Could not set biome provider for default world 'world_the_end': Plugin 'MissingGen' does not exist"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[17:25:25 INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[17:25:25 INFO]: Prepared spawn area in 0 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[17:25:25 INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[17:25:25 INFO]: Prepared spawn area in 0 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[17:25:25 INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[17:25:25 INFO]: Prepared spawn area in 0 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[17:25:25 INFO]: Done preparing level \"world\" (0.121s)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[17:25:25 INFO]: [LateGen] Enabling LateGen v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[17:25:25 INFO]: [LateGen] TestPlugin enabled, data folder: plugins\/LateGen"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:25 INFO]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[17:25:25 INFO]: [spark] Starting background profiler..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:26 INFO]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[17:25:26 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:26 INFO]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[17:25:26 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:26 INFO]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[17:25:26 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:26 INFO]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[17:25:26 INFO]: Running delayed init tasks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:26 INFO]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[17:25:26 INFO]: Done (3.970s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:26 INFO]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[17:25:26 INFO]: *** Currently you are 1 build behind ***"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:26 INFO]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[17:25:26 INFO]: *** It is highly recommended to download the latest build from https:\/\/papermc.io\/downloads\/paper ***"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[17:25:27 INFO]: System chat: Stopping the server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[17:25:27 INFO]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[17:25:27 INFO]: [StartupGen] Disabling StartupGen v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[17:25:27 INFO]: [StartupGen] TestPlugin disabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[17:25:27 INFO]: [LateGen] Disabling LateGen v1.0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[17:25:27 INFO]: [LateGen] TestPlugin disabled"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[17:25:27 INFO]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[17:25:27 INFO]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[17:25:27 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0,00s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Waiting 60s for chunk I\/O to halt for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Halted I\/O scheduler for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[17:25:27 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0,00s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Waiting 60s for chunk I\/O to halt for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Halted I\/O scheduler for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[17:25:27 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0,00s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Waiting 60s for chunk I\/O to halt for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "[17:25:27 INFO]: [ChunkHolderManager] Halted I\/O scheduler for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "[17:25:27 INFO]: Waiting for all RegionFile I\/O tasks to complete..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "[17:25:27 INFO]: All RegionFile I\/O tasks to complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "[17:25:27 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[17:25:27 INFO]:",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "[17:25:27 INFO]: [MoonriseCommon] Awaiting termination of I\/O pool for up to 60s..."
+                },
+                {
+                    "number": 92,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The setting 'generator' of the world 'world' in 'bukkit.yml' uses the plugin 'LateGen', but the plugin is not enabled before the worlds are loaded.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[17:25:25 ERROR]:",
+                    "lines": [
+                        {
+                            "number": 36,
+                            "content": "[17:25:25 ERROR]: Could not set generator for default world 'world': Plugin 'LateGen v1.0' is not enabled yet (is it load:STARTUP?)"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'LateGen'."
+                    },
+                    {
+                        "message": "Check the setting 'generator' of the world 'world' in 'bukkit.yml'."
+                    }
+                ]
+            },
+            {
+                "message": "The setting 'biome-provider' of the world 'world' in 'bukkit.yml' uses the plugin 'LateGen', but the plugin is not enabled before the worlds are loaded.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[17:25:25 ERROR]:",
+                    "lines": [
+                        {
+                            "number": 37,
+                            "content": "[17:25:25 ERROR]: Could not set biome provider for default world 'world': Plugin 'LateGen v1.0' is not enabled yet (is it load:STARTUP?)"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'LateGen'."
+                    },
+                    {
+                        "message": "Check the setting 'biome-provider' of the world 'world' in 'bukkit.yml'."
+                    }
+                ]
+            },
+            {
+                "message": "The setting 'generator' of the world 'world_nether' in 'bukkit.yml' uses the plugin 'StartupGen', but the plugin does not support this setting.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[17:25:25 ERROR]:",
+                    "lines": [
+                        {
+                            "number": 38,
+                            "content": "[17:25:25 ERROR]: Could not set generator for default world 'world_nether': Plugin 'StartupGen v1.0' lacks a default world generator"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'StartupGen'."
+                    },
+                    {
+                        "message": "Check the setting 'generator' of the world 'world_nether' in 'bukkit.yml'."
+                    }
+                ]
+            },
+            {
+                "message": "The setting 'biome-provider' of the world 'world_nether' in 'bukkit.yml' uses the plugin 'StartupGen', but the plugin does not support this setting.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[17:25:25 ERROR]:",
+                    "lines": [
+                        {
+                            "number": 39,
+                            "content": "[17:25:25 ERROR]: Could not set biome provider for default world 'world_nether': Plugin 'StartupGen v1.0' lacks a default world biome provider"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'StartupGen'."
+                    },
+                    {
+                        "message": "Check the setting 'biome-provider' of the world 'world_nether' in 'bukkit.yml'."
+                    }
+                ]
+            },
+            {
+                "message": "The setting 'generator' of the world 'world_the_end' in 'bukkit.yml' uses the plugin 'MissingGen', but the plugin is not installed.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[17:25:25 ERROR]:",
+                    "lines": [
+                        {
+                            "number": 40,
+                            "content": "[17:25:25 ERROR]: Could not set generator for default world 'world_the_end': Plugin 'MissingGen' does not exist"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the plugin 'MissingGen'."
+                    },
+                    {
+                        "message": "Check the setting 'generator' of the world 'world_the_end' in 'bukkit.yml'."
+                    }
+                ]
+            },
+            {
+                "message": "The setting 'biome-provider' of the world 'world_the_end' in 'bukkit.yml' uses the plugin 'MissingGen', but the plugin is not installed.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[17:25:25 ERROR]:",
+                    "lines": [
+                        {
+                            "number": 41,
+                            "content": "[17:25:25 ERROR]: Could not set biome provider for default world 'world_the_end': Plugin 'MissingGen' does not exist"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the plugin 'MissingGen'."
+                    },
+                    {
+                        "message": "Check the setting 'biome-provider' of the world 'world_the_end' in 'bukkit.yml'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[17:25:25 INFO]:",
+                    "lines": [
+                        {
+                            "number": 14,
+                            "content": "[17:25:25 INFO]: Starting minecraft server version 26.3"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            }
+        ]
+    }
+}
