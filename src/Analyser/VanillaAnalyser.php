@@ -11,6 +11,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\MalformedEncodingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OldPlayerDirectoryProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OverworldSettingsMissingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\TickingBlockEntityProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\WorldDataCorruptedProblem;
 
 class VanillaAnalyser extends MinecraftAnalyser
 {
@@ -24,6 +25,7 @@ class VanillaAnalyser extends MinecraftAnalyser
         $this->addPossibleInsightClass(OldPlayerDirectoryProblem::class);
         $this->addPossibleInsightClass(OverworldSettingsMissingProblem::class);
         $this->addPossibleInsightClass(TickingBlockEntityProblem::class);
+        $this->addPossibleInsightClass(WorldDataCorruptedProblem::class);
         $this->addPossibleInsightClass(VanillaVersionInformation::class);
     }
 }
