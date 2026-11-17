@@ -138,5 +138,8 @@
   "bukkit-yml-world-setting-solution": "Check the setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml'.",
   "legacy-plugin-problem": "The plugin '{{plugin-name}}' was made for Minecraft versions before 1.13 and might not work correctly.",
   "help-yml-invalid-problem": "The file '{{file-path}}' is not valid YAML. The server ignores it and uses the default help topics.",
-  "map-renderer-problem": "The map renderer '{{class-name}}' of a plugin has thrown an exception, so maps are not drawn correctly."
+  "map-renderer-problem": "The map renderer '{{class-name}}' of a plugin has thrown an exception, so maps are not drawn correctly.",
+  "permissions-file-invalid-problem": "The permissions file '{{file-path}}' is not valid YAML. The server ignores all permissions in it.",
+  "permissions-file-already-defined-problem": "The permission '{{permission}}' in '{{file-path}}' is already defined by the server or a plugin.",
+  "permission-remove-solution": "Remove the permission '{{permission}}' from '{{file-path}}'."
 }

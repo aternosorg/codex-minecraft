@@ -11,6 +11,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\DefaultWorldProviderProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\LegacyPluginConversionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\LegacyPluginProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\MapRendererProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PermissionsFileProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\AuthMeShutdownProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\MultiverseLoadProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\PermissionsExConfigProblem;
@@ -54,6 +55,7 @@ class BukkitAnalyser extends VanillaAnalyser
             LegacyPluginProblem::class,
             HelpYmlInvalidProblem::class,
             MapRendererProblem::class,
+            PermissionsFileProblem::class,
         ];
     }
 
