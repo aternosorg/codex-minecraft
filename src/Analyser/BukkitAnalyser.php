@@ -24,6 +24,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginRuntimeProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\UnsupportedApiVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\UnsupportedClassVersionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\WatchdogProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\WorldDuplicateProblem;
 
 class BukkitAnalyser extends VanillaAnalyser
@@ -56,6 +57,7 @@ class BukkitAnalyser extends VanillaAnalyser
             HelpYmlInvalidProblem::class,
             MapRendererProblem::class,
             PermissionsFileProblem::class,
+            WatchdogProblem::class,
         ];
     }
 
