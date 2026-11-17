@@ -40,6 +40,8 @@
   "plugin-install-different-version-solution": "Install a different version of the plugin '{{plugin-name}}'.",
   "plugin-install-solution": "Install the plugin '{{plugin-name}}'.",
   "plugin-remove-solution": "Remove the plugin '{{plugin-name}}'.",
+  "plugin-with-class-install-different-version-solution": "Install a different version of the plugin that contains the class '{{class-name}}'.",
+  "plugin-with-class-remove-solution": "Remove the plugin that contains the class '{{class-name}}'.",
   "file-delete-solution": "Delete the file '{{file-path}}'.",
   "file-edit-solution": "Edit the file '{{file-path}}'.",
   "folder-create-solution": "Create the folder '{{folder-path}}'.",
@@ -135,5 +137,6 @@
   "default-world-plugin-not-provided-problem": "The setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml' uses the plugin '{{plugin-name}}', but the plugin does not support this setting.",
   "bukkit-yml-world-setting-solution": "Check the setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml'.",
   "legacy-plugin-problem": "The plugin '{{plugin-name}}' was made for Minecraft versions before 1.13 and might not work correctly.",
-  "help-yml-invalid-problem": "The file '{{file-path}}' is not valid YAML. The server ignores it and uses the default help topics."
+  "help-yml-invalid-problem": "The file '{{file-path}}' is not valid YAML. The server ignores it and uses the default help topics.",
+  "map-renderer-problem": "The map renderer '{{class-name}}' of a plugin has thrown an exception, so maps are not drawn correctly."
 }
