@@ -21,6 +21,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Paper\NewerConfigVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\VelocitySecretMissingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\WorldDefaultsMissingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ConfigurationParseProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Paper\MainThreadCheckProblem;
 
 class PaperAnalyser extends BukkitAnalyser
 {
@@ -46,5 +47,6 @@ class PaperAnalyser extends BukkitAnalyser
         $this->addPossibleInsightClass(VelocitySecretMissingProblem::class);
         $this->addPossibleInsightClass(CacheDirInvalidProblem::class);
         $this->addPossibleInsightClass(ConfigurationParseProblem::class);
+        $this->addPossibleInsightClass(MainThreadCheckProblem::class);
     }
 }

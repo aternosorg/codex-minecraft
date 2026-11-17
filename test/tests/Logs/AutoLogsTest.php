@@ -554,6 +554,36 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_paper_main_thread_check_block_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-main-thread-check-block-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_main_thread_check_chunk_load_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-main-thread-check-chunk-load-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_main_thread_check_own_thread_26_3(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Paper/paper-main-thread-check-own-thread-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_paper_map_renderer_exception_26_3(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Paper/paper-map-renderer-exception-26-3.log');

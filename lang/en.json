@@ -147,5 +147,6 @@
   "paper-cache-dir-problem": "Paper cannot use its cache folder '{{path}}'. The server cannot start without it.",
   "paper-configuration-parse-problem": "The Paper configuration file '{{file-path}}' is not valid YAML. The error is in line {{line}}, column {{column}}.",
   "paper-configuration-parse-unknown-file-problem": "A Paper configuration file is not valid YAML.",
-  "paper-configuration-syntax-fix-solution": "Fix the YAML syntax in '{{file-path}}' in line {{line}}, column {{column}}, for example the indentation."
+  "paper-configuration-syntax-fix-solution": "Fix the YAML syntax in '{{file-path}}' in line {{line}}, column {{column}}, for example the indentation.",
+  "main-thread-check-problem": "The thread '{{thread-name}}' tried to do '{{action}}' outside of the main thread of the server, which is not allowed."
 }
