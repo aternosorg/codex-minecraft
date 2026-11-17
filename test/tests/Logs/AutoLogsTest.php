@@ -984,6 +984,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_spigot_enum_compatibility_mode_26_1_2(): void
+    {
+        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-enum-compatibility-mode-26-1-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_spigot_exception_ticking_world_1_21_4(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-exception-ticking-world-1-21-4.log');
