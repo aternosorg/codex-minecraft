@@ -389,6 +389,52 @@
     "analysis": {
         "problems": [
             {
+                "message": "The plugin 'SetHome' was made for Minecraft versions before 1.13 and might not work correctly.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[09:59:48] [Server thread\/WARN]:",
+                    "lines": [
+                        {
+                            "number": 15,
+                            "content": "[09:59:48] [Server thread\/WARN]: Legacy plugin SetHome v1.4 does not specify an api-version."
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'SetHome'."
+                    },
+                    {
+                        "message": "Remove the plugin 'SetHome'."
+                    }
+                ]
+            },
+            {
+                "message": "The plugin 'GroupManagerPex' was made for Minecraft versions before 1.13 and might not work correctly.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[09:59:48] [Server thread\/WARN]:",
+                    "lines": [
+                        {
+                            "number": 16,
+                            "content": "[09:59:48] [Server thread\/WARN]: Legacy plugin GroupManagerPex v1.1.0 does not specify an api-version."
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'GroupManagerPex'."
+                    },
+                    {
+                        "message": "Remove the plugin 'GroupManagerPex'."
+                    }
+                ]
+            },
+            {
                 "message": "The plugin 'LuckPermsChat-2.0.2' is missing the required plugin 'LuckPerms'.",
                 "counter": 1,
                 "entry": {
@@ -439,6 +485,121 @@
                     },
                     {
                         "message": "Install the plugin 'LuckPerms'."
+                    }
+                ]
+            },
+            {
+                "message": "The plugin 'GroupManager' was made for Minecraft versions before 1.13 and might not work correctly.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[09:59:48] [Server thread\/WARN]:",
+                    "lines": [
+                        {
+                            "number": 25,
+                            "content": "[09:59:48] [Server thread\/WARN]: Legacy plugin GroupManager v3.3 does not specify an api-version."
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'GroupManager'."
+                    },
+                    {
+                        "message": "Remove the plugin 'GroupManager'."
+                    }
+                ]
+            },
+            {
+                "message": "The plugin 'EasySetSpawn' was made for Minecraft versions before 1.13 and might not work correctly.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[09:59:48] [Server thread\/WARN]:",
+                    "lines": [
+                        {
+                            "number": 26,
+                            "content": "[09:59:48] [Server thread\/WARN]: Legacy plugin EasySetSpawn v3.3 does not specify an api-version."
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'EasySetSpawn'."
+                    },
+                    {
+                        "message": "Remove the plugin 'EasySetSpawn'."
+                    }
+                ]
+            },
+            {
+                "message": "The plugin 'AdminGUI' was made for Minecraft versions before 1.13 and might not work correctly.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[09:59:48] [Server thread\/WARN]:",
+                    "lines": [
+                        {
+                            "number": 27,
+                            "content": "[09:59:48] [Server thread\/WARN]: Legacy plugin AdminGUI v1.0 does not specify an api-version."
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'AdminGUI'."
+                    },
+                    {
+                        "message": "Remove the plugin 'AdminGUI'."
+                    }
+                ]
+            },
+            {
+                "message": "The plugin 'SetHomes' was made for Minecraft versions before 1.13 and might not work correctly.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[09:59:48] [Server thread\/WARN]:",
+                    "lines": [
+                        {
+                            "number": 28,
+                            "content": "[09:59:48] [Server thread\/WARN]: Legacy plugin SetHomes v1.2.7 does not specify an api-version."
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'SetHomes'."
+                    },
+                    {
+                        "message": "Remove the plugin 'SetHomes'."
+                    }
+                ]
+            },
+            {
+                "message": "The plugin 'AddLight' was made for Minecraft versions before 1.13 and might not work correctly.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[09:59:48] [Server thread\/WARN]:",
+                    "lines": [
+                        {
+                            "number": 29,
+                            "content": "[09:59:48] [Server thread\/WARN]: Legacy plugin AddLight v4.3.2 does not specify an api-version."
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install a different version of the plugin 'AddLight'."
+                    },
+                    {
+                        "message": "Remove the plugin 'AddLight'."
                     }
                 ]
             }
