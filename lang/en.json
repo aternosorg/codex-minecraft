@@ -132,5 +132,8 @@
   "default-world-plugin-not-enabled-problem": "The setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml' uses the plugin '{{plugin-name}}', but the plugin is not enabled before the worlds are loaded.",
   "default-world-plugin-not-provided-problem": "The setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml' uses the plugin '{{plugin-name}}', but the plugin does not support this setting.",
   "bukkit-yml-world-setting-solution": "Check the setting '{{setting}}' of the world '{{world-name}}' in 'bukkit.yml'.",
-  "legacy-plugin-problem": "The plugin '{{plugin-name}}' was made for Minecraft versions before 1.13 and might not work correctly."
+  "legacy-plugin-problem": "The plugin '{{plugin-name}}' was made for Minecraft versions before 1.13 and might not work correctly.",
+  "paper-configuration-parse-problem": "The Paper configuration file '{{file-path}}' is not valid YAML. The error is in line {{line}}, column {{column}}.",
+  "paper-configuration-parse-unknown-file-problem": "A Paper configuration file is not valid YAML.",
+  "paper-configuration-syntax-fix-solution": "Fix the YAML syntax in '{{file-path}}' in line {{line}}, column {{column}}, for example the indentation."
 }
