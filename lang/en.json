@@ -128,6 +128,8 @@
   "paper-install-newer-version-solution": "Install the newer Paper version that created this config file.",
   "mod-fabric-loader-version-problem": "The mod '{{mod-name}}' requires Fabric Loader version {{loader-version}} or later, but version {{installed-version}} is installed.",
   "fabric-loader-update-solution": "Update Fabric Loader to version {{loader-version}} or later.",
+  "fabric-mod-shares-builtin-id-problem": "A file in the mods folder uses the mod ID '{{mod-id}}', which is reserved for the game or Fabric Loader itself.",
+  "fabric-builtin-mod-file-remove-solution": "Remove the file with the mod ID '{{mod-id}}' from the mods folder, for example a copy of the Minecraft server jar.",
   "paper-config-not-writable-problem": "The configuration file '{{path}}' could not be saved. Settings missing from the file use their default values.",
   "paper-world-defaults-missing-problem": "The file '{{path}}' with the default world settings does not exist. Paper cannot load new worlds without it.",
   "paper-world-defaults-restore-solution": "Restore the file '{{path}}' from a backup or restart the server to create it again with default values.",
