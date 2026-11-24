@@ -1,0 +1,317 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Fabric 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:57:35] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[18:57:35] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:57:35] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[18:57:35] [main\/INFO]: Mappings not present!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:57:35] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[18:57:35] [main\/INFO]: Loading 5 mods:"
+                },
+                {
+                    "number": 5,
+                    "content": "\t- fabricloader 0.20.1"
+                },
+                {
+                    "number": 6,
+                    "content": "\t   \\-- mixinextras 0.5.5"
+                },
+                {
+                    "number": 7,
+                    "content": "\t- foo 1.0.0"
+                },
+                {
+                    "number": 8,
+                    "content": "\t- java 25"
+                },
+                {
+                    "number": 9,
+                    "content": "\t- minecraft 26.3"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[18:57:35] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[18:57:35] [main\/ERROR]: Uncaught exception in thread \"main\""
+                },
+                {
+                    "number": 11,
+                    "content": "java.lang.RuntimeException: An exception occurred when launching the server!"
+                },
+                {
+                    "number": 12,
+                    "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:71)"
+                },
+                {
+                    "number": 13,
+                    "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                },
+                {
+                    "number": 14,
+                    "content": "Caused by: java.lang.RuntimeException: Failed to setup mod Foo (\/srv\/server\/mods\/foo.jar)"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.setupMods(FabricLoaderImpl.java:524)"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.finishModLoading(FabricLoaderImpl.java:383)"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.freeze(FabricLoaderImpl.java:118)"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:143)"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                },
+                {
+                    "number": 22,
+                    "content": "\t... 1 more"
+                },
+                {
+                    "number": 23,
+                    "content": "Caused by: java.lang.Exception: Could not find adapter 'kotlin' (mod foo!)"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat net.fabricmc.loader.impl.entrypoint.EntrypointStorage.add(EntrypointStorage.java:165)"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.setupMods(FabricLoaderImpl.java:520)"
+                },
+                {
+                    "number": 26,
+                    "content": "\t... 7 more"
+                },
+                {
+                    "number": 27,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'foo' needs the language adapter 'kotlin', which is not installed.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[18:57:35] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 10,
+                            "content": "[18:57:35] [main\/ERROR]: Uncaught exception in thread \"main\""
+                        },
+                        {
+                            "number": 11,
+                            "content": "java.lang.RuntimeException: An exception occurred when launching the server!"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:71)"
+                        },
+                        {
+                            "number": 13,
+                            "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 14,
+                            "content": "Caused by: java.lang.RuntimeException: Failed to setup mod Foo (\/srv\/server\/mods\/foo.jar)"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.setupMods(FabricLoaderImpl.java:524)"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.finishModLoading(FabricLoaderImpl.java:383)"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.freeze(FabricLoaderImpl.java:118)"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:143)"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\t... 1 more"
+                        },
+                        {
+                            "number": 23,
+                            "content": "Caused by: java.lang.Exception: Could not find adapter 'kotlin' (mod foo!)"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.fabricmc.loader.impl.entrypoint.EntrypointStorage.add(EntrypointStorage.java:165)"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.setupMods(FabricLoaderImpl.java:520)"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\t... 7 more"
+                        },
+                        {
+                            "number": 27,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Install the mod 'Fabric Language Kotlin'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:57:35] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[18:57:35] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            },
+            {
+                "message": "Fabric loader version: 0.20.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:57:35] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[18:57:35] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.20.1"
+            },
+            {
+                "message": "Java version: 25",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:57:35] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "[18:57:35] [main\/INFO]: Loading 5 mods:"
+                        },
+                        {
+                            "number": 5,
+                            "content": "\t- fabricloader 0.20.1"
+                        },
+                        {
+                            "number": 6,
+                            "content": "\t   \\-- mixinextras 0.5.5"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\t- foo 1.0.0"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\t- java 25"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\t- minecraft 26.3"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "25"
+            }
+        ]
+    }
+}

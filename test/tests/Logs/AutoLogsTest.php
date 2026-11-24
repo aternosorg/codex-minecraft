@@ -1644,6 +1644,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_language_adapter_not_found(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-language-adapter-not-found.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_loader_outdated(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-loader-outdated.log');

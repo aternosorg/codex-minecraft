@@ -1,0 +1,26 @@
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[18:57:35] [main/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1
+[18:57:35] [main/INFO]: Mappings not present!
+[18:57:35] [main/INFO]: Loading 5 mods:
+	- fabricloader 0.20.1
+	   \-- mixinextras 0.5.5
+	- foo 1.0.0
+	- java 25
+	- minecraft 26.3
+[18:57:35] [main/ERROR]: Uncaught exception in thread "main"
+java.lang.RuntimeException: An exception occurred when launching the server!
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:71)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
+Caused by: java.lang.RuntimeException: Failed to setup mod Foo (/srv/server/mods/foo.jar)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.setupMods(FabricLoaderImpl.java:524)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.finishModLoading(FabricLoaderImpl.java:383)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.freeze(FabricLoaderImpl.java:118)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:143)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	... 1 more
+Caused by: java.lang.Exception: Could not find adapter 'kotlin' (mod foo!)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage.add(EntrypointStorage.java:165)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.setupMods(FabricLoaderImpl.java:520)
+	... 7 more
