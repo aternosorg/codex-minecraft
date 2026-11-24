@@ -27,6 +27,7 @@
   "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "non-fabric-mod-problem": "The file '{{file-name}}' in the mods folder is not a Fabric mod and is ignored by Fabric Loader.",
   "mod-file-corrupt-problem": "The mod file '{{file-path}}' is corrupt or incomplete.",
+  "mod-metadata-invalid-problem": "The mod file '{{file-path}}' has an invalid fabric.mod.json.",
   "mod-exception-problem": "The mod '{{mod-name}}' has thrown an exception.",
   "mod-fatal-problem": "The mod '{{mod-name}}' has a fatal error.",
   "mod-packet-codec-problem": "A network packet of the mod '{{mod-name}}' could not be sent or read. The mod probably has different versions on the client and the server.",

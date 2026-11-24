@@ -1764,6 +1764,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_mod_json_invalid_id(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-mod-json-invalid-id.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mod_json_malformed(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-mod-json-malformed.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_mod_names(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-mod-names.log');

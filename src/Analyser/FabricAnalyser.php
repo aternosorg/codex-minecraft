@@ -11,6 +11,7 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricCorruptModFileProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricDuplicateModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricEntryStageProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricIncompatibleModsProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricInvalidModMetadataProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricLoaderVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricMixinApplyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricMixinProblem;
@@ -43,6 +44,7 @@ class FabricAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(FabricDuplicateModProblem::class);
         $this->addPossibleInsightClass(FabricNonFabricModProblem::class);
         $this->addPossibleInsightClass(FabricCorruptModFileProblem::class);
+        $this->addPossibleInsightClass(FabricInvalidModMetadataProblem::class);
         $this->addPossibleInsightClass(FabricEntryStageProblem::class);
         $this->addPossibleInsightClass(FabricModPacketCodecProblem::class);
         $this->addPossibleInsightClass(FabricClientOnlyModProblem::class);
