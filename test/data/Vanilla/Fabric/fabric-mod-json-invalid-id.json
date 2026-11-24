@@ -1,0 +1,345 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Fabric 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:59:29] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[18:59:29] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[18:59:29] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[18:59:29] [main\/INFO]: Mappings not present!"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[18:59:29] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[18:59:29] [main\/ERROR]: Incompatible mods found!"
+                },
+                {
+                    "number": 5,
+                    "content": "net.fabricmc.loader.impl.FormattedException: net.fabricmc.loader.impl.discovery.ModResolutionException: Mod discovery failed!"
+                },
+                {
+                    "number": 6,
+                    "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:63)"
+                },
+                {
+                    "number": 7,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:209)"
+                },
+                {
+                    "number": 8,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)"
+                },
+                {
+                    "number": 9,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)"
+                },
+                {
+                    "number": 10,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                },
+                {
+                    "number": 11,
+                    "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                },
+                {
+                    "number": 12,
+                    "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                },
+                {
+                    "number": 13,
+                    "content": "Caused by: net.fabricmc.loader.impl.discovery.ModResolutionException: Mod discovery failed!"
+                },
+                {
+                    "number": 14,
+                    "content": "\tat net.fabricmc.loader.impl.discovery.ModDiscoverer.lambda$discoverMods$1(ModDiscoverer.java:155)"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat net.fabricmc.loader.impl.discovery.ModDiscoverer.discoverMods(ModDiscoverer.java:155)"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.setup(FabricLoaderImpl.java:227)"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:204)"
+                },
+                {
+                    "number": 19,
+                    "content": "\t... 5 more"
+                },
+                {
+                    "number": 20,
+                    "content": "Caused by: net.fabricmc.loader.impl.metadata.ParseMetadataException: Error reading fabric.mod.json file for mod at \/srv\/server\/mods\/badid.jar: Invalid mod id Foo: It starts with an invalid character 'F' (it must be a lowercase a-z - uppercase isn't allowed anywhere in the ID)"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat net.fabricmc.loader.impl.metadata.MetadataVerifier.checkModId(MetadataVerifier.java:146)"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat net.fabricmc.loader.impl.metadata.MetadataVerifier.verify(MetadataVerifier.java:52)"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat net.fabricmc.loader.impl.metadata.ModMetadataParser.parseMetadata(ModMetadataParser.java:49)"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.parseMetadata(ModDiscoverer.java:510)"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.computeJarFile(ModDiscoverer.java:332)"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.compute(ModDiscoverer.java:290)"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.compute(ModDiscoverer.java:249)"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat java.base\/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:110)"
+                },
+                {
+                    "number": 29,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)"
+                },
+                {
+                    "number": 31,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)"
+                },
+                {
+                    "number": 33,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod file '\/srv\/server\/mods\/badid.jar' has an invalid fabric.mod.json.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[18:59:29] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "[18:59:29] [main\/ERROR]: Incompatible mods found!"
+                        },
+                        {
+                            "number": 5,
+                            "content": "net.fabricmc.loader.impl.FormattedException: net.fabricmc.loader.impl.discovery.ModResolutionException: Mod discovery failed!"
+                        },
+                        {
+                            "number": 6,
+                            "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:63)"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:209)"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 13,
+                            "content": "Caused by: net.fabricmc.loader.impl.discovery.ModResolutionException: Mod discovery failed!"
+                        },
+                        {
+                            "number": 14,
+                            "content": "\tat net.fabricmc.loader.impl.discovery.ModDiscoverer.lambda$discoverMods$1(ModDiscoverer.java:155)"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat net.fabricmc.loader.impl.discovery.ModDiscoverer.discoverMods(ModDiscoverer.java:155)"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.setup(FabricLoaderImpl.java:227)"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:204)"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\t... 5 more"
+                        },
+                        {
+                            "number": 20,
+                            "content": "Caused by: net.fabricmc.loader.impl.metadata.ParseMetadataException: Error reading fabric.mod.json file for mod at \/srv\/server\/mods\/badid.jar: Invalid mod id Foo: It starts with an invalid character 'F' (it must be a lowercase a-z - uppercase isn't allowed anywhere in the ID)"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat net.fabricmc.loader.impl.metadata.MetadataVerifier.checkModId(MetadataVerifier.java:146)"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat net.fabricmc.loader.impl.metadata.MetadataVerifier.verify(MetadataVerifier.java:52)"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat net.fabricmc.loader.impl.metadata.ModMetadataParser.parseMetadata(ModMetadataParser.java:49)"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.parseMetadata(ModDiscoverer.java:510)"
+                        },
+                        {
+                            "number": 25,
+                            "content": "\tat net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.computeJarFile(ModDiscoverer.java:332)"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.compute(ModDiscoverer.java:290)"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.compute(ModDiscoverer.java:249)"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat java.base\/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:110)"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)"
+                        },
+                        {
+                            "number": 30,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)"
+                        },
+                        {
+                            "number": 31,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)"
+                        },
+                        {
+                            "number": 33,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file '\/srv\/server\/mods\/badid.jar'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:59:29] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[18:59:29] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            },
+            {
+                "message": "Fabric loader version: 0.20.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[18:59:29] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[18:59:29] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.20.1"
+            }
+        ]
+    }
+}

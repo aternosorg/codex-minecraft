@@ -1,0 +1,11 @@
+The Minecraft server .JAR is missing (/srv/server/server.jar)!
+
+Fabric's server-side launcher expects the server .JAR to be provided.
+You can edit its location in fabric-server-launcher.properties.
+
+Without the official Minecraft server .JAR, Fabric Loader cannot launch.
+Exception in thread "main" java.lang.RuntimeException: Failed to setup Fabric server environment!
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:63)
+Caused by: java.lang.RuntimeException: Missing game jar at /srv/server/server.jar
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.setup(FabricServerLauncher.java:92)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:61)

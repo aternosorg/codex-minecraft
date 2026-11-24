@@ -11,14 +11,18 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricCorruptModFileProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricDuplicateModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricEntryStageProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricIncompatibleModsProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricInvalidModMetadataProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricLanguageAdapterProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricLoaderVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricMixinApplyProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricMixinConfigProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricMixinProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModIncompatibleMinecraftVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModJavaVersionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricModPacketCodecProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricNonFabricModProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Fabric\FabricServerJarMissingProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OutOfMemoryErrorProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\ModOutOfMemoryErrorProblem;
 
@@ -36,13 +40,17 @@ class FabricAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(FabricModIncompatibleMinecraftVersionProblem::class);
         $this->addPossibleInsightClass(FabricModJavaVersionProblem::class);
         $this->addPossibleInsightClass(FabricLoaderVersionProblem::class);
+        $this->addPossibleInsightClass(FabricServerJarMissingProblem::class);
         $this->addPossibleInsightClass(FabricMixinProblem::class);
         $this->addPossibleInsightClass(FabricMixinApplyProblem::class);
+        $this->addPossibleInsightClass(FabricMixinConfigProblem::class);
         $this->addPossibleInsightClass(FabricIncompatibleModsProblem::class);
         $this->addPossibleInsightClass(FabricDuplicateModProblem::class);
         $this->addPossibleInsightClass(FabricNonFabricModProblem::class);
         $this->addPossibleInsightClass(FabricCorruptModFileProblem::class);
+        $this->addPossibleInsightClass(FabricInvalidModMetadataProblem::class);
         $this->addPossibleInsightClass(FabricEntryStageProblem::class);
+        $this->addPossibleInsightClass(FabricModPacketCodecProblem::class);
         $this->addPossibleInsightClass(FabricClientOnlyModProblem::class);
     }
 }
