@@ -23,6 +23,7 @@
   "forge-confirm-problem": "Forge requires your confirmation to apply changes and start the server.",
   "mod-dependency-problem": "The mod '{{mod-name}}' is missing the required mod {{dependency-mod-name}}.",
   "mod-dependency-problem-plural": "The mod '{{mod-name}}' is missing the required mods {{dependency-mod-list}}.",
+  "mod-language-adapter-problem": "The mod '{{mod-name}}' needs the language adapter '{{adapter}}', which is not installed.",
   "mod-duplicate-problem": "There are multiple mod files for the mod name '{{mod-name}}': '{{first-mod-path}}' and '{{second-mod-path}}'.",
   "mod-duplicate-problem-no-path": "There are multiple mod files for the mod name '{{mod-name}}'.",
   "non-fabric-mod-problem": "The file '{{file-name}}' in the mods folder is not a Fabric mod and is ignored by Fabric Loader.",
