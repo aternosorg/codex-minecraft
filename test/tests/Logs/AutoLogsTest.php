@@ -1794,6 +1794,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_server_jar_missing(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-server-jar-missing.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_version_range_dependency(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-version-range-dependency.log');
