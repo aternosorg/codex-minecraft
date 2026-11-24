@@ -1574,6 +1574,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_entrypoint_exception_in_stage(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-entrypoint-exception-in-stage.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_entrypoint_exception(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-entrypoint-exception.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_incompatible_minecraft_version(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-incompatible-minecraft-version.log');
