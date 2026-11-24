@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Forge;
 
 use Aternos\Codex\Detective\MultiPatternDetector;
-use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
+use Aternos\Codex\Detective\SinglePatternDetector;
 use Aternos\Codex\Minecraft\Log\Type\ClientLogTypeInterface;
 
 class ForgeClientLog extends ForgeLog implements ClientLogTypeInterface
@@ -15,14 +15,16 @@ class ForgeClientLog extends ForgeLog implements ClientLogTypeInterface
     {
         return [
             (new MultiPatternDetector())
-                ->addPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: ModLauncher running: .*--fml\.forgeVersion/m')
-                ->addPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: Launching target \'(fml|forge)client\' with arguments/m'),
+                ->addPattern('/' . static::MAIN_INFO_PREFIX . 'ModLauncher running: .*--fml\.forgeVersion/m')
+                ->addPattern('/' . static::MAIN_INFO_PREFIX . 'Launching target \'(fml|forge)client\' with arguments/m'),
+            // Forge 1.20.2 and newer, independent of the version name the launcher passes and of the Modrinth App's line format
+            // [17:55:07] [main/INFO]: Launching target 'forge_client' with arguments [--version, 26.3, ...
+            // [23:18:07] [main] [cpw.mods.modlauncher.LaunchServiceHandler/INFO]: Launching target 'forge_client' with arguments [--version, 26.3, ...
+            new SinglePatternDetector()
+                ->setPattern('/' . static::MAIN_INFO_PREFIX . 'Launching target \'forge_client\' with arguments/m'),
             (new MultiPatternDetector())
-                ->addPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: ModLauncher running: .*--version, (?:' . VanillaVersionInformation::getVersionPattern() . '-)?forge-/m')
-                ->addPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: Launching target \'forge_client\' with arguments/m'),
-            (new MultiPatternDetector())
-                ->addPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: Forge Mod Loader version/m')
-                ->addPattern('/^\[[^\]]+\] \[main\/INFO\]( \[[^\]]+\])?: Launching wrapped minecraft \{net\.minecraft\.client/m')
+                ->addPattern('/' . static::MAIN_INFO_PREFIX . 'Forge Mod Loader version/m')
+                ->addPattern('/' . static::MAIN_INFO_PREFIX . 'Launching wrapped minecraft \{net\.minecraft\.client/m'),
         ];
     }
 }

@@ -1,0 +1,916 @@
+{
+    "id": "paper\/server",
+    "name": "Paper",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Paper 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting org.bukkit.craftbukkit.Main"
+                },
+                {
+                    "number": 2,
+                    "content": "2026-11-11T15:22:37.552555Z ServerMain WARN Advanced terminal features are not available in this environment"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:37 INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[16:22:37 INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.3+1-LTS-2; Oracle Corporation null) on Mac OS X 27.2.1 (aarch64)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:37 INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[16:22:37 INFO]: [bootstrap] Loading Paper 26.3-248-main@0727243 (2026-11-10T11:35:52Z) for Minecraft 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:37 INFO]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[16:22:37 INFO]: [PluginInitializerManager] Initializing plugins..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:37 INFO]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[16:22:37 INFO]: [PluginInitializerManager] Initialized 0 plugins"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:22:38 WARN]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[16:22:38 WARN]: [oshi.software.os.mac.MacOperatingSystem] Unable to parse version 27.2 to a codename."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:38 INFO]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[16:22:38 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39 INFO]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[16:22:39 INFO]: [com.destroystokyo.paper.profile.PaperServicesDiscoveryService] Environment: Environment[discoveryUrl=https:\/\/discovery.minecraftservices.com\/minecraft\/client, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39 INFO]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[16:22:39 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 160,1ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39 INFO]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[16:22:39 INFO]: Loaded 1866 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39 INFO]:",
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "[16:22:39 INFO]: Starting minecraft server version 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39 INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[16:22:39 INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39 INFO]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[16:22:39 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39 INFO]:",
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "[16:22:39 INFO]: [spark] This server bundles the spark profiler. For more information please visit https:\/\/docs.papermc.io\/paper\/profiling"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39 INFO]:",
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "[16:22:39 INFO]: Server Ping Player Sample Count: 12"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39 INFO]:",
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "[16:22:39 INFO]: Using 4 threads for Netty based IO"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39 INFO]:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "[16:22:39 INFO]: [ca.spottedleaf.moonrise.common.util.FMA] FMA supported: true for all ARMv8 platforms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39 INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[16:22:39 INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I\/O threads"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39 INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[16:22:39 INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39 INFO]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[16:22:39 INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:39 INFO]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[16:22:39 INFO]: Starting Minecraft server on *:25599"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[16:22:40 INFO]: Paper: Using libdeflate (macOS ARM64 \/ Apple Silicon) compression from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[16:22:40 INFO]: Paper: Using native (macOS ARM64 \/ Apple Silicon) cipher from Velocity."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:22:40 WARN]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[16:22:40 WARN]: Server permissions file permissions.yml is not valid YAML: while parsing a flow sequence"
+                },
+                {
+                    "number": 26,
+                    "content": " in 'reader', line 1, column 4:"
+                },
+                {
+                    "number": 27,
+                    "content": "    a: [unclosed"
+                },
+                {
+                    "number": 28,
+                    "content": "       ^"
+                },
+                {
+                    "number": 29,
+                    "content": "expected ',' or ']', but got :"
+                },
+                {
+                    "number": 30,
+                    "content": " in 'reader', line 2, column 4:"
+                },
+                {
+                    "number": 31,
+                    "content": "      b: : c"
+                },
+                {
+                    "number": 32,
+                    "content": "       ^"
+                },
+                {
+                    "number": 33,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:22:40 WARN]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[16:22:40 WARN]: **** SERVER IS RUNNING IN OFFLINE\/INSECURE MODE!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:22:40 WARN]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[16:22:40 WARN]: The server will make no attempt to authenticate usernames. Beware."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:22:40 WARN]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[16:22:40 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[16:22:40 WARN]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[16:22:40 WARN]: To change this, set \"online-mode\" to \"true\" in the server.properties file."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[16:22:40 INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[16:22:40 INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[16:22:40 INFO]: Preparing spawn area: 100%"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[16:22:40 INFO]: Prepared spawn area in 1 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[16:22:40 INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[16:22:40 INFO]: Prepared spawn area in 0 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "[16:22:40 INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "[16:22:40 INFO]: Prepared spawn area in 0 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "[16:22:40 INFO]: Done preparing level \"world\" (0.113s)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "[16:22:40 INFO]: [spark] Starting background profiler..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "[16:22:40 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "[16:22:40 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "[16:22:40 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 51,
+                    "content": "[16:22:40 INFO]: Running delayed init tasks"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:40 INFO]:",
+            "lines": [
+                {
+                    "number": 52,
+                    "content": "[16:22:40 INFO]: Done (3.223s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "[16:22:41 INFO]: System chat: Stopping the server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "[16:22:41 INFO]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 55,
+                    "content": "[16:22:41 INFO]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "[16:22:41 INFO]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "[16:22:41 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0,00s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Waiting 60s for chunk I\/O to halt for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Halted I\/O scheduler for world 'minecraft:overworld'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "[16:22:41 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0,00s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Waiting 60s for chunk I\/O to halt for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Halted I\/O scheduler for world 'minecraft:the_nether'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "[16:22:41 INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0,00s"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Waiting 60s for chunk I\/O to halt for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "[16:22:41 INFO]: [ChunkHolderManager] Halted I\/O scheduler for world 'minecraft:the_end'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "[16:22:41 INFO]: Waiting for all RegionFile I\/O tasks to complete..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "[16:22:41 INFO]: All RegionFile I\/O tasks to complete"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "[16:22:41 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[16:22:41 INFO]:",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "[16:22:41 INFO]: [MoonriseCommon] Awaiting termination of I\/O pool for up to 60s..."
+                },
+                {
+                    "number": 82,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The permissions file 'permissions.yml' is not valid YAML. The server ignores all permissions in it.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[16:22:40 WARN]:",
+                    "lines": [
+                        {
+                            "number": 25,
+                            "content": "[16:22:40 WARN]: Server permissions file permissions.yml is not valid YAML: while parsing a flow sequence"
+                        },
+                        {
+                            "number": 26,
+                            "content": " in 'reader', line 1, column 4:"
+                        },
+                        {
+                            "number": 27,
+                            "content": "    a: [unclosed"
+                        },
+                        {
+                            "number": 28,
+                            "content": "       ^"
+                        },
+                        {
+                            "number": 29,
+                            "content": "expected ',' or ']', but got :"
+                        },
+                        {
+                            "number": 30,
+                            "content": " in 'reader', line 2, column 4:"
+                        },
+                        {
+                            "number": 31,
+                            "content": "      b: : c"
+                        },
+                        {
+                            "number": 32,
+                            "content": "       ^"
+                        },
+                        {
+                            "number": 33,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file 'permissions.yml'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[16:22:39 INFO]:",
+                    "lines": [
+                        {
+                            "number": 12,
+                            "content": "[16:22:39 INFO]: Starting minecraft server version 26.3"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            }
+        ]
+    }
+}

@@ -1,0 +1,145 @@
+[09:24:10] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.5
+ - Mod 'Sounds' (sounds) 2.4.23+edge recommends any version of rsls, which is missing!
+	- fabric-api 0.141.3+1.21.11
+	- fabricloader 0.18.5
+	   \-- mixinextras 0.5.3
+	- java 21
+	- minecraft 1.21.11
+	- subtle_effects 1.14.0
+[09:24:15] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/********/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[09:24:15] [main/INFO]: Compatibility level set to JAVA_17
+[09:24:15] [main/INFO]: Compatibility level set to JAVA_21
+[09:24:21] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[09:24:22] [Datafixer Bootstrap/ERROR]: ETF_load: Config was null, using defaults
+[09:24:23] [main/ERROR]: ETF_load: Config was null, using defaults
+[09:24:23] [main/INFO]: Loading Generated Config Loaders...
+[09:24:23] [main/INFO]: Loaded 'neruina'
+[09:24:23] [main/WARN]: Method overwrite conflict for equals in moonrise.mixins.json:blockstate_propertyaccess.PropertyMixin from mod moonrise, previously written by org.embeddedt.modernfix.common.mixin.perf.model_optimizations.PropertyMixin. Skipping method.
+[09:24:23] [Datafixer Bootstrap/INFO]: 287 Datafixer optimizations took 743 milliseconds
+[09:24:23] [main/INFO]: Instancing error handler class dev.isxander.debugify.error.DebugifyErrorHandler
+[09:24:23] [main/INFO]: Instancing error handler class gg.essential.mixins.MixinErrorHandler
+[09:24:23] [main/ERROR]: Mixin apply for mod subtle_effects failed subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> net.minecraft.class_1297: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException @At("INVOKE") on net/minecraft/class_1297::storeFluidPairHeight with priority 1000 cannot inject into net/minecraft/class_1297::method_5692(Lnet/minecraft/class_6862;D)Z merged by ca.spottedleaf.moonrise.fabric.mixin.collisions.EntityMixin with priority 1000 [INJECT_PREPARE Applicator Phase -> subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> Prepare Injections -> handler$hal000$subtle_effects$storeFluidPairHeight(Lnet/minecraft/class_6862;DLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/class_3610;Lcom/llamalad7/mixinextras/sugar/ref/LocalRef;)V -> Prepare ->  -> { target: method_5692(Lnet/minecraft/class_6862;D)Z }]
+org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: @At("INVOKE") on net/minecraft/class_1297::storeFluidPairHeight with priority 1000 cannot inject into net/minecraft/class_1297::method_5692(Lnet/minecraft/class_6862;D)Z merged by ca.spottedleaf.moonrise.fabric.mixin.collisions.EntityMixin with priority 1000 [INJECT_PREPARE Applicator Phase -> subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> Prepare Injections -> handler$hal000$subtle_effects$storeFluidPairHeight(Lnet/minecraft/class_6862;DLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/class_3610;Lcom/llamalad7/mixinextras/sugar/ref/LocalRef;)V -> Prepare ->  -> { target: method_5692(Lnet/minecraft/class_6862;D)Z }]
+	at org.spongepowered.asm.mixin.injection.code.Injector.findTargetNodes(Injector.java:312)
+	at org.spongepowered.asm.mixin.injection.code.Injector.find(Injector.java:248)
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.prepare(InjectionInfo.java:475)
+	at knot//com.llamalad7.mixinextras.wrapper.InjectorWrapperImpl.prepare(InjectorWrapperImpl.java:56)
+	at knot//com.llamalad7.mixinextras.sugar.impl.SugarWrapperImpl.prepare(SugarWrapperImpl.java:70)
+	at knot//com.llamalad7.mixinextras.wrapper.WrapperInjectionInfo.prepare(WrapperInjectionInfo.java:64)
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1404)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:731)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:315)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:352)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.minecraft.Bootstrap.initialize(Bootstrap.java:57)
+	at net.minecraft.client.main.Main.main(Main.java:135)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+[09:24:24] [main/INFO]: Instancing error handler class dev.isxander.debugify.error.DebugifyErrorHandler
+[09:24:24] [main/INFO]: Instancing error handler class gg.essential.mixins.MixinErrorHandler
+[09:24:24] [main/ERROR]: Mixin apply for mod subtle_effects failed subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> net.minecraft.class_1297: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException @At("INVOKE") on net/minecraft/class_1297::storeFluidPairHeight with priority 1000 cannot inject into net/minecraft/class_1297::method_5692(Lnet/minecraft/class_6862;D)Z merged by ca.spottedleaf.moonrise.fabric.mixin.collisions.EntityMixin with priority 1000 [INJECT_PREPARE Applicator Phase -> subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> Prepare Injections -> handler$hal000$subtle_effects$storeFluidPairHeight(Lnet/minecraft/class_6862;DLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/class_3610;Lcom/llamalad7/mixinextras/sugar/ref/LocalRef;)V -> Prepare ->  -> { target: method_5692(Lnet/minecraft/class_6862;D)Z }]
+org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: @At("INVOKE") on net/minecraft/class_1297::storeFluidPairHeight with priority 1000 cannot inject into net/minecraft/class_1297::method_5692(Lnet/minecraft/class_6862;D)Z merged by ca.spottedleaf.moonrise.fabric.mixin.collisions.EntityMixin with priority 1000 [INJECT_PREPARE Applicator Phase -> subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> Prepare Injections -> handler$hal000$subtle_effects$storeFluidPairHeight(Lnet/minecraft/class_6862;DLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/class_3610;Lcom/llamalad7/mixinextras/sugar/ref/LocalRef;)V -> Prepare ->  -> { target: method_5692(Lnet/minecraft/class_6862;D)Z }]
+	at org.spongepowered.asm.mixin.injection.code.Injector.findTargetNodes(Injector.java:312)
+	at org.spongepowered.asm.mixin.injection.code.Injector.find(Injector.java:248)
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.prepare(InjectionInfo.java:475)
+	at knot//com.llamalad7.mixinextras.wrapper.InjectorWrapperImpl.prepare(InjectorWrapperImpl.java:56)
+	at knot//com.llamalad7.mixinextras.sugar.impl.SugarWrapperImpl.prepare(SugarWrapperImpl.java:70)
+	at knot//com.llamalad7.mixinextras.wrapper.WrapperInjectionInfo.prepare(WrapperInjectionInfo.java:64)
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1404)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:731)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:315)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:352)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at knot//dev.yumi.mc.core.api.CrashReportEvents.lambda$static$5(CrashReportEvents.java:76)
+	at knot//dev.yumi.commons.event.Event.update(Event.java:287)
+	at knot//dev.yumi.commons.event.Event.<init>(Event.java:173)
+	at knot//dev.yumi.commons.event.EventManager.create(EventManager.java:127)
+	at knot//dev.yumi.mc.core.api.CrashReportEvents.<clinit>(CrashReportEvents.java:74)
+	at net.minecraft.util.SystemDetails.handler$hkm000$yumi_mc_core$yumi$onInit(SystemDetails.java:1031)
+	at net.minecraft.util.SystemDetails.<init>(SystemDetails.java:64)
+	at net.minecraft.util.crash.CrashReport.<init>(CrashReport.java:35)
+	at net.minecraft.util.crash.CrashReport.create(CrashReport.java:225)
+	at net.minecraft.client.main.Main.main(Main.java:204)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+[09:24:24] [main/ERROR]: Minecraft has crashed!
+net.fabricmc.loader.impl.FormattedException: java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_1297 failed
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:63)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:516)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+Caused by: java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_1297 failed
+	at knot//dev.yumi.mc.core.api.CrashReportEvents.lambda$static$5(CrashReportEvents.java:76)
+	at knot//dev.yumi.commons.event.Event.update(Event.java:287)
+	at knot//dev.yumi.commons.event.Event.<init>(Event.java:173)
+	at knot//dev.yumi.commons.event.EventManager.create(EventManager.java:127)
+	at knot//dev.yumi.mc.core.api.CrashReportEvents.<clinit>(CrashReportEvents.java:74)
+	at net.minecraft.util.SystemDetails.handler$hkm000$yumi_mc_core$yumi$onInit(SystemDetails.java:1031)
+	at net.minecraft.util.SystemDetails.<init>(SystemDetails.java:64)
+	at net.minecraft.util.crash.CrashReport.<init>(CrashReport.java:35)
+	at net.minecraft.util.crash.CrashReport.create(CrashReport.java:225)
+	at net.minecraft.client.main.Main.main(Main.java:204)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	... 5 more
+Caused by: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_1297 failed
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:440)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 16 more
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:381)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435)
+	... 20 more
+Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects] from phase [DEFAULT] in config [subtle_effects.fabric.mixins.json] FAILED during APPLY
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:686)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:637)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:368)
+	... 23 more
+Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: @At("INVOKE") on net/minecraft/class_1297::storeFluidPairHeight with priority 1000 cannot inject into net/minecraft/class_1297::method_5692(Lnet/minecraft/class_6862;D)Z merged by ca.spottedleaf.moonrise.fabric.mixin.collisions.EntityMixin with priority 1000 [INJECT_PREPARE Applicator Phase -> subtle_effects.fabric.mixins.json:client.FabricClientEntityMixin from mod subtle_effects -> Prepare Injections -> handler$hal000$subtle_effects$storeFluidPairHeight(Lnet/minecraft/class_6862;DLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/class_3610;Lcom/llamalad7/mixinextras/sugar/ref/LocalRef;)V -> Prepare ->  -> { target: method_5692(Lnet/minecraft/class_6862;D)Z }]
+	at org.spongepowered.asm.mixin.injection.code.Injector.findTargetNodes(Injector.java:312)
+	at org.spongepowered.asm.mixin.injection.code.Injector.find(Injector.java:248)
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.prepare(InjectionInfo.java:475)
+	at knot//com.llamalad7.mixinextras.wrapper.InjectorWrapperImpl.prepare(InjectorWrapperImpl.java:56)
+	at knot//com.llamalad7.mixinextras.sugar.impl.SugarWrapperImpl.prepare(SugarWrapperImpl.java:70)
+	at knot//com.llamalad7.mixinextras.wrapper.WrapperInjectionInfo.prepare(WrapperInjectionInfo.java:64)
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1404)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:731)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:315)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:352)
+	... 23 more

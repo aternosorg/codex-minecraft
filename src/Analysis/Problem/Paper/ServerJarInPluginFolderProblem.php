@@ -26,13 +26,16 @@ class ServerJarInPluginFolderProblem extends PaperProblem
     }
 
     /**
+     * Example: "Error loading plugin: plugins/server.jar appears to be a server jar! Server jars do not belong in the plugin folder."
+     *
      * @inheritDoc
      */
     public static function getPatterns(): array
     {
         return [
             // the path is either relative (plugins/server.jar) or absolute (/srv/plugins/server.jar, C:\server\plugins\server.jar)
-            '/((?:[a-zA-Z]:)?[^\s:][^\n:]*?\.jar) appears to be a server jar! Server jars do not belong in the plugin folder\./'
+            // it always follows ": ", starting it anywhere else makes the pattern scan the rest of the line from every position
+            '/(?<=: )((?:[a-zA-Z]:)?[^\s:][^\n:]*?\.jar) appears to be a server jar! Server jars do not belong in the plugin folder\./'
         ];
     }
 

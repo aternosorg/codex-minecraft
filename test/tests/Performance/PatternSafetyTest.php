@@ -3,11 +3,6 @@
 namespace Aternos\Codex\Minecraft\Test\Performance;
 
 use Aternos\Codex\Analysis\PatternInsightInterface;
-use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\ChunkLoadExceptionProblem;
-use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ClientOnlyModProblem;
-use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem;
-use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModFatalProblem;
-use Aternos\Codex\Minecraft\Analysis\Problem\Paper\ServerJarInPluginFolderProblem;
 use Aternos\Codex\Minecraft\Test\Logs\TestLog;
 use FilesystemIterator;
 use Generator;
@@ -68,19 +63,6 @@ class PatternSafetyTest extends TestCase
         "mod list" => "\t\tmod-name (modid) 1.0.0 ",
         "spaces" => " ",
         "newlines" => "\n",
-    ];
-
-    /**
-     * Patterns that are known to fail on scaled entries or to grow quadratically.
-     * They are reported as incomplete instead of failing, remove a pattern here when fixing it.
-     * Which of them actually fails depends on whether PCRE JIT is enabled.
-     */
-    protected const array KNOWN_UNSAFE_PATTERNS = [
-        ChunkLoadExceptionProblem::class => [0, 1, 2],
-        ClientOnlyModProblem::class => [0],
-        ModDependencyProblem::class => ["loading-failed-exception"],
-        ModFatalProblem::class => ["failed-to-load"],
-        ServerJarInPluginFolderProblem::class => [0],
     ];
 
     /**
@@ -149,8 +131,6 @@ class PatternSafetyTest extends TestCase
     #[DataProvider("providePatterns")]
     public function test_pattern_works_on_scaled_entries(string $class, int|string $patternKey, string $pattern): void
     {
-        $this->skipKnownUnsafePattern($class, $patternKey);
-
         $failures = [];
         foreach (static::getTestLogEntries() as $logPath => $entries) {
             foreach ($entries as $entryIndex => $entry) {
@@ -173,8 +153,6 @@ class PatternSafetyTest extends TestCase
     #[DataProvider("providePatterns")]
     public function test_pattern_time_grows_linearly(string $class, int|string $patternKey, string $pattern): void
     {
-        $this->skipKnownUnsafePattern($class, $patternKey);
-
         $failures = [];
         foreach (static::INPUT_FRAGMENTS as $fragmentName => $fragment) {
             $smallInput = str_repeat($fragment, intdiv(static::SMALL_INPUT_SIZE, strlen($fragment)));
@@ -214,18 +192,6 @@ class PatternSafetyTest extends TestCase
             "Pattern %s fails on %s with '%s', so the analysis silently misses it.",
             $pattern, $subjectDescription, preg_last_error_msg()
         );
-    }
-
-    /**
-     * @param class-string<PatternInsightInterface> $class
-     * @param int|string $patternKey
-     * @return void
-     */
-    protected function skipKnownUnsafePattern(string $class, int|string $patternKey): void
-    {
-        if (in_array($patternKey, static::KNOWN_UNSAFE_PATTERNS[$class] ?? [], true)) {
-            $this->markTestIncomplete("Pattern " . $patternKey . " of " . $class . " is known to be unsafe on long entries.");
-        }
     }
 
     /**

@@ -9,6 +9,7 @@ use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformati
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ClientOnlyModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\FmlConfirmProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\LanguageProviderVersionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Forge\MixinApplyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\MissingDatapackModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ModDuplicateProblem;
@@ -19,12 +20,15 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Forge\MultipleModulesExportProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\PTRLibDependencyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldMissingModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\WorldModVersionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OutOfMemoryErrorProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\ModOutOfMemoryErrorProblem;
 
 class ForgeAnalyser extends VanillaAnalyser
 {
     public function __construct()
     {
         parent::__construct();
+        $this->overridePossibleInsightClass(OutOfMemoryErrorProblem::class, ModOutOfMemoryErrorProblem::class);
         $this->addPossibleInsightClass(ForgeVersionInformation::class);
         $this->overridePossibleInsightClass(VanillaVersionInformation::class, ForgeVanillaVersionInformation::class);
         $this->addPossibleInsightClass(ForgeJavaVersionInformation::class);
@@ -42,5 +46,6 @@ class ForgeAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(LanguageProviderVersionProblem::class);
         $this->addPossibleInsightClass(MissingDatapackModProblem::class);
         $this->addPossibleInsightClass(ClientOnlyModProblem::class);
+        $this->addPossibleInsightClass(MixinApplyProblem::class);
     }
 }

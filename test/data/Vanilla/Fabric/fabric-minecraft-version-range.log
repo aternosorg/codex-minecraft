@@ -1,0 +1,28 @@
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[18:58:00] [main/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1
+[18:58:00] [main/INFO]: Mappings not present!
+[18:58:00] [main/WARN]: Mod resolution failed
+[18:58:00] [main/INFO]: Immediate reason: [HARD_DEP_INCOMPATIBLE_PRESELECTED foovcany 1.0.0 {depends minecraft @ [1.x]}, ROOT_FORCELOAD_SINGLE foovcany 1.0.0]
+[18:58:00] [main/INFO]: Reason: [HARD_DEP foovcany 1.0.0 {depends minecraft @ [1.x]}, HARD_DEP foovclist 1.0.0 {depends minecraft @ [26.1 || 26.2]}, HARD_DEP foovcmax 1.0.0 {depends minecraft @ [<=26.1]}, HARD_DEP foovcmin 1.0.0 {depends minecraft @ [>=26.4]}, HARD_DEP foovcpatch 1.0.0 {depends minecraft @ [~26.1]}]
+[18:58:00] [main/INFO]: Fix: add [], remove [], replace [[minecraft 26.3] -> add:minecraft 26.1 ([[26.1,26.1]]), [foovcany 1.0.0] -> add:foovcany 1 ([(-∞,∞)]), [foovcmin 1.0.0] -> add:foovcmin 1 ([(-∞,∞)])]
+[18:58:00] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Replace 'Minecraft' (minecraft) 26.3 with version 26.1.
+	 - Replace mod 'Foo3' (foovcany) 1.0.0 with any version that is compatible with:
+		 - minecraft, version 26.1
+	 - Replace mod 'Foo' (foovcmin) 1.0.0 with any version that is compatible with:
+		 - minecraft, version 26.1
+More details:
+	 - Mod 'Foo3' (foovcany) 1.0.0 requires any 1.x version of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!
+	 - Mod 'Foo5' (foovclist) 1.0.0 requires version 26.1 or version 26.2 of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!
+	 - Mod 'Foo4' (foovcmax) 1.0.0 requires version 26.1 or earlier of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!
+	 - Mod 'Foo' (foovcmin) 1.0.0 requires version 26.4 or later of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!
+	 - Mod 'Foo2' (foovcpatch) 1.0.0 requires any version between 26.1 (inclusive) and 26.2- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 26.3!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)

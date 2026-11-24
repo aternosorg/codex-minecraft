@@ -986,7 +986,31 @@
         }
     ],
     "analysis": {
-        "problems": [],
+        "problems": [
+            {
+                "message": "The server ran out of memory ('Metaspace').",
+                "counter": 2,
+                "entry": {
+                    "level": 10,
+                    "time": null,
+                    "prefix": null,
+                    "lines": [
+                        {
+                            "number": 7,
+                            "content": "java.util.concurrent.CompletionException: java.lang.OutOfMemoryError: Metaspace"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Give the server more memory."
+                    },
+                    {
+                        "message": "Remove plugins that use a lot of memory."
+                    }
+                ]
+            }
+        ],
         "information": [
             {
                 "message": "Minecraft version: 1.18.1",

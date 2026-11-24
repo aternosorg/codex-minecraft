@@ -1,0 +1,48 @@
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[19:00:25] [main/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1
+[19:00:25] [main/INFO]: Mappings not present!
+[19:00:25] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: net.fabricmc.loader.impl.discovery.ModResolutionException: Mod discovery failed!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:63)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:209)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
+Caused by: net.fabricmc.loader.impl.discovery.ModResolutionException: Mod discovery failed!
+	at net.fabricmc.loader.impl.discovery.ModDiscoverer.lambda$discoverMods$1(ModDiscoverer.java:155)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.discovery.ModDiscoverer.discoverMods(ModDiscoverer.java:155)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.setup(FabricLoaderImpl.java:227)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:204)
+	... 5 more
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: Error analyzing [/srv/server/mods/html.jar]: java.util.zip.ZipException: zip END header not found
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.getException(ForkJoinTask.java:562)
+	at java.base/java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:580)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:1022)
+	at net.fabricmc.loader.impl.discovery.ModDiscoverer.discoverMods(ModDiscoverer.java:152)
+	... 7 more
+Caused by: java.lang.RuntimeException: Error analyzing [/srv/server/mods/html.jar]: java.util.zip.ZipException: zip END header not found
+	at net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.compute(ModDiscoverer.java:300)
+	at net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.compute(ModDiscoverer.java:249)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:110)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1693)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1701)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1542)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1506)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:704)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:204)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:150)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:164)
+	at net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.computeJarFile(ModDiscoverer.java:321)
+	at net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.compute(ModDiscoverer.java:290)
+	... 6 more

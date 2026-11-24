@@ -5,6 +5,13 @@ namespace Aternos\Codex\Minecraft\Analyser;
 use Aternos\Codex\Analysis\PatternInsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\AmbiguousPluginNameProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\ChunkLoadExceptionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\HelpYmlInvalidProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\EnumCompatibilityModeProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\DefaultWorldProviderProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\LegacyPluginConversionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\LegacyPluginProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\MapRendererProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PermissionsFileProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\AuthMeShutdownProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\MultiverseLoadProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\Plugin\PermissionsExConfigProblem;
@@ -17,7 +24,10 @@ use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginLoadProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginRuntimeProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\UnsupportedApiVersionProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\UnsupportedClassVersionProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\WatchdogProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\WorldDuplicateProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OutOfMemoryErrorProblem;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginOutOfMemoryErrorProblem;
 
 class BukkitAnalyser extends VanillaAnalyser
 {
@@ -42,6 +52,14 @@ class BukkitAnalyser extends VanillaAnalyser
             PluginDependenciesProblem::class,
             UnsupportedApiVersionProblem::class,
             UnsupportedClassVersionProblem::class,
+            LegacyPluginConversionProblem::class,
+            EnumCompatibilityModeProblem::class,
+            DefaultWorldProviderProblem::class,
+            LegacyPluginProblem::class,
+            HelpYmlInvalidProblem::class,
+            MapRendererProblem::class,
+            PermissionsFileProblem::class,
+            WatchdogProblem::class,
         ];
     }
 
@@ -52,5 +70,6 @@ class BukkitAnalyser extends VanillaAnalyser
         foreach (static::getInsightClasses() as $insightClass) {
             $this->addPossibleInsightClass($insightClass);
         }
+        $this->overridePossibleInsightClass(OutOfMemoryErrorProblem::class, PluginOutOfMemoryErrorProblem::class);
     }
 }
