@@ -1,0 +1,587 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Fabric 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:25] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[19:03:25] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:25] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[19:03:25] [main\/INFO]: Mappings not present!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:25] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[19:03:25] [main\/INFO]: Loading 4 mods:"
+                },
+                {
+                    "number": 5,
+                    "content": "\t- fabricloader 0.20.1"
+                },
+                {
+                    "number": 6,
+                    "content": "\t   \\-- mixinextras 0.5.5"
+                },
+                {
+                    "number": 7,
+                    "content": "\t- java 25"
+                },
+                {
+                    "number": 8,
+                    "content": "\t- minecraft 26.3"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:03:25] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[19:03:25] [main\/WARN]: Found 3 non-fabric mods:"
+                },
+                {
+                    "number": 10,
+                    "content": "\t- plainlib-1.0.jar"
+                },
+                {
+                    "number": 11,
+                    "content": "\t- EssentialsX-2.21.0.jar"
+                },
+                {
+                    "number": 12,
+                    "content": "\t- jei-1.21.1-neoforge-19.21.0.247.jar"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:25] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "[19:03:25] [main\/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:\/srv\/server\/libraries\/net\/fabricmc\/sponge-mixin\/0.17.5+mixin.0.8.7\/sponge-mixin-0.17.5+mixin.0.8.7.jar Service=Knot\/Fabric Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:03:25] [main\/WARN]:",
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "[19:03:25] [main\/WARN]: Unable to parse version 27.2 to a codename."
+                },
+                {
+                    "number": 15,
+                    "content": "WARNING: A terminally deprecated method in sun.misc.Unsafe has been called"
+                },
+                {
+                    "number": 16,
+                    "content": "WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.joml.MemUtil$MemUtilUnsafe (file:\/srv\/server\/libraries\/org\/joml\/joml\/1.10.9\/joml-1.10.9.jar)"
+                },
+                {
+                    "number": 17,
+                    "content": "WARNING: Please consider reporting this to the maintainers of class org.joml.MemUtil$MemUtilUnsafe"
+                },
+                {
+                    "number": 18,
+                    "content": "WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:28] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 19,
+                    "content": "[19:03:28] [main\/INFO]: Environment: Environment[discoveryUrl=https:\/\/discovery.minecraftservices.com\/minecraft\/client, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:28] [Worker-Main-14\/INFO]:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "[19:03:28] [Worker-Main-14\/INFO]: Loaded 1866 advancements"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:28] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "[19:03:28] [Server thread\/INFO]: Starting minecraft server version 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:28] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 22,
+                    "content": "[19:03:28] [Server thread\/INFO]: Loading properties"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:28] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "[19:03:28] [Server thread\/INFO]: Default game type: SURVIVAL"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:28] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "[19:03:28] [Server thread\/INFO]: Generating keypair"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:28] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "[19:03:28] [Server thread\/INFO]: Starting Minecraft server on *:25653"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:03:29] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "[19:03:29] [Server thread\/WARN]: **** SERVER IS RUNNING IN OFFLINE\/INSECURE MODE!"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:03:29] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "[19:03:29] [Server thread\/WARN]: The server will make no attempt to authenticate usernames. Beware."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:03:29] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "[19:03:29] [Server thread\/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[19:03:29] [Server thread\/WARN]:",
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "[19:03:29] [Server thread\/WARN]: To change this, set \"online-mode\" to \"true\" in the server.properties file."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "[19:03:29] [Server thread\/INFO]: Preparing level \"world\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "[19:03:29] [Server thread\/INFO]: Loading 0 persistent chunks..."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "[19:03:29] [Server thread\/INFO]: Time elapsed: 13 ms"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "[19:03:29] [Server thread\/INFO]: Done (0.130s)! For help, type \"help\""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "[19:03:29] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[19:03:29] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:29] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[19:03:29] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_end"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:31] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[19:03:31] [Server thread\/INFO]: System chat: Stopping the server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:31] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[19:03:31] [Server thread\/INFO]: Stopping server"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:31] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[19:03:31] [Server thread\/INFO]: Saving players"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:31] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[19:03:31] [Server thread\/INFO]: Saving worlds"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:31] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[19:03:31] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:overworld"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:31] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[19:03:31] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_nether"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:03:31] [Server thread\/INFO]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[19:03:31] [Server thread\/INFO]: Saving chunks for level 'ServerLevel[world]'\/minecraft:the_end"
+                },
+                {
+                    "number": 44,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The file 'plainlib-1.0.jar' in the mods folder is not a Fabric mod and is ignored by Fabric Loader.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[19:03:25] [main\/WARN]:",
+                    "lines": [
+                        {
+                            "number": 9,
+                            "content": "[19:03:25] [main\/WARN]: Found 3 non-fabric mods:"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\t- plainlib-1.0.jar"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t- EssentialsX-2.21.0.jar"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\t- jei-1.21.1-neoforge-19.21.0.247.jar"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file 'mods\/plainlib-1.0.jar'."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'plainlib-1.0.jar'."
+                    }
+                ]
+            },
+            {
+                "message": "The file 'EssentialsX-2.21.0.jar' in the mods folder is not a Fabric mod and is ignored by Fabric Loader.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[19:03:25] [main\/WARN]:",
+                    "lines": [
+                        {
+                            "number": 9,
+                            "content": "[19:03:25] [main\/WARN]: Found 3 non-fabric mods:"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\t- plainlib-1.0.jar"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t- EssentialsX-2.21.0.jar"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\t- jei-1.21.1-neoforge-19.21.0.247.jar"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file 'mods\/EssentialsX-2.21.0.jar'."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'EssentialsX-2.21.0.jar'."
+                    }
+                ]
+            },
+            {
+                "message": "The file 'jei-1.21.1-neoforge-19.21.0.247.jar' in the mods folder is not a Fabric mod and is ignored by Fabric Loader.",
+                "counter": 1,
+                "entry": {
+                    "level": 4,
+                    "time": null,
+                    "prefix": "[19:03:25] [main\/WARN]:",
+                    "lines": [
+                        {
+                            "number": 9,
+                            "content": "[19:03:25] [main\/WARN]: Found 3 non-fabric mods:"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\t- plainlib-1.0.jar"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\t- EssentialsX-2.21.0.jar"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\t- jei-1.21.1-neoforge-19.21.0.247.jar"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file 'mods\/jei-1.21.1-neoforge-19.21.0.247.jar'."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'jei-1.21.1-neoforge-19.21.0.247.jar'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 2,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[19:03:25] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[19:03:25] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            },
+            {
+                "message": "Fabric loader version: 0.20.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[19:03:25] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[19:03:25] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.20.1"
+            },
+            {
+                "message": "Java version: 25",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[19:03:25] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "[19:03:25] [main\/INFO]: Loading 4 mods:"
+                        },
+                        {
+                            "number": 5,
+                            "content": "\t- fabricloader 0.20.1"
+                        },
+                        {
+                            "number": 6,
+                            "content": "\t   \\-- mixinextras 0.5.5"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\t- java 25"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\t- minecraft 26.3"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "25"
+            }
+        ]
+    }
+}
