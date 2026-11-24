@@ -1594,6 +1594,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_entrypoint_exception_in_stage(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-entrypoint-exception-in-stage.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_entrypoint_exception(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-entrypoint-exception.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_incompatible_minecraft_version(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-incompatible-minecraft-version.log');
@@ -1657,6 +1677,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_fabric_java8(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-java8.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_language_adapter_not_found(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-language-adapter-not-found.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1774,6 +1804,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_mixin_config_error(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-mixin-config-error.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_mixin_error(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-mixin-error.log');
@@ -1784,9 +1824,59 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_mod_json_invalid_id(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-mod-json-invalid-id.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mod_json_malformed(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-mod-json-malformed.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_mod_names(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-mod-names.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mod_payload_decode_failed(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-mod-payload-decode-failed.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mod_payload_encode_failed(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-mod-payload-encode-failed.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mod_shares_builtin_id(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-mod-shares-builtin-id.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1807,6 +1897,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_fabric_pre_release(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-pre-release.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_server_jar_missing(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-server-jar-missing.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 

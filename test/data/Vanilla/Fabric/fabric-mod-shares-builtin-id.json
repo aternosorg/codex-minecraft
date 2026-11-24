@@ -1,0 +1,185 @@
+{
+    "id": "fabric\/server",
+    "name": "Fabric",
+    "type": "Server Log",
+    "version": "26.3",
+    "title": "Fabric 26.3 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:00:24] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[19:00:24] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[19:00:24] [main\/INFO]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[19:00:24] [main\/INFO]: Mappings not present!"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[19:00:24] [main\/ERROR]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[19:00:24] [main\/ERROR]: Incompatible mods found!"
+                },
+                {
+                    "number": 5,
+                    "content": "net.fabricmc.loader.impl.FormattedException: Mods share ID with builtin mod minecraft 26.3: [minecraft 26.3]"
+                },
+                {
+                    "number": 6,
+                    "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)"
+                },
+                {
+                    "number": 7,
+                    "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207)"
+                },
+                {
+                    "number": 8,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)"
+                },
+                {
+                    "number": 9,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)"
+                },
+                {
+                    "number": 10,
+                    "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                },
+                {
+                    "number": 11,
+                    "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                },
+                {
+                    "number": 12,
+                    "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                },
+                {
+                    "number": 13,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "A file in the mods folder uses the mod ID 'minecraft', which is reserved for the game or Fabric Loader itself.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[19:00:24] [main\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 4,
+                            "content": "[19:00:24] [main\/ERROR]: Incompatible mods found!"
+                        },
+                        {
+                            "number": 5,
+                            "content": "net.fabricmc.loader.impl.FormattedException: Mods share ID with builtin mod minecraft 26.3: [minecraft 26.3]"
+                        },
+                        {
+                            "number": 6,
+                            "content": "\tat net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)"
+                        },
+                        {
+                            "number": 7,
+                            "content": "\tat net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207)"
+                        },
+                        {
+                            "number": 8,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)"
+                        },
+                        {
+                            "number": 9,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)"
+                        },
+                        {
+                            "number": 10,
+                            "content": "\tat net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)"
+                        },
+                        {
+                            "number": 11,
+                            "content": "\tat net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 12,
+                            "content": "\tat net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)"
+                        },
+                        {
+                            "number": 13,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the file with the mod ID 'minecraft' from the mods folder, for example a copy of the Minecraft server jar."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[19:00:24] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[19:00:24] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            },
+            {
+                "message": "Fabric loader version: 0.20.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[19:00:24] [main\/INFO]:",
+                    "lines": [
+                        {
+                            "number": 2,
+                            "content": "[19:00:24] [main\/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.20.1"
+            }
+        ]
+    }
+}
