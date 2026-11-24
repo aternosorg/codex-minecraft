@@ -1774,6 +1774,26 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_mod_payload_decode_failed(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-mod-payload-decode-failed.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mod_payload_encode_failed(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-mod-payload-encode-failed.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_fabric_non_fabric_mods(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-non-fabric-mods.log');
