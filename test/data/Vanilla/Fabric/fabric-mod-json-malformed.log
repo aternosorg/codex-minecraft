@@ -1,0 +1,40 @@
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[19:00:49] [main/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1
+[19:00:49] [main/INFO]: Mappings not present!
+[19:00:49] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: net.fabricmc.loader.impl.discovery.ModResolutionException: Mod discovery failed!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:63)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:209)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
+Caused by: net.fabricmc.loader.impl.discovery.ModResolutionException: Mod discovery failed!
+	at net.fabricmc.loader.impl.discovery.ModDiscoverer.lambda$discoverMods$1(ModDiscoverer.java:155)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.discovery.ModDiscoverer.discoverMods(ModDiscoverer.java:155)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.setup(FabricLoaderImpl.java:227)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:204)
+	... 5 more
+Caused by: net.fabricmc.loader.impl.metadata.ParseMetadataException: Error reading fabric.mod.json file for mod at /srv/server/mods/malformed.jar: java.io.EOFException: End of input at line 3 column 1 path $.depends.a
+	at net.fabricmc.loader.impl.metadata.ModMetadataParser.parseMetadata(ModMetadataParser.java:56)
+	at net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.parseMetadata(ModDiscoverer.java:510)
+	at net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.computeJarFile(ModDiscoverer.java:332)
+	at net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.compute(ModDiscoverer.java:290)
+	at net.fabricmc.loader.impl.discovery.ModDiscoverer$ModScanTask.compute(ModDiscoverer.java:249)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:110)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: java.io.EOFException: End of input at line 3 column 1 path $.depends.a
+	at net.fabricmc.loader.impl.lib.gson.JsonReader.nextNonWhitespace(JsonReader.java:1402)
+	at net.fabricmc.loader.impl.lib.gson.JsonReader.doPeek(JsonReader.java:482)
+	at net.fabricmc.loader.impl.lib.gson.JsonReader.hasNext(JsonReader.java:414)
+	at net.fabricmc.loader.impl.metadata.V1ModMetadataParser.readDependenciesContainer(V1ModMetadataParser.java:443)
+	at net.fabricmc.loader.impl.metadata.V1ModMetadataParser.parse(V1ModMetadataParser.java:151)
+	at net.fabricmc.loader.impl.metadata.ModMetadataParser.readModMetadata(ModMetadataParser.java:141)
+	at net.fabricmc.loader.impl.metadata.ModMetadataParser.readModMetadata(ModMetadataParser.java:104)
+	at net.fabricmc.loader.impl.metadata.ModMetadataParser.parseMetadata(ModMetadataParser.java:44)
+	... 9 more
