@@ -3,8 +3,8 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\DoNothingSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\General\DoNothingSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Mod\ModInstallSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 class MissingDatapackModProblem extends ModProblem

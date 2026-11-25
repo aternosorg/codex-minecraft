@@ -1,7 +1,8 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analysis\Solution;
+namespace Aternos\Codex\Minecraft\Analysis\Solution\General;
 
+use Aternos\Codex\Minecraft\Analysis\Solution\MinecraftSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 class UpdateJavaSolution extends MinecraftSolution

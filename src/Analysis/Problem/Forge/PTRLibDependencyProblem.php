@@ -2,7 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Mod\ModInstallSolution;
 
 class PTRLibDependencyProblem extends UndefinedModDependencyProblem
 {

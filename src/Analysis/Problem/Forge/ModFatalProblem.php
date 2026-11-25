@@ -3,8 +3,8 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallDifferentVersionSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModRemoveSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Mod\ModInstallDifferentVersionSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Mod\ModRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 class ModFatalProblem extends ModProblem

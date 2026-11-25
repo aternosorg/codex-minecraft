@@ -6,7 +6,7 @@ use Aternos\Codex\Analyser\AnalyserInterface;
 use Aternos\Codex\Detective\WeightedSinglePatternDetector;
 use Aternos\Codex\Minecraft\Analyser\ForgeAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaLog;
-use Aternos\Codex\Minecraft\Parser\ForgeParser;
+use Aternos\Codex\Minecraft\Parser\ModLoaderParser;
 use Aternos\Codex\Minecraft\Parser\Parser;
 use Aternos\Codex\Parser\ParserInterface;
 use Aternos\Codex\Parser\PatternParser;
@@ -53,9 +53,9 @@ abstract class ForgeLog extends VanillaLog
      */
     public static function getDefaultParser(): ParserInterface
     {
-        return (new ForgeParser())
+        return (new ModLoaderParser())
             ->setPattern(static::$pattern)
-            ->setMatches([Parser::PREFIX, PatternParser::LEVEL, ForgeParser::CHANNEL]);
+            ->setMatches([Parser::PREFIX, PatternParser::LEVEL, ModLoaderParser::CHANNEL]);
     }
 
     /**

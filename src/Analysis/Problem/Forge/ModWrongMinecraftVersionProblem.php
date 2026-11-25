@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ForgeInstallDifferentVersionSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModRemoveSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Mod\ModRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 class ModWrongMinecraftVersionProblem extends ModProblem

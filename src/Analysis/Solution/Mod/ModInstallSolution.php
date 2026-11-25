@@ -1,6 +1,6 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analysis\Solution\Forge;
+namespace Aternos\Codex\Minecraft\Analysis\Solution\Mod;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
