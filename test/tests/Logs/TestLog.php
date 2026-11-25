@@ -4,7 +4,7 @@ namespace Aternos\Codex\Minecraft\Test\Logs;
 
 use Aternos\Codex\Log\File\PathLogFile;
 use Aternos\Codex\Minecraft\Detective\Detective;
-use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLog;
+use Aternos\Codex\Minecraft\Log\MinecraftLog;
 use Exception;
 
 class TestLog

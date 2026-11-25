@@ -2,7 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Information\Quilt;
 
-use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
+use Aternos\Codex\Minecraft\Log\Vanilla\VanillaServerLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 class QuiltJavaVersionInformation extends QuiltInformation

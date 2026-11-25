@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Information\CustomSkinLoader;
 
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
-use Aternos\Codex\Minecraft\Log\Minecraft\CustomSkinLoader\CustomSkinLoaderLog;
+use Aternos\Codex\Minecraft\Log\CustomSkinLoader\CustomSkinLoaderLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 class CustomSkinLoaderMinecraftVersionInformation extends CustomSkinLoaderInformation
