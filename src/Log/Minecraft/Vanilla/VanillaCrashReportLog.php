@@ -14,6 +14,6 @@ class VanillaCrashReportLog extends VanillaReportLog implements CrashReportLogTy
      */
     public static function getDetectors(): array
     {
-        return [(new SinglePatternDetector())->setPattern("/---- Minecraft Crash Report ----/")];
+        return [(new SinglePatternDetector())->setPattern(self::CRASH_REPORT_HEADER_PATTERN)];
     }
 }

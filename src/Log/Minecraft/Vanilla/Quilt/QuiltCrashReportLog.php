@@ -19,13 +19,13 @@ class QuiltCrashReportLog extends QuiltLog implements CrashReportLogTypeInterfac
     {
         return [
             (new MultiPatternDetector())
-                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\t(?:Known )?server brands?: quilt/im"),
             (new MultiPatternDetector())
-                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\tIs Modded: Definitely; Client brand changed to 'quilt'$/im"),
             (new MultiPatternDetector())
-                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\tIs Modded: Definitely; Server brand changed to 'quilt'$/im"),
         ];
     }

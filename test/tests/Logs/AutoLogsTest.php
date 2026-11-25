@@ -364,16 +364,6 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_folia_crash_report_git(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Folia/folia-crash-report-git.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
     public function test_folia_start_1_19_4(): void
     {
         $log = new TestLog('Vanilla/Bukkit/Folia/folia-start-1-19-4.log');
@@ -1457,6 +1447,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_fabric_client_1_19_2(): void
     {
         $log = new TestLog('Vanilla/Fabric/fabric-client-1-19-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_client_log_fragment_with_crash_report(): void
+    {
+        $log = new TestLog('Vanilla/Fabric/fabric-client-log-fragment-with-crash-report.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
