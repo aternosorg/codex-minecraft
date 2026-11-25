@@ -1,10 +1,10 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analysis\Solution\CrashReport;
+namespace Aternos\Codex\Minecraft\Analysis\Solution\Vanilla;
 
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-class RemoveEntitySolution extends CrashReportSolution
+class VanillaCrashReportRemoveEntitySolution extends VanillaCrashReportSolution
 {
     /**
      * @param string|null $name
@@ -51,7 +51,7 @@ class RemoveEntitySolution extends CrashReportSolution
      * @param string|null $name
      * @return $this
      */
-    public function setName(?string $name): RemoveEntitySolution
+    public function setName(?string $name): VanillaCrashReportRemoveEntitySolution
     {
         $this->name = $name;
         return $this;
@@ -85,7 +85,7 @@ class RemoveEntitySolution extends CrashReportSolution
      * @param float|null $locationX
      * @return $this
      */
-    public function setLocationX(?float $locationX): RemoveEntitySolution
+    public function setLocationX(?float $locationX): VanillaCrashReportRemoveEntitySolution
     {
         $this->locationX = $locationX;
         return $this;
@@ -103,7 +103,7 @@ class RemoveEntitySolution extends CrashReportSolution
      * @param float|null $locationY
      * @return $this
      */
-    public function setLocationY(?float $locationY): RemoveEntitySolution
+    public function setLocationY(?float $locationY): VanillaCrashReportRemoveEntitySolution
     {
         $this->locationY = $locationY;
         return $this;
@@ -121,7 +121,7 @@ class RemoveEntitySolution extends CrashReportSolution
      * @param float|null $locationZ
      * @return $this
      */
-    public function setLocationZ(?float $locationZ): RemoveEntitySolution
+    public function setLocationZ(?float $locationZ): VanillaCrashReportRemoveEntitySolution
     {
         $this->locationZ = $locationZ;
         return $this;

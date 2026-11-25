@@ -1,8 +1,8 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analysis\Information\Fabric\CrashReport;
+namespace Aternos\Codex\Minecraft\Analysis\Information\Fabric;
 
-class FabricVersionInformation extends \Aternos\Codex\Minecraft\Analysis\Information\Fabric\FabricVersionInformation
+class FabricCrashReportVersionInformation extends FabricVersionInformation
 {
     public static function getPatterns(): array
     {

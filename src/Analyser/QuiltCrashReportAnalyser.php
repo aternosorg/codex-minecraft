@@ -1,11 +1,11 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analyser\Report\CrashReport;
+namespace Aternos\Codex\Minecraft\Analyser;
 
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\ModOutOfMemoryErrorProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OutOfMemoryErrorProblem;
 
-class QuiltCrashReportAnalyser extends MinecraftCrashReportAnalyser
+class QuiltCrashReportAnalyser extends VanillaCrashReportAnalyser
 {
     public function __construct()
     {

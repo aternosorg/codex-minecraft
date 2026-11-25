@@ -1,14 +1,13 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analysis\Information\CrashReport;
+namespace Aternos\Codex\Minecraft\Analysis\Information\Vanilla;
 
-use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaInformation;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-class JavaVersionInformation extends VanillaInformation
+class VanillaReportJavaVersionInformation extends VanillaInformation
 {
     /**
-     * JavaVersionInformation constructor.
+     * VanillaReportJavaVersionInformation constructor.
      */
     public function __construct()
     {

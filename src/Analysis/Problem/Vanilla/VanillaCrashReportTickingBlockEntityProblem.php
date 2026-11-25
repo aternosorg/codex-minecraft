@@ -1,10 +1,10 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analysis\Problem\CrashReport;
+namespace Aternos\Codex\Minecraft\Analysis\Problem\Vanilla;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\CrashReport\RemoveBlockEntitySolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\VanillaCrashReportRemoveBlockEntitySolution;
 
-class TickingBlockEntityProblem extends TickingEntityProblem
+class VanillaCrashReportTickingBlockEntityProblem extends VanillaCrashReportTickingEntityProblem
 {
     protected const string PATTERN_ENTITY_NAME = "/-- Block entity being ticked --\nDetails:(?:\n\t.*)*\n\s+Name: ((?:[\w.]+:)?[\w.]+)/";
     protected const string PATTERN_ENTITY_TYPE = "/-- Block entity being ticked --\nDetails:(?:\n\s.*)*\n\s+Block[\s\w]*: .*?([\w.]+:[\w.]+)/";
@@ -19,10 +19,10 @@ class TickingBlockEntityProblem extends TickingEntityProblem
     }
 
     /**
-     * @return RemoveBlockEntitySolution
+     * @return VanillaCrashReportRemoveBlockEntitySolution
      */
-    protected function createSolution(): RemoveBlockEntitySolution
+    protected function createSolution(): VanillaCrashReportRemoveBlockEntitySolution
     {
-        return new RemoveBlockEntitySolution();
+        return new VanillaCrashReportRemoveBlockEntitySolution();
     }
 }

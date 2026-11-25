@@ -1,17 +1,17 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analyser\Report\CrashReport;
+namespace Aternos\Codex\Minecraft\Analyser;
 
-use Aternos\Codex\Minecraft\Analysis\Information\Forge\CrashReport\ForgeVersionInformation;
+use Aternos\Codex\Minecraft\Analysis\Information\Fabric\FabricCrashReportVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OutOfMemoryErrorProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\ModOutOfMemoryErrorProblem;
 
-class ForgeCrashReportAnalyser extends MinecraftCrashReportAnalyser
+class FabricCrashReportAnalyser extends VanillaCrashReportAnalyser
 {
     public function __construct()
     {
         parent::__construct();
         $this->overridePossibleInsightClass(OutOfMemoryErrorProblem::class, ModOutOfMemoryErrorProblem::class);
-        $this->addPossibleInsightClass(ForgeVersionInformation::class);
+        $this->addPossibleInsightClass(FabricCrashReportVersionInformation::class);
     }
 }

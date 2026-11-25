@@ -2,7 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla;
 
-use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\MinecraftCrashReportAnalyser;
+use Aternos\Codex\Minecraft\Analyser\VanillaCrashReportAnalyser;
 
 trait VanillaCrashReportTrait
 {
@@ -19,10 +19,10 @@ trait VanillaCrashReportTrait
     protected const string CRASH_REPORT_HEADER_PATTERN = '/\A[^\n]*---- Minecraft Crash Report ----$/m';
 
     /**
-     * @return MinecraftCrashReportAnalyser
+     * @return VanillaCrashReportAnalyser
      */
-    public static function getDefaultAnalyser(): MinecraftCrashReportAnalyser
+    public static function getDefaultAnalyser(): VanillaCrashReportAnalyser
     {
-        return new MinecraftCrashReportAnalyser();
+        return new VanillaCrashReportAnalyser();
     }
 }

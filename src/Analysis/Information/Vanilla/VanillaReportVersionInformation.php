@@ -1,8 +1,8 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analysis\Information\CrashReport;
+namespace Aternos\Codex\Minecraft\Analysis\Information\Vanilla;
 
-class VanillaVersionInformation extends \Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation
+class VanillaReportVersionInformation extends VanillaVersionInformation
 {
     /**
      * @inheritDoc

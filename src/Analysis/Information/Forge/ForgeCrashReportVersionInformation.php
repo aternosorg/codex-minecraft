@@ -1,8 +1,8 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analysis\Information\Forge\CrashReport;
+namespace Aternos\Codex\Minecraft\Analysis\Information\Forge;
 
-class ForgeVersionInformation extends \Aternos\Codex\Minecraft\Analysis\Information\Forge\ForgeVersionInformation
+class ForgeCrashReportVersionInformation extends ForgeVersionInformation
 {
     public static function getPatterns(): array
     {

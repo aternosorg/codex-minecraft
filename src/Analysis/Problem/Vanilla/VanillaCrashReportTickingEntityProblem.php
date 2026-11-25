@@ -1,13 +1,13 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analysis\Problem\CrashReport;
+namespace Aternos\Codex\Minecraft\Analysis\Problem\Vanilla;
 
 use Aternos\Codex\Analysis\AnalysisInterface;
 use Aternos\Codex\Analysis\InsightInterface;
-use Aternos\Codex\Minecraft\Analysis\Solution\CrashReport\RemoveEntitySolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\VanillaCrashReportRemoveEntitySolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
-class TickingEntityProblem extends CrashReportProblem
+class VanillaCrashReportTickingEntityProblem extends VanillaCrashReportProblem
 {
     protected const string PATTERN_ENTITY_TYPE = "/Entity Type: ([\w:]+)/";
     protected const string PATTERN_ENTITY_NAME = "/Entity Name: (.+)/";
@@ -24,7 +24,7 @@ class TickingEntityProblem extends CrashReportProblem
     protected ?string $levelName = null;
 
     /**
-     * @var RemoveEntitySolution[]
+     * @var VanillaCrashReportRemoveEntitySolution[]
      */
     protected array $solutions = [];
 
@@ -91,11 +91,11 @@ class TickingEntityProblem extends CrashReportProblem
     }
 
     /**
-     * @return RemoveEntitySolution
+     * @return VanillaCrashReportRemoveEntitySolution
      */
-    protected function createSolution(): RemoveEntitySolution
+    protected function createSolution(): VanillaCrashReportRemoveEntitySolution
     {
-        return new RemoveEntitySolution();
+        return new VanillaCrashReportRemoveEntitySolution();
     }
 
     /**
@@ -105,7 +105,7 @@ class TickingEntityProblem extends CrashReportProblem
     public function isEqual(InsightInterface $insight): bool
     {
         return parent::isEqual($insight) &&
-            $insight instanceof TickingEntityProblem &&
+            $insight instanceof VanillaCrashReportTickingEntityProblem &&
             $insight->getType() === $this->getType() &&
             $insight->getName() === $this->getName() &&
             $insight->getLocationX() === $this->getLocationX() &&
