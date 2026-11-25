@@ -11,8 +11,8 @@ use Aternos\Codex\Parser\PatternParser;
 
 abstract class CustomSkinLoaderLog extends MinecraftLog
 {
-    protected static string $prefixPattern = '\[\d{4}(?:\-\d\d){2} (?:[0-9]{2}\:?){3}(?:\] \[)?[^\]]+[ \/][A-Z]+\](?: \[[^\]]+\]:)? ';
-    protected static string $pattern = '/^(\[(\d{4}(?:\-\d\d){2} (?:[0-9]{2}\:?){3})(?:\] \[)?[^\]]+[ \/]([A-Z]+)\](?: \[[^\]]+\]:)?) .*$/';
+    protected static string $prefixPattern = '\[\d{4}(?:-\d\d){2} (?:[0-9]{2}:?){3}(?:\] \[)?[^\]]+[ \/][A-Z]+\](?: \[[^\]]+\]:)? ';
+    protected static string $pattern = '/^(\[(\d{4}(?:-\d\d){2} (?:[0-9]{2}:?){3})(?:\] \[)?[^\]]+[ \/]([A-Z]+)\](?: \[[^\]]+\]:)?) .*$/';
     protected static ?string $versionInformationClass = CustomSkinLoaderVersionInformation::class;
 
     /**

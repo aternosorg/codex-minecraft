@@ -91,9 +91,9 @@ class Detective extends \Aternos\Codex\Detective\Detective
         QuiltCrashReportLog::class,
         NeoForgeCrashReportLog::class,
         ForgeCrashReportLog::class,
+        ArclightCrashReportLog::class,
         VanillaCrashReportLog::class,
         MohistCrashReportLog::class,
-        ArclightCrashReportLog::class,
 
         VanillaNetworkProtocolErrorReportLog::class,
 

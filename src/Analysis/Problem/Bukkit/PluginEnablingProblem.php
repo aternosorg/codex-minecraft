@@ -19,6 +19,6 @@ class PluginEnablingProblem extends PluginProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Error occurred while enabling (\S+) [^\(]*\(Is it up to date\?\)/'];
+        return ['/Error occurred while enabling (' . static::PLUGIN_NAME . ') [^\(]*\(Is it up to date\?\)/'];
     }
 }

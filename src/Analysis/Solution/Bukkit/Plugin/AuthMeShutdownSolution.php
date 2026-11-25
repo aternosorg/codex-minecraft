@@ -11,7 +11,7 @@ class AuthMeShutdownSolution extends FileEditSolution
     public function __construct(
         string       $path = 'plugins/AuthMe/config.yml',
         FilePathType $type = FilePathType::RELATIVE,
-        string       $pattern = '/^(\s+)stopServer\: true$/',
+        string       $pattern = '/^(\s+)stopServer: true$/',
         string       $replacement = '$1stopServer: false'
     )
     {

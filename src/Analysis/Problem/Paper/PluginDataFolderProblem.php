@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Paper;
 
 use Aternos\Codex\Analysis\InsightInterface;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginProblem;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Paper\PaperCheckPermissionsSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
@@ -40,7 +41,7 @@ class PluginDataFolderProblem extends PaperProblem
     public static function getPatterns(): array
     {
         return [
-            '/Projected datafolder: `([^\']+)\' for ([^ ]+) [^(]+ \(([^)]+)\) exists and is not a directory/',
+            '/Projected datafolder: `([^\']+)\' for (' . PluginProblem::PLUGIN_NAME . ') [^(]+ \(([^)]+)\) exists and is not a directory/',
             '/Unable to rename old data folder: `([^\']+)\' to: `([^\']+)\'/'
         ];
     }

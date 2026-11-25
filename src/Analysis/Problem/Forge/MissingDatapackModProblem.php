@@ -22,7 +22,7 @@ class MissingDatapackModProblem extends ModProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Missing data pack mod:([\w\d\-]+)/'];
+        return ['/Missing data pack mod:([\w-]+)/'];
     }
 
     /**

@@ -1,0 +1,71 @@
+Starting org.bukkit.craftbukkit.Main
+2026-11-13T17:51:58.436474Z ServerMain WARN Advanced terminal features are not available in this environment
+[18:51:58 INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.3+1-LTS-2; Oracle Corporation null) on Mac OS X 27.2.1 (aarch64)
+[18:51:58 INFO]: [bootstrap] Loading Paper 26.3-248-main@0727243 (2026-11-10T11:35:52Z) for Minecraft 26.3
+[18:51:58 INFO]: [PluginInitializerManager] Initializing plugins...
+[18:51:58 INFO]: [PluginInitializerManager] Initialized 0 plugins
+[18:51:59 WARN]: [oshi.software.os.mac.MacOperatingSystem] Unable to parse version 27.2 to a codename.
+[18:52:00 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[18:52:00 INFO]: [com.destroystokyo.paper.profile.PaperServicesDiscoveryService] Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[18:52:00 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 213,4ms
+[18:52:00 INFO]: Loaded 1866 advancements
+[18:52:00 INFO]: Starting minecraft server version 26.3
+[18:52:00 INFO]: Loading properties
+[18:52:00 INFO]: This server is running Paper version 26.3-248-main@0727243 (2026-11-10T11:35:52Z) (Implementing API version 26.3.build.248-stable)
+[18:52:01 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:52:01 INFO]: Server Ping Player Sample Count: 12
+[18:52:01 INFO]: Using 4 threads for Netty based IO
+[18:52:01 ERROR]: Encountered an unexpected exception
+org.spongepowered.configurate.loader.ParsingException: []: Unknown error occurred while loading
+	at org.spongepowered.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:171) ~[configurate-core-4.2.0.jar:?]
+	at org.spongepowered.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:69) ~[configurate-core-4.2.0.jar:?]
+	at org.spongepowered.configurate.loader.ConfigurationLoader.load(ConfigurationLoader.java:56) ~[configurate-core-4.2.0.jar:?]
+	at io.papermc.paper.configuration.Configurations.initializeGlobalConfiguration(Configurations.java:132) ~[paper-26.3.jar:26.3-248-0727243]
+	at io.papermc.paper.configuration.Configurations.initializeGlobalConfiguration(Configurations.java:107) ~[paper-26.3.jar:26.3-248-0727243]
+	at io.papermc.paper.configuration.PaperConfigurations.initializeGlobalConfiguration(PaperConfigurations.java:227) ~[paper-26.3.jar:26.3-248-0727243]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:238) ~[paper-26.3.jar:26.3-248-0727243]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249) ~[paper-26.3.jar:26.3-248-0727243]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299) ~[paper-26.3.jar:26.3-248-0727243]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: mapping values are not allowed here
+ in 'reader', line 134, column 8:
+        bad: value: x
+           ^
+
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.scanner.ScannerImpl.fetchValue(ScannerImpl.java:920) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:409) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:242) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:637) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeScalarNode(Composer.java:249) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeNode(Composer.java:214) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeValueNode(Composer.java:396) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:361) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeMappingNode(Composer.java:329) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeNode(Composer.java:218) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeValueNode(Composer.java:396) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:361) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeMappingNode(Composer.java:329) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeNode(Composer.java:218) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.getNode(Composer.java:141) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.getSingleNode(Composer.java:167) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:179) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.Yaml.loadFromReader(Yaml.java:508) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.Yaml.load(Yaml.java:461) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.YamlConfigurationLoader.loadInternal(YamlConfigurationLoader.java:207) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.yaml.YamlConfigurationLoader.loadInternal(YamlConfigurationLoader.java:48) ~[configurate-yaml-4.2.0.jar:?]
+	at org.spongepowered.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:161) ~[configurate-core-4.2.0.jar:?]
+	... 9 more
+[18:52:01 WARN]: [oshi.software.os.mac.MacOperatingSystem] Unable to parse version 27.2 to a codename.
+[18:52:01 ERROR]: This crash report has been saved to: /srv/server/crash-reports/crash-2026-11-13_18.52.01-server.txt
+[18:52:01 INFO]: Stopping server
+[18:52:01 INFO]: Saving players
+[18:52:01 INFO]: Saving worlds
+[18:52:01 INFO]: Waiting for all RegionFile I/O tasks to complete...
+[18:52:01 INFO]: All RegionFile I/O tasks to complete
+[18:52:01 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[18:52:01 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

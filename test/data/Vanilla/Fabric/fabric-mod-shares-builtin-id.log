@@ -1,0 +1,12 @@
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[19:00:24] [main/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1
+[19:00:24] [main/INFO]: Mappings not present!
+[19:00:24] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Mods share ID with builtin mod minecraft 26.3: [minecraft 26.3]
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)

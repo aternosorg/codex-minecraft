@@ -1165,6 +1165,23 @@
                 "value": "26.1"
             },
             {
+                "message": "Fabric loader version: 0.18.4",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[12:23:58] [main\/INFO]",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[12:23:58] [main\/INFO] (FabricLoader\/GameProvider) Loading Minecraft 26.1 with Fabric Loader 0.18.4"
+                        }
+                    ]
+                },
+                "label": "Fabric loader version",
+                "value": "0.18.4"
+            },
+            {
                 "message": "Java version: 25",
                 "counter": 1,
                 "entry": {

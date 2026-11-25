@@ -8,7 +8,7 @@ class ForgeVersionInformation extends \Aternos\Codex\Minecraft\Analysis\Informat
     {
         return [
             '/FML: MCP (?:' . static::$versionPattern . ') Powered by Forge (' . static::$versionPattern . ')/',
-            '/Forge: net.minecraftforge:(' . static::$versionPattern . ')/',
+            '/Forge: net\.minecraftforge:(' . static::$versionPattern . ')/',
         ];
     }
 }

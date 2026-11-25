@@ -1,0 +1,32 @@
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[18:57:35] [main/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1
+[18:57:35] [main/INFO]: Mappings not present!
+[18:57:35] [main/INFO]: Loading 5 mods:
+	- fabricloader 0.20.1
+	   \-- mixinextras 0.5.5
+	- foo 1.0.0
+	- java 25
+	- minecraft 26.3
+[18:57:35] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/srv/server/libraries/net/fabricmc/sponge-mixin/0.17.5+mixin.0.8.7/sponge-mixin-0.17.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:57:35] [main/ERROR]: Uncaught exception in thread "main"
+java.lang.RuntimeException: An exception occurred when launching the server!
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:71)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
+Caused by: java.lang.RuntimeException: Error parsing or using Mixin config foo.mixins.json for mod foo
+	at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:95)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:147)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	... 1 more
+Caused by: org.spongepowered.asm.launch.MixinInitialisationError: Error initialising mixin config foo.mixins.json
+	at org.spongepowered.asm.mixin.transformer.Config.create(Config.java:168)
+	at org.spongepowered.asm.mixin.Mixins.createConfiguration(Mixins.java:121)
+	at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:108)
+	at org.spongepowered.asm.mixin.Mixins.addConfiguration(Mixins.java:98)
+	at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:93)
+	... 5 more
+Caused by: java.lang.IllegalArgumentException: The specified resource 'foo.mixins.json' was invalid or could not be read
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.create(MixinConfig.java:1397)
+	at org.spongepowered.asm.mixin.transformer.Config.create(Config.java:163)
+	... 9 more

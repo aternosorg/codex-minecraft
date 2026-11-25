@@ -9,7 +9,7 @@ use Aternos\Codex\Parser\PatternParser;
 
 abstract class GlowstoneLog extends BukkitLog
 {
-    protected static string $pattern = '/^(((?:(?:[0-9]{2,4}\/?){3} )?(?:[0-9]{2}\:?){3}) \[(\w+)\]).*$/';
+    protected static string $pattern = '/^(((?:(?:[0-9]{2,4}\/?){3} )?(?:[0-9]{2}:?){3}) \[(\w+)\]).*$/';
 
     /**
      * @return ParserInterface

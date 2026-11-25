@@ -1,0 +1,1359 @@
+{
+    "id": "paper\/crash-report",
+    "name": "Paper",
+    "type": "Crash Report",
+    "version": "26.3",
+    "title": "Paper 26.3 Crash Report",
+    "entries": [
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "---- Minecraft Crash Report ----"
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "\/\/ I bet Cylons wouldn't have this problem."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 3,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Time:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "Time: 2026-11-13 18:52:01"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Description:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "Description: Exception in server tick loop"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 6,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "org.spongepowered.configurate.loader.ParsingException: []: Unknown error occurred while loading"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "\tat org.spongepowered.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:171)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "\tat org.spongepowered.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:69)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "\tat org.spongepowered.configurate.loader.ConfigurationLoader.load(ConfigurationLoader.java:56)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "\tat io.papermc.paper.configuration.Configurations.initializeGlobalConfiguration(Configurations.java:132)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 12,
+                    "content": "\tat io.papermc.paper.configuration.Configurations.initializeGlobalConfiguration(Configurations.java:107)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 13,
+                    "content": "\tat io.papermc.paper.configuration.PaperConfigurations.initializeGlobalConfiguration(PaperConfigurations.java:227)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 14,
+                    "content": "\tat net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:238)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 15,
+                    "content": "\tat net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1249)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 16,
+                    "content": "\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 17,
+                    "content": "\tat java.base\/java.lang.Thread.run(Thread.java:1474)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Caused by:",
+            "lines": [
+                {
+                    "number": 18,
+                    "content": "Caused by: mapping values are not allowed here"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 19,
+                    "content": " in 'reader', line 134, column 8:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "        bad:",
+            "lines": [
+                {
+                    "number": 20,
+                    "content": "        bad: value: x"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 21,
+                    "content": "           ^"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 22,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 23,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.scanner.ScannerImpl.fetchValue(ScannerImpl.java:920)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 24,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:409)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 25,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:242)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 26,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:637)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 27,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 28,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 29,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 30,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 31,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 32,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeScalarNode(Composer.java:249)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 33,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeNode(Composer.java:214)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 34,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeValueNode(Composer.java:396)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:361)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeMappingNode(Composer.java:329)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeNode(Composer.java:218)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeValueNode(Composer.java:396)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:361)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeMappingNode(Composer.java:329)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeNode(Composer.java:218)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.getNode(Composer.java:141)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.getSingleNode(Composer.java:167)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 44,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:179)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 45,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.Yaml.loadFromReader(Yaml.java:508)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 46,
+                    "content": "\tat org.spongepowered.configurate.yaml.internal.snakeyaml.Yaml.load(Yaml.java:461)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 47,
+                    "content": "\tat org.spongepowered.configurate.yaml.YamlConfigurationLoader.loadInternal(YamlConfigurationLoader.java:207)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 48,
+                    "content": "\tat org.spongepowered.configurate.yaml.YamlConfigurationLoader.loadInternal(YamlConfigurationLoader.java:48)"
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 49,
+                    "content": "\tat org.spongepowered.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:161)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 50,
+                    "content": "\t... 9 more"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 51,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 52,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 53,
+                    "content": "A detailed walkthrough of the error, its code path and all known details is as follows:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 54,
+                    "content": "---------------------------------------------------------------------------------------"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 55,
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 56,
+                    "content": "-- System Details --"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "Details:",
+            "lines": [
+                {
+                    "number": 57,
+                    "content": "Details:"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version:",
+            "lines": [
+                {
+                    "number": 58,
+                    "content": "\tMinecraft Version: 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMinecraft Version ID:",
+            "lines": [
+                {
+                    "number": 59,
+                    "content": "\tMinecraft Version ID: 26.3"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tOperating System:",
+            "lines": [
+                {
+                    "number": 60,
+                    "content": "\tOperating System: Mac OS X (aarch64) version 27.2.1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava Version:",
+            "lines": [
+                {
+                    "number": 61,
+                    "content": "\tJava Version: 25.0.5.0.3, Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJava VM Version:",
+            "lines": [
+                {
+                    "number": 62,
+                    "content": "\tJava VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory:",
+            "lines": [
+                {
+                    "number": 63,
+                    "content": "\tMemory: 200065296 bytes (190 MiB) \/ 536870912 bytes (512 MiB) up to 1073741824 bytes (1024 MiB)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory (heap):",
+            "lines": [
+                {
+                    "number": 64,
+                    "content": "\tMemory (heap): init: 512MiB, used: 319MiB, committed: 512MiB, max: 1024MiB"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory (non-heap):",
+            "lines": [
+                {
+                    "number": 65,
+                    "content": "\tMemory (non-heap): init: 007MiB, used: 146MiB, committed: 149MiB, max: 000MiB"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tCPUs:",
+            "lines": [
+                {
+                    "number": 66,
+                    "content": "\tCPUs: 18"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Vendor:",
+            "lines": [
+                {
+                    "number": 67,
+                    "content": "\tProcessor Vendor: Apple Inc."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcessor Name:",
+            "lines": [
+                {
+                    "number": 68,
+                    "content": "\tProcessor Name: Apple M5 Pro"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIdentifier:",
+            "lines": [
+                {
+                    "number": 69,
+                    "content": "\tIdentifier: Apple Inc. Family 0x1b588bb3 Model 0 Stepping 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMicroarchitecture:",
+            "lines": [
+                {
+                    "number": 70,
+                    "content": "\tMicroarchitecture: ARM64 SoC: Firestorm + Icestorm"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tFrequency (GHz):",
+            "lines": [
+                {
+                    "number": 71,
+                    "content": "\tFrequency (GHz): 0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical packages:",
+            "lines": [
+                {
+                    "number": 72,
+                    "content": "\tNumber of physical packages: 1"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of physical CPUs:",
+            "lines": [
+                {
+                    "number": 73,
+                    "content": "\tNumber of physical CPUs: 18"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tNumber of logical CPUs:",
+            "lines": [
+                {
+                    "number": 74,
+                    "content": "\tNumber of logical CPUs: 18"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 name:",
+            "lines": [
+                {
+                    "number": 75,
+                    "content": "\tGraphics card #0 name: Apple M5 Pro"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 vendor:",
+            "lines": [
+                {
+                    "number": 76,
+                    "content": "\tGraphics card #0 vendor: Apple (0x106b)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 VRAM (MiB):",
+            "lines": [
+                {
+                    "number": 77,
+                    "content": "\tGraphics card #0 VRAM (MiB): 0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 deviceId:",
+            "lines": [
+                {
+                    "number": 78,
+                    "content": "\tGraphics card #0 deviceId: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tGraphics card #0 versionInfo:",
+            "lines": [
+                {
+                    "number": 79,
+                    "content": "\tGraphics card #0 versionInfo: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory slot #0 capacity (MiB):",
+            "lines": [
+                {
+                    "number": 80,
+                    "content": "\tMemory slot #0 capacity (MiB): 0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory slot #0 clockSpeed (GHz):",
+            "lines": [
+                {
+                    "number": 81,
+                    "content": "\tMemory slot #0 clockSpeed (GHz): 0.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tMemory slot #0 type:",
+            "lines": [
+                {
+                    "number": 82,
+                    "content": "\tMemory slot #0 type: unknown"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory max (MiB):",
+            "lines": [
+                {
+                    "number": 83,
+                    "content": "\tVirtual memory max (MiB): 31744.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tVirtual memory used (MiB):",
+            "lines": [
+                {
+                    "number": 84,
+                    "content": "\tVirtual memory used (MiB): 25630.39"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory total (MiB):",
+            "lines": [
+                {
+                    "number": 85,
+                    "content": "\tSwap memory total (MiB): 7168.00"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSwap memory used (MiB):",
+            "lines": [
+                {
+                    "number": 86,
+                    "content": "\tSwap memory used (MiB): 5812.50"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for jna.tmpdir (MiB):",
+            "lines": [
+                {
+                    "number": 87,
+                    "content": "\tSpace in storage for jna.tmpdir (MiB): <path not set>"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB):",
+            "lines": [
+                {
+                    "number": 88,
+                    "content": "\tSpace in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for io.netty.native.workdir (MiB):",
+            "lines": [
+                {
+                    "number": 89,
+                    "content": "\tSpace in storage for io.netty.native.workdir (MiB): <path not set>"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for java.io.tmpdir (MiB):",
+            "lines": [
+                {
+                    "number": 90,
+                    "content": "\tSpace in storage for java.io.tmpdir (MiB): available: 318457.25, total: 948534.19"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSpace in storage for workdir (MiB):",
+            "lines": [
+                {
+                    "number": 91,
+                    "content": "\tSpace in storage for workdir (MiB): available: 318457.25, total: 948534.19"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tOperating System Version:",
+            "lines": [
+                {
+                    "number": 92,
+                    "content": "\tOperating System Version: Apple macOS 27.2.1 build 26B131"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcess Elevated:",
+            "lines": [
+                {
+                    "number": 93,
+                    "content": "\tProcess Elevated: false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcess Loads:",
+            "lines": [
+                {
+                    "number": 94,
+                    "content": "\tProcess Loads: Uptime: 4s, user: 9s (232.02%), kernel: 1s (17.07%), total: 10s (249.08%)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcess Virtual Size (MiB):",
+            "lines": [
+                {
+                    "number": 95,
+                    "content": "\tProcess Virtual Size (MiB): 480360.88"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tProcess Resident Size (MiB):",
+            "lines": [
+                {
+                    "number": 96,
+                    "content": "\tProcess Resident Size (MiB): 799.75"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tJVM Flags:",
+            "lines": [
+                {
+                    "number": 97,
+                    "content": "\tJVM Flags: 2 total; -Xms512M -Xmx1G"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tDebug Flags:",
+            "lines": [
+                {
+                    "number": 98,
+                    "content": "\tDebug Flags: 0 total; "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 99,
+                    "content": "\tCraftBukkit Information: "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "   BrandInfo:",
+            "lines": [
+                {
+                    "number": 100,
+                    "content": "   BrandInfo: Paper (papermc:paper) version 26.3-248-main@0727243 (2026-11-10T11:35:52Z)"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "   Running:",
+            "lines": [
+                {
+                    "number": 101,
+                    "content": "   Running: Paper version 26.3-248-0727243 (MC: 26.3) (Implementing API version 26.3.build.248-stable) false"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "   Plugins:",
+            "lines": [
+                {
+                    "number": 102,
+                    "content": "   Plugins: {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "   Warnings:",
+            "lines": [
+                {
+                    "number": 103,
+                    "content": "   Warnings: DEFAULT"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "   Reload Count:",
+            "lines": [
+                {
+                    "number": 104,
+                    "content": "   Reload Count: 0"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "   Threads:",
+            "lines": [
+                {
+                    "number": 105,
+                    "content": "   Threads: { TIMED_WAITING Timer hack thread: [java.base@25.0.5.0.3\/java.lang.Thread.sleepNanos0(Native Method), java.base@25.0.5.0.3\/java.lang.Thread.sleepNanos(Thread.java:509), java.base@25.0.5.0.3\/java.lang.Thread.sleep(Thread.java:540), net.minecraft.util.Util$10.run(Util.java:1036)], WAITING Worker-Main-4: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], WAITING ForkJoinPool.commonPool-worker-15: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], RUNNABLE DestroyJavaVM: [], WAITING ForkJoinPool.commonPool-worker-13: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], WAITING Worker-Main-5: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], TIMED_WAITING Craft Scheduler Thread - 0: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:408), java.base@25.0.5.0.3\/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:235), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:338), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1015), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614), java.base@25.0.5.0.3\/java.lang.Thread.runWith(Thread.java:1487), java.base@25.0.5.0.3\/java.lang.Thread.run(Thread.java:1474)], WAITING ForkJoinPool.commonPool-worker-9: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], WAITING Worker-Main-1: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], TIMED_WAITING Craft Scheduler Thread - 1: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:408), java.base@25.0.5.0.3\/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:235), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:338), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1015), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614), java.base@25.0.5.0.3\/java.lang.Thread.runWith(Thread.java:1487), java.base@25.0.5.0.3\/java.lang.Thread.run(Thread.java:1474)], TIMED_WAITING Worker-Main-2: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], TIMED_WAITING PaperFilledProfileCache-cleanup-0: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:271), java.base@25.0.5.0.3\/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1803), java.base@25.0.5.0.3\/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1166), java.base@25.0.5.0.3\/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:883), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1016), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614), java.base@25.0.5.0.3\/java.lang.Thread.runWith(Thread.java:1487), java.base@25.0.5.0.3\/java.lang.Thread.run(Thread.java:1474)], WAITING ForkJoinPool.commonPool-worker-10: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], WAITING ForkJoinPool.commonPool-worker-1: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], WAITING ForkJoinPool.commonPool-worker-5: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], TIMED_WAITING Keep-Alive-Timer: [java.base@25.0.5.0.3\/java.lang.Thread.sleepNanos0(Native Method), java.base@25.0.5.0.3\/java.lang.Thread.sleepNanos(Thread.java:509), java.base@25.0.5.0.3\/java.lang.Thread.sleep(Thread.java:540), java.base@25.0.5.0.3\/sun.net.www.http.KeepAliveCache.run(KeepAliveCache.java:224), java.base@25.0.5.0.3\/java.lang.Thread.runWith(Thread.java:1487), java.base@25.0.5.0.3\/java.lang.Thread.run(Thread.java:1474), java.base@25.0.5.0.3\/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:148)], WAITING ForkJoinPool.commonPool-worker-16: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], TIMED_WAITING Craft Scheduler Thread - 2: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:408), java.base@25.0.5.0.3\/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:235), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:338), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1015), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614), java.base@25.0.5.0.3\/java.lang.Thread.runWith(Thread.java:1487), java.base@25.0.5.0.3\/java.lang.Thread.run(Thread.java:1474)], RUNNABLE HttpClient-1-SelectorManager: [java.base@25.0.5.0.3\/sun.nio.ch.KQueue.poll(Native Method), java.base@25.0.5.0.3\/sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:121), java.base@25.0.5.0.3\/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130), java.base@25.0.5.0.3\/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:142), platform\/java.net.http@25.0.5.0.3\/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1338)], RUNNABLE Server thread: [java.base@25.0.5.0.3\/java.lang.Thread.dumpThreads(Native Method), java.base@25.0.5.0.3\/java.lang.Thread.getAllStackTraces(Thread.java:2246), org.bukkit.craftbukkit.CraftCrashReport.call(CraftCrashReport.java:35), org.bukkit.craftbukkit.CraftCrashReport.call(CraftCrashReport.java:17), net.minecraft.SystemReport.setDetail(SystemReport.java:96), net.minecraft.CrashReport.<init>(CrashReport.java:37), net.minecraft.server.MinecraftServer.constructOrExtractCrashReport(MinecraftServer.java:1417), net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1355), net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:299), net.minecraft.server.MinecraftServer$$Lambda\/0x00000ffc020e4800.run(Unknown Source), java.base@25.0.5.0.3\/java.lang.Thread.runWith(Thread.java:1487), java.base@25.0.5.0.3\/java.lang.Thread.run(Thread.java:1474)], TIMED_WAITING Craft Scheduler Thread - 3: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:408), java.base@25.0.5.0.3\/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:235), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:338), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1015), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614), java.base@25.0.5.0.3\/java.lang.Thread.runWith(Thread.java:1487), java.base@25.0.5.0.3\/java.lang.Thread.run(Thread.java:1474)], WAITING Worker-Main-6: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], RUNNABLE Signal Dispatcher: [], WAITING ForkJoinPool.commonPool-worker-6: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], WAITING ForkJoinPool.commonPool-worker-4: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], WAITING ForkJoinPool.commonPool-worker-14: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], TIMED_WAITING Common-Cleaner: [java.base@25.0.5.0.3\/java.lang.Object.wait0(Native Method), java.base@25.0.5.0.3\/java.lang.Object.wait(Object.java:389), java.base@25.0.5.0.3\/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:123), java.base@25.0.5.0.3\/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:201), java.base@25.0.5.0.3\/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:146), java.base@25.0.5.0.3\/java.lang.Thread.runWith(Thread.java:1487), java.base@25.0.5.0.3\/java.lang.Thread.run(Thread.java:1474), java.base@25.0.5.0.3\/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:148)], WAITING ForkJoinPool.commonPool-worker-17: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], WAITING Log4j2-AsyncAppenderEventDispatcher-1-Async: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.locks.LockSupport.park(LockSupport.java:369), java.base@25.0.5.0.3\/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:520), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4364), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:4310), java.base@25.0.5.0.3\/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1752), java.base@25.0.5.0.3\/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:421), org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatchAll(AsyncAppenderEventDispatcher.java:100), org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.run(AsyncAppenderEventDispatcher.java:92)], WAITING ForkJoinPool.commonPool-worker-2: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], TIMED_WAITING Minecraft Services Discovery: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:271), java.base@25.0.5.0.3\/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1803), java.base@25.0.5.0.3\/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1166), java.base@25.0.5.0.3\/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:883), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1016), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614), java.base@25.0.5.0.3\/java.lang.Thread.runWith(Thread.java:1487), java.base@25.0.5.0.3\/java.lang.Thread.run(Thread.java:1474)], WAITING Finalizer: [java.base@25.0.5.0.3\/java.lang.Object.wait0(Native Method), java.base@25.0.5.0.3\/java.lang.Object.wait(Object.java:389), java.base@25.0.5.0.3\/java.lang.Object.wait(Object.java:351), java.base@25.0.5.0.3\/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:137), java.base@25.0.5.0.3\/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:215), java.base@25.0.5.0.3\/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:165)], RUNNABLE Notification Thread: [], TIMED_WAITING JNA Cleaner: [java.base@25.0.5.0.3\/java.lang.Object.wait0(Native Method), java.base@25.0.5.0.3\/java.lang.Object.wait(Object.java:389), java.base@25.0.5.0.3\/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:123), java.base@25.0.5.0.3\/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:201), com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)], WAITING Worker-Main-3: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], TIMED_WAITING ForkJoinPool.commonPool-worker-7: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], WAITING ForkJoinPool.commonPool-worker-3: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], WAITING ForkJoinPool.commonPool-worker-8: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], TIMED_WAITING process reaper: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:408), java.base@25.0.5.0.3\/java.util.concurrent.LinkedTransferQueue$DualNode.await(LinkedTransferQueue.java:452), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(SynchronousQueue.java:194), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue.xfer(SynchronousQueue.java:235), java.base@25.0.5.0.3\/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:338), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1015), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076), java.base@25.0.5.0.3\/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614), java.base@25.0.5.0.3\/java.lang.Thread.runWith(Thread.java:1487), java.base@25.0.5.0.3\/java.lang.Thread.run(Thread.java:1474), java.base@25.0.5.0.3\/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:148)], WAITING ForkJoinPool.commonPool-worker-11: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)], RUNNABLE Reference Handler: [java.base@25.0.5.0.3\/java.lang.ref.Reference.waitForReferencePendingList(Native Method), java.base@25.0.5.0.3\/java.lang.ref.Reference.processPendingReferences(Reference.java:246), java.base@25.0.5.0.3\/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)], WAITING ForkJoinPool.commonPool-worker-12: [java.base@25.0.5.0.3\/jdk.internal.misc.Unsafe.park(Native Method), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:2109), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.deactivate(ForkJoinPool.java:2063), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2027), java.base@25.0.5.0.3\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)],}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": null,
+            "lines": [
+                {
+                    "number": 106,
+                    "content": "   "
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "   Force Loaded Chunks:",
+            "lines": [
+                {
+                    "number": 107,
+                    "content": "   Force Loaded Chunks: {}"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tServer Running:",
+            "lines": [
+                {
+                    "number": 108,
+                    "content": "\tServer Running: true"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tPlayer Count:",
+            "lines": [
+                {
+                    "number": 109,
+                    "content": "\tPlayer Count: 0 \/ 5; []"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tActive Data Packs:",
+            "lines": [
+                {
+                    "number": 110,
+                    "content": "\tActive Data Packs: vanilla, paper"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tAvailable Data Packs:",
+            "lines": [
+                {
+                    "number": 111,
+                    "content": "\tAvailable Data Packs: minecart_improvements, paper, redstone_experiments, trade_rebalance, vanilla"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tEnabled Feature Flags:",
+            "lines": [
+                {
+                    "number": 112,
+                    "content": "\tEnabled Feature Flags: minecraft:vanilla"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tWorld Generation:",
+            "lines": [
+                {
+                    "number": 113,
+                    "content": "\tWorld Generation: Experimental"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tWorld Seed:",
+            "lines": [
+                {
+                    "number": 114,
+                    "content": "\tWorld Seed: 79387779385697602"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tSuppressed Exceptions:",
+            "lines": [
+                {
+                    "number": 115,
+                    "content": "\tSuppressed Exceptions: ~~NONE~~"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tIs Modded:",
+            "lines": [
+                {
+                    "number": 116,
+                    "content": "\tIs Modded: Definitely; Server brand changed to 'Paper'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "\tType:",
+            "lines": [
+                {
+                    "number": 117,
+                    "content": "\tType: Dedicated Server"
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The Paper configuration file 'config\/paper-global.yml' is not valid YAML. The error is in line 134, column 8.",
+                "counter": 1,
+                "entry": {
+                    "level": 10,
+                    "time": null,
+                    "prefix": null,
+                    "lines": [
+                        {
+                            "number": 7,
+                            "content": "org.spongepowered.configurate.loader.ParsingException: []: Unknown error occurred while loading"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Fix the YAML syntax in 'config\/paper-global.yml' in line 134, column 8, for example the indentation."
+                    },
+                    {
+                        "message": "Delete the file 'config\/paper-global.yml'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 26.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tMinecraft Version:",
+                    "lines": [
+                        {
+                            "number": 58,
+                            "content": "\tMinecraft Version: 26.3"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "26.3"
+            },
+            {
+                "message": "Java version: 25.0.5.0.3",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "\tJava Version:",
+                    "lines": [
+                        {
+                            "number": 61,
+                            "content": "\tJava Version: 25.0.5.0.3, Oracle Corporation"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "25.0.5.0.3"
+            }
+        ]
+    }
+}

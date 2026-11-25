@@ -34,7 +34,7 @@ class PluginDependencyProblem extends PluginProblem
      */
     public static function getPatterns(): array
     {
-        return ["/Could not load plugin \'(.+)\'\: Unknown dependency\: (.+)/"];
+        return ["/Could not load plugin '(.+)': Unknown dependency: (.+)/"];
     }
 
     /**

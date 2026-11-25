@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Paper;
 
 use Aternos\Codex\Analysis\InsightInterface;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginProblem;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
@@ -30,7 +31,7 @@ class UnregisteredClassLoaderProblem extends PaperProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Enabled plugin with unregistered ConfiguredPluginClassLoader (\S+)/'];
+        return ['/Enabled plugin with unregistered ConfiguredPluginClassLoader (' . PluginProblem::PLUGIN_NAME . ')/'];
     }
 
     /**

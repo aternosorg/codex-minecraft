@@ -1129,7 +1129,31 @@
         }
     ],
     "analysis": {
-        "problems": [],
+        "problems": [
+            {
+                "message": "The Paper configuration file 'config\/paper-global.yml' is not valid YAML. The error is in line 128, column 25.",
+                "counter": 1,
+                "entry": {
+                    "level": 10,
+                    "time": null,
+                    "prefix": null,
+                    "lines": [
+                        {
+                            "number": 7,
+                            "content": "org.spongepowered.configurate.loader.ParsingException: []: Unknown error occurred while loading"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Fix the YAML syntax in 'config\/paper-global.yml' in line 128, column 25, for example the indentation."
+                    },
+                    {
+                        "message": "Delete the file 'config\/paper-global.yml'."
+                    }
+                ]
+            }
+        ],
         "information": [
             {
                 "message": "Minecraft version: 1.21.4",

@@ -12,7 +12,7 @@ use Aternos\Codex\Parser\PatternParser;
 
 abstract class PocketmineLog extends MinecraftLog
 {
-    protected static string $pattern = '/^(((?:[0-9]{2,4}-?){3} \[(?:[0-9]{2}\:?){3})(?:\.[0-9]{3})?\] \[[^\/]+\/(\w+)\]\:).*$/';
+    protected static string $pattern = '/^(((?:[0-9]{2,4}-?){3} \[(?:[0-9]{2}:?){3})(?:\.[0-9]{3})?\] \[[^\/]+\/(\w+)\]:).*$/';
     protected static ?string $versionInformationClass = PocketmineBedrockVersionInformation::class;
 
     /**

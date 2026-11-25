@@ -23,7 +23,7 @@ class PluginRuntimeProblem extends PluginProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Error: \"[^\"]+\" \(EXCEPTION\) in \"(plugins\/([^\.]+)\.phar)(?:\/[^\/\"]+)+\" at line [0-9]+/'];
+        return ['/Error: "[^"]+" \(EXCEPTION\) in "(plugins\/([^.]+)\.phar)(?:\/[^\/"]+)+" at line [0-9]+/'];
     }
 
     /**

@@ -21,7 +21,7 @@ class TickingBlockEntityProblem extends VanillaProblem
      */
     public static function getPatterns(): array
     {
-        return ['/Encountered an unexpected exception\n\s?net\.minecraft\.(?:util|crash)\.ReportedException\: Ticking block entity/'];
+        return ['/Encountered an unexpected exception\n\s?net\.minecraft\.(?:util|crash)\.ReportedException: Ticking block entity/'];
     }
 
     /**

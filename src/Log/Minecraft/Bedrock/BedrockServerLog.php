@@ -11,7 +11,7 @@ use Aternos\Codex\Parser\PatternParser;
 
 class BedrockServerLog extends BedrockLog implements ServerLogTypeInterface
 {
-    protected static string $pattern = '/^(\[((?:[0-9]{2,4}-?){3} (?:[0-9]{2,3}\:?){3,4}) (\w+)\]).*$/';
+    protected static string $pattern = '/^(\[((?:[0-9]{2,4}-?){3} (?:[0-9]{2,3}:?){3,4}) (\w+)\]).*$/';
     protected static ?string $versionInformationClass = BedrockVersionInformation::class;
 
     /**

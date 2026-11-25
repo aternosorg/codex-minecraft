@@ -30,12 +30,16 @@ class LanguageProviderVersionProblem extends ModProblem
     }
 
     /**
+     * Matches the error and the found version on the next line, which can have a color code:
+     * Mod File ironchest-1.20.2-14.5.7.jar needs language provider javafml:48 or above to load
+     * §7We have found 47
+     *
      * @inheritDoc
      */
     public static function getPatterns(): array
     {
         return [
-            "/Mod File ([^\/\n]+) needs language provider ([\w-]+):(.*?) to load[\n\s§\da-f]*We have found (\d+)/"
+            "/Mod File (?<file>[^\/\n]+) needs language provider (?<provider>[\w-]+):(?<required>.*?) to load[\n\s§\da-f]*We have found (?<found>\d+)/"
         ];
     }
 
@@ -44,10 +48,10 @@ class LanguageProviderVersionProblem extends ModProblem
      */
     public function setMatches(array $matches, mixed $patternKey): void
     {
-        $this->modName = $matches[1];
-        $this->languageProvider = $matches[2];
-        $this->requiredVersion = $matches[3];
-        $this->foundVersion = $matches[4];
+        $this->modName = $matches["file"];
+        $this->languageProvider = $matches["provider"];
+        $this->requiredVersion = $matches["required"];
+        $this->foundVersion = $matches["found"];
 
         $this->addSolution(new ModRemoveSolution($this->getModName()));
         $this->addSolution(new ForgeInstallDifferentVersionSolution());

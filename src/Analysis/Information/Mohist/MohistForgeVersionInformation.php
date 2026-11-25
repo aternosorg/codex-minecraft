@@ -11,6 +11,6 @@ class MohistForgeVersionInformation extends ForgeVersionInformation
      */
     public static function getPatterns(): array
     {
-        return ['/MinecraftForge v([0-9\.]+) `?Initialized/'];
+        return ['/MinecraftForge v([0-9.]+) `?Initialized/'];
     }
 }

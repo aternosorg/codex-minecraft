@@ -2,6 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Bukkit;
 
+use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -30,7 +31,7 @@ class WorldDuplicateProblem extends BukkitProblem
      */
     public static function getPatterns(): array
     {
-        return ['/World (.*) is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from .*\'s world directory if you want to be able to load the duplicate world./'];
+        return ['/World (.*) is a duplicate of another world and has been prevented from loading\./'];
     }
 
     /**
@@ -42,5 +43,17 @@ class WorldDuplicateProblem extends BukkitProblem
 
         $this->addSolution(new FileDeleteSolution($this->worldName . "/uid.dat"));
         $this->addSolution(new FileDeleteSolution($this->worldName));
+    }
+
+    /**
+     * Duplicate worlds with different names are different problems with different solutions
+     *
+     * @inheritDoc
+     */
+    public function isEqual(InsightInterface $insight): bool
+    {
+        return parent::isEqual($insight)
+            && $insight instanceof static
+            && $this->getWorldName() === $insight->getWorldName();
     }
 }

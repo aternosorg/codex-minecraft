@@ -1,0 +1,31 @@
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[19:00:23] [main/INFO]: Loading Minecraft 26.3 with Fabric Loader 0.20.1
+[19:00:23] [main/INFO]: Mappings not present!
+[19:00:23] [main/WARN]: Mod resolution failed
+[19:00:23] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE foo1 1.0.0 {depends bar1 @ [2.x]}, ROOT_FORCELOAD_SINGLE foo1 1.0.0]
+[19:00:23] [main/INFO]: Reason: [HARD_DEP foo1 1.0.0 {depends bar1 @ [2.x]}, HARD_DEP foo2 1.0.0 {depends bar2 @ [~2.1]}, HARD_DEP foo3 1.0.0 {depends bar3 @ [<=2.0.0]}, HARD_DEP foo4 1.0.0 {depends bar4 @ [2.0.0 || 3.0.0]}, HARD_DEP foo5 1.0.0 {depends bar5 @ [>=2.0.0 <1.0.0]}, HARD_DEP foo6 1.0.0 {depends bar6 @ [2.1.x]}]
+[19:00:23] [main/INFO]: Fix: add [add:bar1 2- ([[2-,3-)]), add:bar2 2.1 ([[2.1,2.2-)]), add:bar3 2.0.0 ([(-∞,2.0.0]]), add:bar4 3.0.0 ([[2.0.0,2.0.0], [3.0.0,3.0.0]]), add:bar6 2.1- ([[2.1-,2.2-)])], remove [], replace [[foo5 1.0.0] -> add:foo5 1 ([(-∞,∞)])]
+[19:00:23] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Install bar1, any 2.x version.
+	 - Install bar2, any version between 2.1 (inclusive) and 2.2- (exclusive).
+	 - Install bar3, version 2.0.0 or earlier.
+	 - Install bar4, version 2.0.0 or version 3.0.0.
+	 - Install bar6, any 2.1.x version.
+	 - Replace mod 'Foo5' (foo5) 1.0.0 with any version that is compatible with:
+		 - Other constraints that can''t be automatically determined
+More details:
+	 - Mod 'Foo1' (foo1) 1.0.0 requires any 2.x version of bar1, which is missing!
+	 - Mod 'Foo2' (foo2) 1.0.0 requires any version between 2.1 (inclusive) and 2.2- (exclusive) of bar2, which is missing!
+	 - Mod 'Foo3' (foo3) 1.0.0 requires version 2.0.0 or earlier of bar3, which is missing!
+	 - Mod 'Foo4' (foo4) 1.0.0 requires version 2.0.0 or version 3.0.0 of bar4, which is missing!
+	 - Mod 'Foo5' (foo5) 1.0.0 requires an unsatisfiable version range of bar5, which is missing!
+	 - Mod 'Foo6' (foo6) 1.0.0 requires any 2.1.x version of bar6, which is missing!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51)
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)

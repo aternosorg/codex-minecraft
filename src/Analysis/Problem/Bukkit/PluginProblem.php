@@ -16,6 +16,17 @@ use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
  */
 abstract class PluginProblem extends BukkitProblem
 {
+    /**
+     * Regex fragment for a plugin name as it appears in the log, like `WorldEdit`, `Multiverse-Core` or `mclo.gs`.
+     *
+     * Bukkit allows `[A-Za-z0-9 _.-]` in the name in plugin.yml and replaces spaces with underscores,
+     * so this matches every name of a plugin.yml plugin exactly.
+     * Paper allows the same characters in paper-plugin.yml but keeps the spaces,
+     * so names of Paper plugins that contain a space are not matched completely.
+     * Where the name is quoted in the log, `[^']+` up to the quote is still the better choice.
+     */
+    public const string PLUGIN_NAME = '[\w.-]+';
+
     protected string $pluginName;
 
     /**

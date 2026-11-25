@@ -1,0 +1,619 @@
+{
+    "id": "vanilla\/server",
+    "name": "Vanilla",
+    "type": "Server Log",
+    "version": null,
+    "title": "Vanilla Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:14:08] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[14:14:08] [ServerMain\/INFO]: Environment: Environment[sessionHost=https:\/\/sessionserver.mojang.com, servicesHost=https:\/\/api.minecraftservices.com, profilesHost=https:\/\/api.mojang.com, name=PROD]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[14:14:08] [ServerMain\/INFO]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[14:14:08] [ServerMain\/INFO]: Found new data pack file\/far-end-ender-expansion-2-0-3-v1-17-1.zip, loading it automatically"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14:14:08] [Worker-Main-3\/ERROR]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[14:14:08] [Worker-Main-3\/ERROR]: Carver: Failed to parse either. First: Not a string: {\"air\":[]}; Second: Failed to parse either. First: Not a json array: {\"air\":[]}; Second: No key type in MapLike[{\"air\":[]}]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14:14:08] [Worker-Main-4\/ERROR]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[14:14:08] [Worker-Main-4\/ERROR]: Carver: Failed to parse either. First: Not a string: {\"air\":[]}; Second: Failed to parse either. First: Not a json array: {\"air\":[]}; Second: No key type in MapLike[{\"air\":[]}]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14:14:08] [Worker-Main-3\/ERROR]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[14:14:08] [Worker-Main-3\/ERROR]: Carver: Failed to parse either. First: Not a string: {}; Second: Failed to parse either. First: Not a json array: {}; Second: No key type in MapLike[{}]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14:14:08] [Worker-Main-1\/ERROR]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[14:14:08] [Worker-Main-1\/ERROR]: Carver: Failed to parse either. First: Not a string: {\"air\":[\"far_end:surface_scar\"]}; Second: Failed to parse either. First: Not a json array: {\"air\":[\"far_end:surface_scar\"]}; Second: No key type in MapLike[{\"air\":[\"far_end:surface_scar\"]}]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14:14:08] [Worker-Main-3\/ERROR]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[14:14:08] [Worker-Main-3\/ERROR]: Carver: Failed to parse either. First: Not a string: {\"air\":[\"far_end:surface_scar\"]}; Second: Failed to parse either. First: Not a json array: {\"air\":[\"far_end:surface_scar\"]}; Second: No key type in MapLike[{\"air\":[\"far_end:surface_scar\"]}]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14:14:08] [Worker-Main-1\/ERROR]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[14:14:08] [Worker-Main-1\/ERROR]: Carver: Failed to parse either. First: Not a string: {\"air\":[\"far_end:surface_scar\"]}; Second: Failed to parse either. First: Not a json array: {\"air\":[\"far_end:surface_scar\"]}; Second: No key type in MapLike[{\"air\":[\"far_end:surface_scar\"]}]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14:14:08] [Worker-Main-1\/ERROR]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[14:14:08] [Worker-Main-1\/ERROR]: Carver: Failed to parse either. First: Not a string: {\"air\":[\"far_end:surface_scar\"]}; Second: Failed to parse either. First: Not a json array: {\"air\":[\"far_end:surface_scar\"]}; Second: No key type in MapLike[{\"air\":[\"far_end:surface_scar\"]}]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14:14:08] [Worker-Main-1\/ERROR]:",
+            "lines": [
+                {
+                    "number": 10,
+                    "content": "[14:14:08] [Worker-Main-1\/ERROR]: Carver: Failed to parse either. First: Not a string: {\"air\":[\"far_end:surface_scar\"]}; Second: Failed to parse either. First: Not a json array: {\"air\":[\"far_end:surface_scar\"]}; Second: No key type in MapLike[{\"air\":[\"far_end:surface_scar\"]}]"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[14:14:08] [Worker-Main-7\/ERROR]:",
+            "lines": [
+                {
+                    "number": 11,
+                    "content": "[14:14:08] [Worker-Main-7\/ERROR]: Registry loading errors:"
+                },
+                {
+                    "number": 12,
+                    "content": "> Errors in registry minecraft:dimension_type:"
+                },
+                {
+                    "number": 13,
+                    "content": ">> Errors in element minecraft:the_end:"
+                },
+                {
+                    "number": 14,
+                    "content": "java.lang.IllegalStateException: Failed to parse minecraft:the_end from pack file\/far-end-ender-expansion-2-0-3-v1-17-1.zip"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:115)"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat net.minecraft.resources.ResourceManagerRegistryLoadTask.lambda$load$2(ResourceManagerRegistryLoadTask.java:46)"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat net.minecraft.util.thread.ParallelMapTransform$Container.applyOperation(ParallelMapTransform.java:89)"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat net.minecraft.util.thread.ParallelMapTransform$SingleTaskSplitter.lambda$scheduleBatch$0(ParallelMapTransform.java:160)"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1825)"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1817)"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)"
+                },
+                {
+                    "number": 25,
+                    "content": "Caused by: java.lang.IllegalStateException: No key monster_spawn_block_light_limit in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]; No key monster_spawn_light_level in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]; Not a tag id; No key has_ender_dragon_fight in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:113)"
+                },
+                {
+                    "number": 29,
+                    "content": "\t... 9 more"
+                },
+                {
+                    "number": 30,
+                    "content": "> Errors in registry minecraft:root:"
+                },
+                {
+                    "number": 31,
+                    "content": "java.lang.IllegalStateException: Failed to parse minecraft:overworld from pack file\/terralith-2-0-v1-17.zip"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:115)"
+                },
+                {
+                    "number": 33,
+                    "content": "\tat net.minecraft.resources.ResourceManagerRegistryLoadTask.lambda$load$2(ResourceManagerRegistryLoadTask.java:46)"
+                },
+                {
+                    "number": 34,
+                    "content": "\tat net.minecraft.util.thread.ParallelMapTransform$Container.applyOperation(ParallelMapTransform.java:89)"
+                },
+                {
+                    "number": 35,
+                    "content": "\tat net.minecraft.util.thread.ParallelMapTransform$SingleTaskSplitter.lambda$scheduleBatch$0(ParallelMapTransform.java:160)"
+                },
+                {
+                    "number": 36,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1825)"
+                },
+                {
+                    "number": 37,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1817)"
+                },
+                {
+                    "number": 38,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)"
+                },
+                {
+                    "number": 39,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)"
+                },
+                {
+                    "number": 40,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)"
+                },
+                {
+                    "number": 41,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)"
+                },
+                {
+                    "number": 42,
+                    "content": "Caused by: java.lang.IllegalStateException: No key monster_spawn_block_light_limit in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]; No key monster_spawn_light_level in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]; Not a tag id; No key has_ender_dragon_fight in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]"
+                },
+                {
+                    "number": 43,
+                    "content": "\tat com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)"
+                },
+                {
+                    "number": 44,
+                    "content": "\tat com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)"
+                },
+                {
+                    "number": 45,
+                    "content": "\tat net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:113)"
+                },
+                {
+                    "number": 46,
+                    "content": "\t... 9 more"
+                },
+                {
+                    "number": 47,
+                    "content": "> Errors in registry minecraft:root:"
+                },
+                {
+                    "number": 48,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The datapack 'far-end-ender-expansion-2-0-3-v1-17-1.zip' could not be parsed.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[14:14:08] [Worker-Main-7\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 11,
+                            "content": "[14:14:08] [Worker-Main-7\/ERROR]: Registry loading errors:"
+                        },
+                        {
+                            "number": 12,
+                            "content": "> Errors in registry minecraft:dimension_type:"
+                        },
+                        {
+                            "number": 13,
+                            "content": ">> Errors in element minecraft:the_end:"
+                        },
+                        {
+                            "number": 14,
+                            "content": "java.lang.IllegalStateException: Failed to parse minecraft:the_end from pack file\/far-end-ender-expansion-2-0-3-v1-17-1.zip"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:115)"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat net.minecraft.resources.ResourceManagerRegistryLoadTask.lambda$load$2(ResourceManagerRegistryLoadTask.java:46)"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat net.minecraft.util.thread.ParallelMapTransform$Container.applyOperation(ParallelMapTransform.java:89)"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat net.minecraft.util.thread.ParallelMapTransform$SingleTaskSplitter.lambda$scheduleBatch$0(ParallelMapTransform.java:160)"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1825)"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1817)"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)"
+                        },
+                        {
+                            "number": 25,
+                            "content": "Caused by: java.lang.IllegalStateException: No key monster_spawn_block_light_limit in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]; No key monster_spawn_light_level in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]; Not a tag id; No key has_ender_dragon_fight in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:113)"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\t... 9 more"
+                        },
+                        {
+                            "number": 30,
+                            "content": "> Errors in registry minecraft:root:"
+                        },
+                        {
+                            "number": 31,
+                            "content": "java.lang.IllegalStateException: Failed to parse minecraft:overworld from pack file\/terralith-2-0-v1-17.zip"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\tat net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:115)"
+                        },
+                        {
+                            "number": 33,
+                            "content": "\tat net.minecraft.resources.ResourceManagerRegistryLoadTask.lambda$load$2(ResourceManagerRegistryLoadTask.java:46)"
+                        },
+                        {
+                            "number": 34,
+                            "content": "\tat net.minecraft.util.thread.ParallelMapTransform$Container.applyOperation(ParallelMapTransform.java:89)"
+                        },
+                        {
+                            "number": 35,
+                            "content": "\tat net.minecraft.util.thread.ParallelMapTransform$SingleTaskSplitter.lambda$scheduleBatch$0(ParallelMapTransform.java:160)"
+                        },
+                        {
+                            "number": 36,
+                            "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1825)"
+                        },
+                        {
+                            "number": 37,
+                            "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1817)"
+                        },
+                        {
+                            "number": 38,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)"
+                        },
+                        {
+                            "number": 39,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)"
+                        },
+                        {
+                            "number": 40,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)"
+                        },
+                        {
+                            "number": 41,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)"
+                        },
+                        {
+                            "number": 42,
+                            "content": "Caused by: java.lang.IllegalStateException: No key monster_spawn_block_light_limit in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]; No key monster_spawn_light_level in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]; Not a tag id; No key has_ender_dragon_fight in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]"
+                        },
+                        {
+                            "number": 43,
+                            "content": "\tat com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)"
+                        },
+                        {
+                            "number": 44,
+                            "content": "\tat com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)"
+                        },
+                        {
+                            "number": 45,
+                            "content": "\tat net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:113)"
+                        },
+                        {
+                            "number": 46,
+                            "content": "\t... 9 more"
+                        },
+                        {
+                            "number": 47,
+                            "content": "> Errors in registry minecraft:root:"
+                        },
+                        {
+                            "number": 48,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file 'far-end-ender-expansion-2-0-3-v1-17-1.zip'."
+                    }
+                ]
+            },
+            {
+                "message": "The datapack 'terralith-2-0-v1-17.zip' could not be parsed.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[14:14:08] [Worker-Main-7\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 11,
+                            "content": "[14:14:08] [Worker-Main-7\/ERROR]: Registry loading errors:"
+                        },
+                        {
+                            "number": 12,
+                            "content": "> Errors in registry minecraft:dimension_type:"
+                        },
+                        {
+                            "number": 13,
+                            "content": ">> Errors in element minecraft:the_end:"
+                        },
+                        {
+                            "number": 14,
+                            "content": "java.lang.IllegalStateException: Failed to parse minecraft:the_end from pack file\/far-end-ender-expansion-2-0-3-v1-17-1.zip"
+                        },
+                        {
+                            "number": 15,
+                            "content": "\tat net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:115)"
+                        },
+                        {
+                            "number": 16,
+                            "content": "\tat net.minecraft.resources.ResourceManagerRegistryLoadTask.lambda$load$2(ResourceManagerRegistryLoadTask.java:46)"
+                        },
+                        {
+                            "number": 17,
+                            "content": "\tat net.minecraft.util.thread.ParallelMapTransform$Container.applyOperation(ParallelMapTransform.java:89)"
+                        },
+                        {
+                            "number": 18,
+                            "content": "\tat net.minecraft.util.thread.ParallelMapTransform$SingleTaskSplitter.lambda$scheduleBatch$0(ParallelMapTransform.java:160)"
+                        },
+                        {
+                            "number": 19,
+                            "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1825)"
+                        },
+                        {
+                            "number": 20,
+                            "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1817)"
+                        },
+                        {
+                            "number": 21,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)"
+                        },
+                        {
+                            "number": 22,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)"
+                        },
+                        {
+                            "number": 23,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)"
+                        },
+                        {
+                            "number": 24,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)"
+                        },
+                        {
+                            "number": 25,
+                            "content": "Caused by: java.lang.IllegalStateException: No key monster_spawn_block_light_limit in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]; No key monster_spawn_light_level in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]; Not a tag id; No key has_ender_dragon_fight in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]"
+                        },
+                        {
+                            "number": 26,
+                            "content": "\tat com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)"
+                        },
+                        {
+                            "number": 27,
+                            "content": "\tat com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)"
+                        },
+                        {
+                            "number": 28,
+                            "content": "\tat net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:113)"
+                        },
+                        {
+                            "number": 29,
+                            "content": "\t... 9 more"
+                        },
+                        {
+                            "number": 30,
+                            "content": "> Errors in registry minecraft:root:"
+                        },
+                        {
+                            "number": 31,
+                            "content": "java.lang.IllegalStateException: Failed to parse minecraft:overworld from pack file\/terralith-2-0-v1-17.zip"
+                        },
+                        {
+                            "number": 32,
+                            "content": "\tat net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:115)"
+                        },
+                        {
+                            "number": 33,
+                            "content": "\tat net.minecraft.resources.ResourceManagerRegistryLoadTask.lambda$load$2(ResourceManagerRegistryLoadTask.java:46)"
+                        },
+                        {
+                            "number": 34,
+                            "content": "\tat net.minecraft.util.thread.ParallelMapTransform$Container.applyOperation(ParallelMapTransform.java:89)"
+                        },
+                        {
+                            "number": 35,
+                            "content": "\tat net.minecraft.util.thread.ParallelMapTransform$SingleTaskSplitter.lambda$scheduleBatch$0(ParallelMapTransform.java:160)"
+                        },
+                        {
+                            "number": 36,
+                            "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1825)"
+                        },
+                        {
+                            "number": 37,
+                            "content": "\tat java.base\/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1817)"
+                        },
+                        {
+                            "number": 38,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:511)"
+                        },
+                        {
+                            "number": 39,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)"
+                        },
+                        {
+                            "number": 40,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)"
+                        },
+                        {
+                            "number": 41,
+                            "content": "\tat java.base\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)"
+                        },
+                        {
+                            "number": 42,
+                            "content": "Caused by: java.lang.IllegalStateException: No key monster_spawn_block_light_limit in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]; No key monster_spawn_light_level in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]; Not a tag id; No key has_ender_dragon_fight in MapLike[{\"ultrawarm\":false,\"natural\":false,\"piglin_safe\":false,\"respawn_anchor_works\":true,\"bed_works\":false,\"has_raids\":true,\"has_skylight\":false,\"has_ceiling\":false,\"coordinate_scale\":1,\"ambient_light\":0,\"logical_height\":320,\"effects\":\"minecraft:the_end\",\"infiniburn\":\"minecraft:infiniburn_end\",\"min_y\":-128,\"height\":320}]"
+                        },
+                        {
+                            "number": 43,
+                            "content": "\tat com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)"
+                        },
+                        {
+                            "number": 44,
+                            "content": "\tat com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)"
+                        },
+                        {
+                            "number": 45,
+                            "content": "\tat net.minecraft.resources.RegistryLoadTask$PendingRegistration.loadFromResource(RegistryLoadTask.java:113)"
+                        },
+                        {
+                            "number": 46,
+                            "content": "\t... 9 more"
+                        },
+                        {
+                            "number": 47,
+                            "content": "> Errors in registry minecraft:root:"
+                        },
+                        {
+                            "number": 48,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Delete the file 'terralith-2-0-v1-17.zip'."
+                    }
+                ]
+            }
+        ],
+        "information": []
+    }
+}

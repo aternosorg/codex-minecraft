@@ -2951,7 +2951,7 @@
         "problems": [
             {
                 "message": "The world 'New_world' could not be loaded because it contains errors and is probably corrupt.",
-                "counter": 2,
+                "counter": 1,
                 "entry": {
                     "level": 3,
                     "time": null,
@@ -2969,6 +2969,29 @@
                     },
                     {
                         "message": "Delete the file 'New_world'."
+                    }
+                ]
+            },
+            {
+                "message": "The world 'New_World' could not be loaded because it contains errors and is probably corrupt.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[14:34:12] [Server thread\/ERROR]:",
+                    "lines": [
+                        {
+                            "number": 245,
+                            "content": "[14:34:12] [Server thread\/ERROR]: [Multiverse-Core] The world 'New_World' could NOT be loaded because it contains errors and is probably corrupt!"
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Repair the world 'New_World', e.g. by using Minecraft Region Fixer or MCEdit."
+                    },
+                    {
+                        "message": "Delete the file 'New_World'."
                     }
                 ]
             }

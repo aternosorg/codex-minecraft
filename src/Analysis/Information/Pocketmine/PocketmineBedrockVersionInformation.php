@@ -20,6 +20,6 @@ class PocketmineBedrockVersionInformation extends PocketmineInformation implemen
      */
     public static function getPatterns(): array
     {
-        return ['/Starting Minecraft: Bedrock Edition server version v([0-9\.]+)/'];
+        return ['/Starting Minecraft: Bedrock Edition server version v([0-9.]+)/'];
     }
 }

@@ -3,6 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Paper;
 
 use Aternos\Codex\Analysis\InsightInterface;
+use Aternos\Codex\Minecraft\Analysis\Problem\Bukkit\PluginProblem;
 use Aternos\Codex\Minecraft\Analysis\Solution\Bukkit\PluginRemoveSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
@@ -35,7 +36,7 @@ class AmbiguousProvidedNameProblem extends PaperProblem
     {
         return [
             '/`(?<name>[^\']+)\' is provided by both `(?<plugin>[^\']+)\' and `(?<otherPlugin>[^\']+)\'/',
-            '/(?<plugin>[^ ]+) provides `(?<name>[^\']+)\' while this is also the name of `(?<otherPlugin>[^\']+)\' in `[^\']+\'/',
+            '/(?<plugin>' . PluginProblem::PLUGIN_NAME . ') provides `(?<name>[^\']+)\' while this is also the name of `(?<otherPlugin>[^\']+)\' in `[^\']+\'/',
             '/Ambiguous plugin name `(?<name>[^\']+)\'\. It is also provided by `(?<plugin>[^\']+)\'/'
         ];
     }

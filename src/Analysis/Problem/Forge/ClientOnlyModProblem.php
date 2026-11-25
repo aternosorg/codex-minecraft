@@ -40,7 +40,8 @@ class ClientOnlyModProblem extends ModProblem
     public static function getPatterns(): array
     {
         return [
-            '/^\s*([^\(\n]+) \(([^\)]+)\) (?:has failed to load correctly|encountered an error during[^\n]*)\n' . static::CLIENT_ONLY_CAUSE . '/m'
+            // the name and id stay on one line, otherwise every "(" makes the pattern scan the rest of the entry
+            '/^\h*([^\(\n]+) \(([^\)\n]+)\) (?:has failed to load correctly|encountered an error during[^\n]*)\n' . static::CLIENT_ONLY_CAUSE . '/m'
         ];
     }
 

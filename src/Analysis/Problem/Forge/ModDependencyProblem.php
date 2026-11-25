@@ -35,8 +35,9 @@ class ModDependencyProblem extends ModProblem
         return [
             'requires-mods' => '/The mod \S+ \(([^\)]+)\) requires mods \[([^\]]+)\] to be available/',
             'missing-mods-exception' => '/net\.minecraftforge\.fml\.common\.MissingModsException: Mod \S+ \((.+)\) requires (.+)/',
-            'mod-loading-exception' => '/net\.minecraftforge\.fml\.ModLoadingException: Mod \§.([^\§]+)\§. requires \§.([^\§]+)\§. \§.([^ \§]+)[^\§]*\§./',
-            'loading-failed-exception' => '/net\.minecraftforge\.fml\.LoadingFailedException: Loading errors encountered: \[\n(?:.*\n)*Mod \§.([^\§]+)§. requires \§.([^\§]+)\§. \§.([^ \§]+)[^\§]*\§./'
+            'mod-loading-exception' => '/net\.minecraftforge\.fml\.ModLoadingException: Mod §.([^§]+)§. requires §.([^§]+)§. §.([^ §]+)[^§]*§./',
+            // whole lines are skipped possessively, so a long stack trace doesn't exhaust the backtrack limit
+            'loading-failed-exception' => '/net\.minecraftforge\.fml\.LoadingFailedException: Loading errors encountered: \[\n(?:.*+\n)*Mod §.([^§]+)§. requires §.([^§]+)§. §.([^ §]+)[^§]*§./'
         ];
     }
 
@@ -53,7 +54,7 @@ class ModDependencyProblem extends ModProblem
                 $this->addSolution(new ModInstallSolution($matches[2]));
                 break;
             case 'missing-mods-exception':
-                $count = preg_match_all('/(\w+)(?:@\[?([0-9\.]+))?[,\]]/', $matches[2], $dependencyMatches);
+                $count = preg_match_all('/(\w+)(?:@\[?([0-9.]+))?[,\]]/', $matches[2], $dependencyMatches);
                 if (!$count) {
                     if (preg_match('/\[(\S+)\]/', $matches[2], $dependencyMatches)) {
                         $this->dependencyMods[] = $dependencyMatches[1];
