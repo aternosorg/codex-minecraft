@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Information\Fabric;
 
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
-use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric\FabricLog;
+use Aternos\Codex\Minecraft\Log\Fabric\FabricLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 class FabricVersionInformation extends FabricInformation

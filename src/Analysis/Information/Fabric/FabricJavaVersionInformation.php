@@ -2,7 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Information\Fabric;
 
-use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Fabric\FabricLog;
+use Aternos\Codex\Minecraft\Log\Fabric\FabricLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 class FabricJavaVersionInformation extends FabricInformation

@@ -4,7 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Fabric;
 
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FilePathType;
-use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog;
+use Aternos\Codex\Minecraft\Log\Vanilla\VanillaServerLog;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 class FabricDuplicateModProblem extends FabricModProblem

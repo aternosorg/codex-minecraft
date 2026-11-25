@@ -36,7 +36,7 @@ If you know the log type, you can directly create a new log object.
 ```php
 <?php
 
-$log = new \Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaServerLog();
+$log = new \Aternos\Codex\Minecraft\Log\Vanilla\VanillaServerLog();
 $log->setLogFile($logFile);
 ```
 

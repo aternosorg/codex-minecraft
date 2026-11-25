@@ -14,6 +14,36 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_arclight_1192(): void
+    {
+        $log = new TestLog('Arclight/arclight-1192.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_arclight_crash_report_with_release_name(): void
+    {
+        $log = new TestLog('Arclight/arclight-crash-report-with-release-name.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_arclight_crash_report(): void
+    {
+        $log = new TestLog('Arclight/arclight-crash-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_bedrock_authentication_allowlist_problem(): void
     {
         $log = new TestLog('Bedrock/bedrock-authentication-allowlist-problem.log');
@@ -74,9 +104,9 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_waterfall(): void
+    public function test_bungeecord(): void
     {
-        $log = new TestLog('BungeeCord/Waterfall/waterfall.log');
+        $log = new TestLog('BungeeCord/bungeecord.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -84,9 +114,69 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_bungeecord(): void
+    public function test_craftbukkit_plugin_enabling(): void
     {
-        $log = new TestLog('BungeeCord/bungeecord.log');
+        $log = new TestLog('CraftBukkit/craftbukkit-plugin-enabling.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_craftbukkit_plugin_event_plugin_name_with_dash(): void
+    {
+        $log = new TestLog('CraftBukkit/craftbukkit-plugin-event-plugin-name-with-dash.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_craftbukkit_plugin_event(): void
+    {
+        $log = new TestLog('CraftBukkit/craftbukkit-plugin-event.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_craftbukkit_start_1132(): void
+    {
+        $log = new TestLog('CraftBukkit/craftbukkit-start-1132.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_craftbukkit_world_duplicate_multiple(): void
+    {
+        $log = new TestLog('CraftBukkit/craftbukkit-world-duplicate-multiple.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_craftbukkit_world_duplicate(): void
+    {
+        $log = new TestLog('CraftBukkit/craftbukkit-world-duplicate.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_oldcraftbukkit_start_11(): void
+    {
+        $log = new TestLog('CraftBukkit/oldcraftbukkit-start-11.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -174,6 +264,1116 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_fabric_1_19_crash_report(): void
+    {
+        $log = new TestLog('Fabric/fabric-1-19-crash-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_1_20_1_dependencies_wrong_version(): void
+    {
+        $log = new TestLog('Fabric/fabric-1-20-1-dependencies-wrong-version.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_1_21_4_crash_report(): void
+    {
+        $log = new TestLog('Fabric/fabric-1-21-4-crash-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_1165_origins(): void
+    {
+        $log = new TestLog('Fabric/fabric-1165-origins.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_1165(): void
+    {
+        $log = new TestLog('Fabric/fabric-1165.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_1171_dependency(): void
+    {
+        $log = new TestLog('Fabric/fabric-1171-dependency.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_1181(): void
+    {
+        $log = new TestLog('Fabric/fabric-1181.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_26_1_client_dev(): void
+    {
+        $log = new TestLog('Fabric/fabric-26-1-client-dev.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_26_2_client(): void
+    {
+        $log = new TestLog('Fabric/fabric-26-2-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_client_1_19_2(): void
+    {
+        $log = new TestLog('Fabric/fabric-client-1-19-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_client_log_fragment_with_crash_report(): void
+    {
+        $log = new TestLog('Fabric/fabric-client-log-fragment-with-crash-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_client_modrinth_app(): void
+    {
+        $log = new TestLog('Fabric/fabric-client-modrinth-app.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_client_only_entrypoint(): void
+    {
+        $log = new TestLog('Fabric/fabric-client-only-entrypoint.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_client_only_mixin(): void
+    {
+        $log = new TestLog('Fabric/fabric-client-only-mixin.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_conflicting_mods_unquoted(): void
+    {
+        $log = new TestLog('Fabric/fabric-conflicting-mods-unquoted.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_conflicting_mods(): void
+    {
+        $log = new TestLog('Fabric/fabric-conflicting-mods.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_corrupt_mod_file(): void
+    {
+        $log = new TestLog('Fabric/fabric-corrupt-mod-file.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_corrupt_nested_mod_file(): void
+    {
+        $log = new TestLog('Fabric/fabric-corrupt-nested-mod-file.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_crash_report_client(): void
+    {
+        $log = new TestLog('Fabric/fabric-crash-report-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_crash_report_server(): void
+    {
+        $log = new TestLog('Fabric/fabric-crash-report-server.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_crash_report(): void
+    {
+        $log = new TestLog('Fabric/fabric-crash-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_dependency_version_notations(): void
+    {
+        $log = new TestLog('Fabric/fabric-dependency-version-notations.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_duplicate_mod(): void
+    {
+        $log = new TestLog('Fabric/fabric-duplicate-mod.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_entrypoint_error(): void
+    {
+        $log = new TestLog('Fabric/fabric-entrypoint-error.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_entrypoint_exception_in_stage(): void
+    {
+        $log = new TestLog('Fabric/fabric-entrypoint-exception-in-stage.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_entrypoint_exception(): void
+    {
+        $log = new TestLog('Fabric/fabric-entrypoint-exception.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_incompatible_minecraft_version(): void
+    {
+        $log = new TestLog('Fabric/fabric-incompatible-minecraft-version.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_incompatible_mods_multiple(): void
+    {
+        $log = new TestLog('Fabric/fabric-incompatible-mods-multiple.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_incompatible_mods(): void
+    {
+        $log = new TestLog('Fabric/fabric-incompatible-mods.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_java_version_dependency_exact(): void
+    {
+        $log = new TestLog('Fabric/fabric-java-version-dependency-exact.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_java_version_dependency(): void
+    {
+        $log = new TestLog('Fabric/fabric-java-version-dependency.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_java11(): void
+    {
+        $log = new TestLog('Fabric/fabric-java11.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_java8(): void
+    {
+        $log = new TestLog('Fabric/fabric-java8.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_language_adapter_not_found(): void
+    {
+        $log = new TestLog('Fabric/fabric-language-adapter-not-found.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_loader_outdated(): void
+    {
+        $log = new TestLog('Fabric/fabric-loader-outdated.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_loom_client(): void
+    {
+        $log = new TestLog('Fabric/fabric-loom-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_loom_server(): void
+    {
+        $log = new TestLog('Fabric/fabric-loom-server.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_minecraft_version_range(): void
+    {
+        $log = new TestLog('Fabric/fabric-minecraft-version-range.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_missing_dependencies_1(): void
+    {
+        $log = new TestLog('Fabric/fabric-missing-dependencies-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_missing_dependencies_2(): void
+    {
+        $log = new TestLog('Fabric/fabric-missing-dependencies-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_missing_dependencies_3(): void
+    {
+        $log = new TestLog('Fabric/fabric-missing-dependencies-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_missing_dependency_unversioned(): void
+    {
+        $log = new TestLog('Fabric/fabric-missing-dependency-unversioned.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_missing_dependency_versioned(): void
+    {
+        $log = new TestLog('Fabric/fabric-missing-dependency-versioned.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mixin_apply_error_invalid_descriptor(): void
+    {
+        $log = new TestLog('Fabric/fabric-mixin-apply-error-invalid-descriptor.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mixin_apply_error(): void
+    {
+        $log = new TestLog('Fabric/fabric-mixin-apply-error.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mixin_config_error(): void
+    {
+        $log = new TestLog('Fabric/fabric-mixin-config-error.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mixin_error(): void
+    {
+        $log = new TestLog('Fabric/fabric-mixin-error.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mod_json_invalid_id(): void
+    {
+        $log = new TestLog('Fabric/fabric-mod-json-invalid-id.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mod_json_malformed(): void
+    {
+        $log = new TestLog('Fabric/fabric-mod-json-malformed.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mod_names(): void
+    {
+        $log = new TestLog('Fabric/fabric-mod-names.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mod_payload_decode_failed(): void
+    {
+        $log = new TestLog('Fabric/fabric-mod-payload-decode-failed.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mod_payload_encode_failed(): void
+    {
+        $log = new TestLog('Fabric/fabric-mod-payload-encode-failed.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_mod_shares_builtin_id(): void
+    {
+        $log = new TestLog('Fabric/fabric-mod-shares-builtin-id.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_non_fabric_mods(): void
+    {
+        $log = new TestLog('Fabric/fabric-non-fabric-mods.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_pre_release(): void
+    {
+        $log = new TestLog('Fabric/fabric-pre-release.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_server_jar_missing(): void
+    {
+        $log = new TestLog('Fabric/fabric-server-jar-missing.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_version_range_dependency(): void
+    {
+        $log = new TestLog('Fabric/fabric-version-range-dependency.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_fabric_wrong_mc_version(): void
+    {
+        $log = new TestLog('Fabric/fabric-wrong-mc-version.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_folia_1_19_4_unsupported_plugin(): void
+    {
+        $log = new TestLog('Folia/folia-1-19-4-unsupported-plugin.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_folia_crash_report_1_21_4(): void
+    {
+        $log = new TestLog('Folia/folia-crash-report-1-21-4.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_folia_start_1_19_4(): void
+    {
+        $log = new TestLog('Folia/folia-start-1-19-4.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_folia_start_1_20_6(): void
+    {
+        $log = new TestLog('Folia/folia-start-1-20-6.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_folia_unsupported_plugin_name_with_dot(): void
+    {
+        $log = new TestLog('Folia/folia-unsupported-plugin-name-with-dot.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_1_20_1_duplicate_mods(): void
+    {
+        $log = new TestLog('Forge/forge-1-20-1-duplicate-mods.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_1_21_3_client(): void
+    {
+        $log = new TestLog('Forge/forge-1-21-3-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_1_21_3_server(): void
+    {
+        $log = new TestLog('Forge/forge-1-21-3-server.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_1_7_10_client(): void
+    {
+        $log = new TestLog('Forge/forge-1-7-10-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_1_7_10_crash_report(): void
+    {
+        $log = new TestLog('Forge/forge-1-7-10-crash-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_1165(): void
+    {
+        $log = new TestLog('Forge/forge-1165.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_26_1_client(): void
+    {
+        $log = new TestLog('Forge/forge-26-1-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_26_3_client_atlauncher(): void
+    {
+        $log = new TestLog('Forge/forge-26-3-client-atlauncher.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_client_1_16_5(): void
+    {
+        $log = new TestLog('Forge/forge-client-1-16-5.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_client_1_19_2(): void
+    {
+        $log = new TestLog('Forge/forge-client-1-19-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_client_modrinth_app(): void
+    {
+        $log = new TestLog('Forge/forge-client-modrinth-app.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_confirm(): void
+    {
+        $log = new TestLog('Forge/forge-confirm.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_crash_report(): void
+    {
+        $log = new TestLog('Forge/forge-crash-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_early_crash(): void
+    {
+        $log = new TestLog('Forge/forge-early-crash.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_language_provider_version_above(): void
+    {
+        $log = new TestLog('Forge/forge-language-provider-version-above.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_language_provider_version_between(): void
+    {
+        $log = new TestLog('Forge/forge-language-provider-version-between.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_loading_stage_error(): void
+    {
+        $log = new TestLog('Forge/forge-loading-stage-error.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_log_crash_report(): void
+    {
+        $log = new TestLog('Forge/forge-log-crash-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_missing_datapack_mod(): void
+    {
+        $log = new TestLog('Forge/forge-missing-datapack-mod.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_missing_mods_exception_2(): void
+    {
+        $log = new TestLog('Forge/forge-missing-mods-exception-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_missing_mods_exception(): void
+    {
+        $log = new TestLog('Forge/forge-missing-mods-exception.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_mixin_apply_error(): void
+    {
+        $log = new TestLog('Forge/forge-mixin-apply-error.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_mod_dependency(): void
+    {
+        $log = new TestLog('Forge/forge-mod-dependency.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_mod_duplicate(): void
+    {
+        $log = new TestLog('Forge/forge-mod-duplicate.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_mod_exception(): void
+    {
+        $log = new TestLog('Forge/forge-mod-exception.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_mod_fatal_1444(): void
+    {
+        $log = new TestLog('Forge/forge-mod-fatal-1444.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_mod_fatal(): void
+    {
+        $log = new TestLog('Forge/forge-mod-fatal.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_mod_loading_dependency(): void
+    {
+        $log = new TestLog('Forge/forge-mod-loading-dependency.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_mod_required(): void
+    {
+        $log = new TestLog('Forge/forge-mod-required.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_mod_wrong_minecraft_version(): void
+    {
+        $log = new TestLog('Forge/forge-mod-wrong-minecraft-version.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_multiple_fatal_problems(): void
+    {
+        $log = new TestLog('Forge/forge-multiple-fatal-problems.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_multiple_modules_export_multiple(): void
+    {
+        $log = new TestLog('Forge/forge-multiple-modules-export-multiple.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_multiple_modules_export(): void
+    {
+        $log = new TestLog('Forge/forge-multiple-modules-export.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_polymc_1_19_2(): void
+    {
+        $log = new TestLog('Forge/forge-polymc-1-19-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_ptrlib_dependency(): void
+    {
+        $log = new TestLog('Forge/forge-ptrlib-dependency.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_slash_in_thread(): void
+    {
+        $log = new TestLog('Forge/forge-slash-in-thread.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_start_1122(): void
+    {
+        $log = new TestLog('Forge/forge-start-1122.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_start_1132(): void
+    {
+        $log = new TestLog('Forge/forge-start-1132.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_start_1161(): void
+    {
+        $log = new TestLog('Forge/forge-start-1161.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_ticking_block_entity_crash_report_1_10_2(): void
+    {
+        $log = new TestLog('Forge/forge-ticking-block-entity-crash-report-1-10-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_ticking_block_entity_crash_report(): void
+    {
+        $log = new TestLog('Forge/forge-ticking-block-entity-crash-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_ticking_block_entity_crash_report2(): void
+    {
+        $log = new TestLog('Forge/forge-ticking-block-entity-crash-report2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_ticking_block_entity_crash_report3(): void
+    {
+        $log = new TestLog('Forge/forge-ticking-block-entity-crash-report3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_ticking_block_entity(): void
+    {
+        $log = new TestLog('Forge/forge-ticking-block-entity.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_ticking_entity_1_18_2(): void
+    {
+        $log = new TestLog('Forge/forge-ticking-entity-1-18-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_world_missing_mod_forge_prefix(): void
+    {
+        $log = new TestLog('Forge/forge-world-missing-mod-forge-prefix.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_world_missing_mod(): void
+    {
+        $log = new TestLog('Forge/forge-world-missing-mod.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_forge_world_mod_version(): void
+    {
+        $log = new TestLog('Forge/forge-world-mod-version.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_geyser(): void
     {
         $log = new TestLog('Geyser/geyser.log');
@@ -184,9 +1384,959 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
+    public function test_glowstone_start_1122(): void
+    {
+        $log = new TestLog('Glowstone/glowstone-start-1122.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_magma_mod_dependency(): void
+    {
+        $log = new TestLog('Magma/magma-mod-dependency.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_magma_plugin_dependency(): void
+    {
+        $log = new TestLog('Magma/magma-plugin-dependency.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_magma_start_1122(): void
+    {
+        $log = new TestLog('Magma/magma-start-1122.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_magma_start_1165(): void
+    {
+        $log = new TestLog('Magma/magma-start-1165.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
     public function test_launcher_log(): void
     {
         $log = new TestLog('MinecraftLauncher/launcher_log.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_mohist_1_12_2(): void
+    {
+        $log = new TestLog('Mohist/mohist-1-12-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_mohist_1_16_5(): void
+    {
+        $log = new TestLog('Mohist/mohist-1-16-5.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_mohist_1_18_2(): void
+    {
+        $log = new TestLog('Mohist/mohist-1-18-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_mohist_crash_report(): void
+    {
+        $log = new TestLog('Mohist/mohist-crash-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_1_20_1_server_report_entity(): void
+    {
+        $log = new TestLog('NeoForge/neoforge-1-20-1-server-report-entity.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_1_20_4_client_report(): void
+    {
+        $log = new TestLog('NeoForge/neoforge-1-20-4-client-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_1_20_4_client(): void
+    {
+        $log = new TestLog('NeoForge/neoforge-1-20-4-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_1_20_4_server_early_jvm_warning(): void
+    {
+        $log = new TestLog('NeoForge/neoforge-1-20-4-server-early-jvm-warning.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_1_20_4_server_early(): void
+    {
+        $log = new TestLog('NeoForge/neoforge-1-20-4-server-early.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_1_20_4_server_report(): void
+    {
+        $log = new TestLog('NeoForge/neoforge-1-20-4-server-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_1_20_4_server(): void
+    {
+        $log = new TestLog('NeoForge/neoforge-1-20-4-server.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_1_21_1_client_modrinth_app(): void
+    {
+        $log = new TestLog('NeoForge/neoforge-1-21-1-client-modrinth-app.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_1_21_1_server_mod_loading_crash_report(): void
+    {
+        $log = new TestLog('NeoForge/neoforge-1-21-1-server-mod-loading-crash-report.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_1_21_3_client(): void
+    {
+        $log = new TestLog('NeoForge/neoforge-1-21-3-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_1_21_3_server(): void
+    {
+        $log = new TestLog('NeoForge/neoforge-1-21-3-server.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_26_1_client(): void
+    {
+        $log = new TestLog('NeoForge/neoforge-26-1-client.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_26_3_client_modrinth_app(): void
+    {
+        $log = new TestLog('NeoForge/neoforge-26-3-client-modrinth-app.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_neoforge_mixin_apply_error_unknown_mod(): void
+    {
+        $log = new TestLog('NeoForge/neoforge-mixin-apply-error-unknown-mod.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_ambiguous_plugin_name_1_13_2(): void
+    {
+        $log = new TestLog('Paper/paper-ambiguous-plugin-name-1-13-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_ambiguous_plugin_name_1_20_4(): void
+    {
+        $log = new TestLog('Paper/paper-ambiguous-plugin-name-1-20-4.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_ambiguous_plugin_name_1_21_1(): void
+    {
+        $log = new TestLog('Paper/paper-ambiguous-plugin-name-1-21-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_ambiguous_provided_name_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-ambiguous-provided-name-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_cache_dir_create_failed_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-cache-dir-create-failed-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_cache_dir_not_directory_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-cache-dir-not-directory-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_circular_plugin_dependency_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-circular-plugin-dependency-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_config_not_writable_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-config-not-writable-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_configuration_parse_error_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-configuration-parse-error-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_crash_report_configuration_parse_error_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-crash-report-configuration-parse-error-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_default_world_provider_unavailable_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-default-world-provider-unavailable-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_event_handler_invalid_signature_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-event-handler-invalid-signature-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_event_listener_missing_class_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-event-listener-missing-class-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_exception_in_server_tick_loop_1_20_4(): void
+    {
+        $log = new TestLog('Paper/paper-exception-in-server-tick-loop-1-20-4.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_help_yml_invalid_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-help-yml-invalid-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_invalid_enum_value_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-invalid-enum-value-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_legacy_plugin_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-legacy-plugin-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_legacy_plugin_conversion_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-legacy-plugin-conversion-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_main_thread_check_block_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-main-thread-check-block-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_main_thread_check_chunk_load_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-main-thread-check-chunk-load-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_main_thread_check_own_thread_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-main-thread-check-own-thread-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_map_renderer_exception_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-map-renderer-exception-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_metaspace(): void
+    {
+        $log = new TestLog('Paper/paper-metaspace.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_misconfigured_update_directory_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-misconfigured-update-directory-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_multiple_dependencies_1_18_2(): void
+    {
+        $log = new TestLog('Paper/paper-multiple-dependencies-1-18-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_multiple_dependencies_1_20_4(): void
+    {
+        $log = new TestLog('Paper/paper-multiple-dependencies-1-20-4.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_multiple_dependencies_1_21_1(): void
+    {
+        $log = new TestLog('Paper/paper-multiple-dependencies-1-21-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_multiple_dependencies_plugin_names_with_dash_and_dot(): void
+    {
+        $log = new TestLog('Paper/paper-multiple-dependencies-plugin-names-with-dash-and-dot.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_newer_config_version_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-newer-config-version-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_newer_world_config_version_26_1_1(): void
+    {
+        $log = new TestLog('Paper/paper-newer-world-config-version-26-1-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_out_of_memory_error_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-out-of-memory-error-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_permission_already_defined_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-permission-already-defined-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_permissions_file_invalid_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-permissions-file-invalid-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_permissions_file_not_a_map_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-permissions-file-not-a-map-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_api_version_too_low_1_20_6(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-api-version-too-low-1-20-6.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_api_version_too_low_1_21_1(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-api-version-too-low-1-21-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_bootstrapper_failed_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-bootstrapper-failed-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_datafolder_not_directory_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-datafolder-not-directory-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_dependency_1_18_2_duplicate(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-dependency-1-18-2-duplicate.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_dependency_1_18_2(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-dependency-1-18-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_dependency_1_20_4(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-dependency-1-20-4.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_dependency_1_21_1(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-dependency-1-21-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_dependency_1161(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-dependency-1161.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_dependency_plugin_name_with_dash(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-dependency-plugin-name-with-dash.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_dependency_without_plugin_name(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-dependency-without-plugin-name.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_disabling_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-disabling-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_disabling(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-disabling.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_loader_unregistering_events_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-loader-unregistering-events-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_name_with_dot_error_1_21(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-name-with-dot-error-1-21.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_unregistered_classloader_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-unregistered-classloader-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_unsupported_class_version_1_16_5(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-unsupported-class-version-1-16-5.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_unsupported_class_version_1_20_4(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-unsupported-class-version-1-20-4.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_unsupported_class_version_1_21_1(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-unsupported-class-version-1-21-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_update_failed_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-update-failed-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_plugin_without_descriptor_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-plugin-without-descriptor-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_restricted_plugin_name_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-restricted-plugin-name-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_server_icon_invalid_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-server-icon-invalid-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_server_jar_in_plugin_folder_1_21_1(): void
+    {
+        $log = new TestLog('Paper/paper-server-jar-in-plugin-folder-1-21-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_start_1_20_6(): void
+    {
+        $log = new TestLog('Paper/paper-start-1-20-6.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_start_1_8_8(): void
+    {
+        $log = new TestLog('Paper/paper-start-1-8-8.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_start_1132(): void
+    {
+        $log = new TestLog('Paper/paper-start-1132.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_unsupported_api_version_1_18_2(): void
+    {
+        $log = new TestLog('Paper/paper-unsupported-api-version-1-18-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_unsupported_api_version_1_20_4(): void
+    {
+        $log = new TestLog('Paper/paper-unsupported-api-version-1-20-4.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_unsupported_api_version_1_21_1(): void
+    {
+        $log = new TestLog('Paper/paper-unsupported-api-version-1-21-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_velocity_secret_missing_1_18_2(): void
+    {
+        $log = new TestLog('Paper/paper-velocity-secret-missing-1-18-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_velocity_secret_missing_1_19(): void
+    {
+        $log = new TestLog('Paper/paper-velocity-secret-missing-1-19.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_velocity_secret_missing_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-velocity-secret-missing-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_version_downgrade(): void
+    {
+        $log = new TestLog('Paper/paper-version-downgrade.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_watchdog_not_responding_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-watchdog-not-responding-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_watchdog_stopped_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-watchdog-stopped-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_world_data_corrupted_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-world-data-corrupted-26-3.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_paper_world_defaults_missing_26_3(): void
+    {
+        $log = new TestLog('Paper/paper-world-defaults-missing-26-3.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -274,859 +2424,9 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      * @return void
      * @throws Exception
      */
-    public function test_craftbukkit_plugin_enabling(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/CraftBukkit/craftbukkit-plugin-enabling.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_craftbukkit_plugin_event_plugin_name_with_dash(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/CraftBukkit/craftbukkit-plugin-event-plugin-name-with-dash.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_craftbukkit_plugin_event(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/CraftBukkit/craftbukkit-plugin-event.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_craftbukkit_start_1132(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/CraftBukkit/craftbukkit-start-1132.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_craftbukkit_world_duplicate_multiple(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/CraftBukkit/craftbukkit-world-duplicate-multiple.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_craftbukkit_world_duplicate(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/CraftBukkit/craftbukkit-world-duplicate.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_oldcraftbukkit_start_11(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/CraftBukkit/oldcraftbukkit-start-11.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_folia_1_19_4_unsupported_plugin(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Folia/folia-1-19-4-unsupported-plugin.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_folia_crash_report_1_21_4(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Folia/folia-crash-report-1-21-4.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_folia_start_1_19_4(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Folia/folia-start-1-19-4.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_folia_start_1_20_6(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Folia/folia-start-1-20-6.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_folia_unsupported_plugin_name_with_dot(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Folia/folia-unsupported-plugin-name-with-dot.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_glowstone_start_1122(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Glowstone/glowstone-start-1122.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_ambiguous_plugin_name_1_13_2(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-ambiguous-plugin-name-1-13-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_ambiguous_plugin_name_1_20_4(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-ambiguous-plugin-name-1-20-4.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_ambiguous_plugin_name_1_21_1(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-ambiguous-plugin-name-1-21-1.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_ambiguous_provided_name_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-ambiguous-provided-name-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_cache_dir_create_failed_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-cache-dir-create-failed-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_cache_dir_not_directory_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-cache-dir-not-directory-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_circular_plugin_dependency_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-circular-plugin-dependency-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_config_not_writable_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-config-not-writable-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_configuration_parse_error_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-configuration-parse-error-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_crash_report_configuration_parse_error_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-crash-report-configuration-parse-error-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_default_world_provider_unavailable_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-default-world-provider-unavailable-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_event_handler_invalid_signature_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-event-handler-invalid-signature-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_event_listener_missing_class_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-event-listener-missing-class-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_exception_in_server_tick_loop_1_20_4(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-exception-in-server-tick-loop-1-20-4.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_help_yml_invalid_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-help-yml-invalid-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_invalid_enum_value_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-invalid-enum-value-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_legacy_plugin_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-legacy-plugin-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_legacy_plugin_conversion_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-legacy-plugin-conversion-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_main_thread_check_block_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-main-thread-check-block-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_main_thread_check_chunk_load_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-main-thread-check-chunk-load-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_main_thread_check_own_thread_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-main-thread-check-own-thread-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_map_renderer_exception_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-map-renderer-exception-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_metaspace(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-metaspace.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_misconfigured_update_directory_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-misconfigured-update-directory-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_multiple_dependencies_1_18_2(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-multiple-dependencies-1-18-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_multiple_dependencies_1_20_4(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-multiple-dependencies-1-20-4.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_multiple_dependencies_1_21_1(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-multiple-dependencies-1-21-1.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_multiple_dependencies_plugin_names_with_dash_and_dot(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-multiple-dependencies-plugin-names-with-dash-and-dot.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_newer_config_version_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-newer-config-version-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_newer_world_config_version_26_1_1(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-newer-world-config-version-26-1-1.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_out_of_memory_error_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-out-of-memory-error-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_permission_already_defined_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-permission-already-defined-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_permissions_file_invalid_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-permissions-file-invalid-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_permissions_file_not_a_map_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-permissions-file-not-a-map-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_api_version_too_low_1_20_6(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-api-version-too-low-1-20-6.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_api_version_too_low_1_21_1(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-api-version-too-low-1-21-1.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_bootstrapper_failed_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-bootstrapper-failed-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_datafolder_not_directory_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-datafolder-not-directory-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_dependency_1_18_2_duplicate(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-dependency-1-18-2-duplicate.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_dependency_1_18_2(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-dependency-1-18-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_dependency_1_20_4(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-dependency-1-20-4.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_dependency_1_21_1(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-dependency-1-21-1.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_dependency_1161(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-dependency-1161.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_dependency_plugin_name_with_dash(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-dependency-plugin-name-with-dash.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_dependency_without_plugin_name(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-dependency-without-plugin-name.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_disabling_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-disabling-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_disabling(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-disabling.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_loader_unregistering_events_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-loader-unregistering-events-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_name_with_dot_error_1_21(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-name-with-dot-error-1-21.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_unregistered_classloader_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-unregistered-classloader-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_unsupported_class_version_1_16_5(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-unsupported-class-version-1-16-5.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_unsupported_class_version_1_20_4(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-unsupported-class-version-1-20-4.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_unsupported_class_version_1_21_1(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-unsupported-class-version-1-21-1.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_update_failed_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-update-failed-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_plugin_without_descriptor_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-plugin-without-descriptor-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_restricted_plugin_name_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-restricted-plugin-name-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_server_icon_invalid_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-server-icon-invalid-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_server_jar_in_plugin_folder_1_21_1(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-server-jar-in-plugin-folder-1-21-1.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_start_1_20_6(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-start-1-20-6.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_start_1_8_8(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-start-1-8-8.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_start_1132(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-start-1132.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_unsupported_api_version_1_18_2(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-unsupported-api-version-1-18-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_unsupported_api_version_1_20_4(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-unsupported-api-version-1-20-4.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_unsupported_api_version_1_21_1(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-unsupported-api-version-1-21-1.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_velocity_secret_missing_1_18_2(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-velocity-secret-missing-1-18-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_velocity_secret_missing_1_19(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-velocity-secret-missing-1-19.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_velocity_secret_missing_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-velocity-secret-missing-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_version_downgrade(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-version-downgrade.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_watchdog_not_responding_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-watchdog-not-responding-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_watchdog_stopped_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-watchdog-stopped-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_world_data_corrupted_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-world-data-corrupted-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_paper_world_defaults_missing_26_3(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Paper/paper-world-defaults-missing-26-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
     public function test_purpur_1_19_2(): void
     {
-        $log = new TestLog('Vanilla/Bukkit/Purpur/purpur-1-19-2.log');
+        $log = new TestLog('Purpur/purpur-1-19-2.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -1136,1527 +2436,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_purpur_1_20_6(): void
     {
-        $log = new TestLog('Vanilla/Bukkit/Purpur/purpur-1-20-6.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_oldspigot_start_11(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/oldspigot-start-11.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_chunk_entity_exception(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-chunk-entity-exception.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_chunk_load_exception(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-chunk-load-exception.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_chunk_load(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-chunk-load.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_command_exception_plugin_name_with_dash(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-command-exception-plugin-name-with-dash.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_command_exception(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-command-exception.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_enum_compatibility_mode_26_1_2(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-enum-compatibility-mode-26-1-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_exception_ticking_world_1_21_4(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-exception-ticking-world-1-21-4.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_plugin_dependency_plugin_name_with_dash(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-plugin-dependency-plugin-name-with-dash.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_plugin_dependency(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-plugin-dependency.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_plugin_enabling(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-plugin-enabling.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_plugin_load(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-plugin-load.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_plugin_task_exception_plugin_name_with_dash(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-plugin-task-exception-plugin-name-with-dash.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_plugin_task_exception(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-plugin-task-exception.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_start_1_17_1(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-start-1-17-1.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_start_1132(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-start-1132.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_start_1165(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-start-1165.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_start_26_1(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/Spigot/spigot-start-26-1.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_authme_shutdown(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/plugin/spigot-authme-shutdown.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_multiverse_load(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/plugin/spigot-multiverse-load.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_spigot_permissionsex_config(): void
-    {
-        $log = new TestLog('Vanilla/Bukkit/plugin/spigot-permissionsex-config.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_1_19_crash_report(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-1-19-crash-report.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_1_20_1_dependencies_wrong_version(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-1-20-1-dependencies-wrong-version.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_1_21_4_crash_report(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-1-21-4-crash-report.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_1165_origins(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-1165-origins.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_1165(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-1165.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_1171_dependency(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-1171-dependency.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_1181(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-1181.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_26_1_client_dev(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-26-1-client-dev.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_26_2_client(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-26-2-client.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_client_1_19_2(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-client-1-19-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_client_log_fragment_with_crash_report(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-client-log-fragment-with-crash-report.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_client_modrinth_app(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-client-modrinth-app.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_client_only_entrypoint(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-client-only-entrypoint.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_client_only_mixin(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-client-only-mixin.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_conflicting_mods_unquoted(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-conflicting-mods-unquoted.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_conflicting_mods(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-conflicting-mods.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_corrupt_mod_file(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-corrupt-mod-file.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_corrupt_nested_mod_file(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-corrupt-nested-mod-file.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_crash_report_client(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-crash-report-client.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_crash_report_server(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-crash-report-server.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_crash_report(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-crash-report.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_dependency_version_notations(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-dependency-version-notations.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_duplicate_mod(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-duplicate-mod.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_entrypoint_error(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-entrypoint-error.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_entrypoint_exception_in_stage(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-entrypoint-exception-in-stage.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_entrypoint_exception(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-entrypoint-exception.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_incompatible_minecraft_version(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-incompatible-minecraft-version.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_incompatible_mods_multiple(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-incompatible-mods-multiple.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_incompatible_mods(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-incompatible-mods.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_java_version_dependency_exact(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-java-version-dependency-exact.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_java_version_dependency(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-java-version-dependency.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_java11(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-java11.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_java8(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-java8.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_language_adapter_not_found(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-language-adapter-not-found.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_loader_outdated(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-loader-outdated.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_loom_client(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-loom-client.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_loom_server(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-loom-server.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_minecraft_version_range(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-minecraft-version-range.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_missing_dependencies_1(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-missing-dependencies-1.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_missing_dependencies_2(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-missing-dependencies-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_missing_dependencies_3(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-missing-dependencies-3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_missing_dependency_unversioned(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-missing-dependency-unversioned.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_missing_dependency_versioned(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-missing-dependency-versioned.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_mixin_apply_error_invalid_descriptor(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-mixin-apply-error-invalid-descriptor.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_mixin_apply_error(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-mixin-apply-error.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_mixin_config_error(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-mixin-config-error.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_mixin_error(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-mixin-error.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_mod_json_invalid_id(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-mod-json-invalid-id.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_mod_json_malformed(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-mod-json-malformed.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_mod_names(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-mod-names.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_mod_payload_decode_failed(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-mod-payload-decode-failed.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_mod_payload_encode_failed(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-mod-payload-encode-failed.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_mod_shares_builtin_id(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-mod-shares-builtin-id.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_non_fabric_mods(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-non-fabric-mods.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_pre_release(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-pre-release.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_server_jar_missing(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-server-jar-missing.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_version_range_dependency(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-version-range-dependency.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_fabric_wrong_mc_version(): void
-    {
-        $log = new TestLog('Vanilla/Fabric/fabric-wrong-mc-version.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_arclight_1192(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Arclight/arclight-1192.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_arclight_crash_report_with_release_name(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Arclight/arclight-crash-report-with-release-name.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_arclight_crash_report(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Arclight/arclight-crash-report.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_magma_mod_dependency(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Magma/magma-mod-dependency.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_magma_plugin_dependency(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Magma/magma-plugin-dependency.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_magma_start_1122(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Magma/magma-start-1122.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_magma_start_1165(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Magma/magma-start-1165.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_mohist_1_12_2(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Mohist/mohist-1-12-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_mohist_1_16_5(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Mohist/mohist-1-16-5.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_mohist_1_18_2(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Mohist/mohist-1-18-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_mohist_crash_report(): void
-    {
-        $log = new TestLog('Vanilla/Forge/Mohist/mohist-crash-report.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_1_20_1_duplicate_mods(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-1-20-1-duplicate-mods.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_1_21_3_client(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-1-21-3-client.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_1_21_3_server(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-1-21-3-server.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_1_7_10_client(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-1-7-10-client.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_1_7_10_crash_report(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-1-7-10-crash-report.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_1165(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-1165.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_26_1_client(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-26-1-client.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_26_3_client_atlauncher(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-26-3-client-atlauncher.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_client_1_16_5(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-client-1-16-5.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_client_1_19_2(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-client-1-19-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_client_modrinth_app(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-client-modrinth-app.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_confirm(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-confirm.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_crash_report(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-crash-report.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_early_crash(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-early-crash.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_language_provider_version_above(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-language-provider-version-above.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_language_provider_version_between(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-language-provider-version-between.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_loading_stage_error(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-loading-stage-error.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_log_crash_report(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-log-crash-report.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_missing_datapack_mod(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-missing-datapack-mod.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_missing_mods_exception_2(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-missing-mods-exception-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_missing_mods_exception(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-missing-mods-exception.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_mixin_apply_error(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-mixin-apply-error.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_mod_dependency(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-mod-dependency.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_mod_duplicate(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-mod-duplicate.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_mod_exception(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-mod-exception.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_mod_fatal_1444(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-mod-fatal-1444.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_mod_fatal(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-mod-fatal.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_mod_loading_dependency(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-mod-loading-dependency.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_mod_required(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-mod-required.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_mod_wrong_minecraft_version(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-mod-wrong-minecraft-version.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_multiple_fatal_problems(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-multiple-fatal-problems.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_multiple_modules_export_multiple(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-multiple-modules-export-multiple.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_multiple_modules_export(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-multiple-modules-export.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_polymc_1_19_2(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-polymc-1-19-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_ptrlib_dependency(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-ptrlib-dependency.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_slash_in_thread(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-slash-in-thread.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_start_1122(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-start-1122.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_start_1132(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-start-1132.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_start_1161(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-start-1161.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_ticking_block_entity_crash_report_1_10_2(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-ticking-block-entity-crash-report-1-10-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_ticking_block_entity_crash_report(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-ticking-block-entity-crash-report.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_ticking_block_entity_crash_report2(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-ticking-block-entity-crash-report2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_ticking_block_entity_crash_report3(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-ticking-block-entity-crash-report3.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_ticking_block_entity(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-ticking-block-entity.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_ticking_entity_1_18_2(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-ticking-entity-1-18-2.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_world_missing_mod_forge_prefix(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-world-missing-mod-forge-prefix.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_world_missing_mod(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-world-missing-mod.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_forge_world_mod_version(): void
-    {
-        $log = new TestLog('Vanilla/Forge/forge-world-mod-version.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_neoforge_1_20_1_server_report_entity(): void
-    {
-        $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-1-server-report-entity.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_neoforge_1_20_4_client_report(): void
-    {
-        $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-4-client-report.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_neoforge_1_20_4_client(): void
-    {
-        $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-4-client.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_neoforge_1_20_4_server_early_jvm_warning(): void
-    {
-        $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-4-server-early-jvm-warning.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_neoforge_1_20_4_server_early(): void
-    {
-        $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-4-server-early.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_neoforge_1_20_4_server_report(): void
-    {
-        $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-4-server-report.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_neoforge_1_20_4_server(): void
-    {
-        $log = new TestLog('Vanilla/NeoForge/neoforge-1-20-4-server.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_neoforge_1_21_1_client_modrinth_app(): void
-    {
-        $log = new TestLog('Vanilla/NeoForge/neoforge-1-21-1-client-modrinth-app.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_neoforge_1_21_1_server_mod_loading_crash_report(): void
-    {
-        $log = new TestLog('Vanilla/NeoForge/neoforge-1-21-1-server-mod-loading-crash-report.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_neoforge_1_21_3_client(): void
-    {
-        $log = new TestLog('Vanilla/NeoForge/neoforge-1-21-3-client.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_neoforge_1_21_3_server(): void
-    {
-        $log = new TestLog('Vanilla/NeoForge/neoforge-1-21-3-server.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_neoforge_26_1_client(): void
-    {
-        $log = new TestLog('Vanilla/NeoForge/neoforge-26-1-client.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_neoforge_26_3_client_modrinth_app(): void
-    {
-        $log = new TestLog('Vanilla/NeoForge/neoforge-26-3-client-modrinth-app.log');
-        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
-    }
-
-    /**
-     * @return void
-     * @throws Exception
-     */
-    public function test_neoforge_mixin_apply_error_unknown_mod(): void
-    {
-        $log = new TestLog('Vanilla/NeoForge/neoforge-mixin-apply-error-unknown-mod.log');
+        $log = new TestLog('Purpur/purpur-1-20-6.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -2666,7 +2446,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_quilt_client_1_19_2_jvm_warning(): void
     {
-        $log = new TestLog('Vanilla/Quilt/quilt-client-1-19-2-jvm-warning.log');
+        $log = new TestLog('Quilt/quilt-client-1-19-2-jvm-warning.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -2676,7 +2456,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_quilt_client_1_19_2(): void
     {
-        $log = new TestLog('Vanilla/Quilt/quilt-client-1-19-2.log');
+        $log = new TestLog('Quilt/quilt-client-1-19-2.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -2686,7 +2466,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_quilt_client_long(): void
     {
-        $log = new TestLog('Vanilla/Quilt/quilt-client-long.log');
+        $log = new TestLog('Quilt/quilt-client-long.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -2696,7 +2476,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_quilt_crash_report_client(): void
     {
-        $log = new TestLog('Vanilla/Quilt/quilt-crash-report-client.log');
+        $log = new TestLog('Quilt/quilt-crash-report-client.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -2706,7 +2486,7 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_quilt_crash_report_server(): void
     {
-        $log = new TestLog('Vanilla/Quilt/quilt-crash-report-server.log');
+        $log = new TestLog('Quilt/quilt-crash-report-server.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -2716,7 +2496,217 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
      */
     public function test_quilt(): void
     {
-        $log = new TestLog('Vanilla/Quilt/quilt.log');
+        $log = new TestLog('Quilt/quilt.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_oldspigot_start_11(): void
+    {
+        $log = new TestLog('Spigot/oldspigot-start-11.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_authme_shutdown(): void
+    {
+        $log = new TestLog('Spigot/spigot-authme-shutdown.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_chunk_entity_exception(): void
+    {
+        $log = new TestLog('Spigot/spigot-chunk-entity-exception.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_chunk_load_exception(): void
+    {
+        $log = new TestLog('Spigot/spigot-chunk-load-exception.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_chunk_load(): void
+    {
+        $log = new TestLog('Spigot/spigot-chunk-load.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_command_exception_plugin_name_with_dash(): void
+    {
+        $log = new TestLog('Spigot/spigot-command-exception-plugin-name-with-dash.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_command_exception(): void
+    {
+        $log = new TestLog('Spigot/spigot-command-exception.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_enum_compatibility_mode_26_1_2(): void
+    {
+        $log = new TestLog('Spigot/spigot-enum-compatibility-mode-26-1-2.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_exception_ticking_world_1_21_4(): void
+    {
+        $log = new TestLog('Spigot/spigot-exception-ticking-world-1-21-4.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_multiverse_load(): void
+    {
+        $log = new TestLog('Spigot/spigot-multiverse-load.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_permissionsex_config(): void
+    {
+        $log = new TestLog('Spigot/spigot-permissionsex-config.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_plugin_dependency_plugin_name_with_dash(): void
+    {
+        $log = new TestLog('Spigot/spigot-plugin-dependency-plugin-name-with-dash.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_plugin_dependency(): void
+    {
+        $log = new TestLog('Spigot/spigot-plugin-dependency.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_plugin_enabling(): void
+    {
+        $log = new TestLog('Spigot/spigot-plugin-enabling.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_plugin_load(): void
+    {
+        $log = new TestLog('Spigot/spigot-plugin-load.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_plugin_task_exception_plugin_name_with_dash(): void
+    {
+        $log = new TestLog('Spigot/spigot-plugin-task-exception-plugin-name-with-dash.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_plugin_task_exception(): void
+    {
+        $log = new TestLog('Spigot/spigot-plugin-task-exception.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_start_1_17_1(): void
+    {
+        $log = new TestLog('Spigot/spigot-start-1-17-1.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_start_1132(): void
+    {
+        $log = new TestLog('Spigot/spigot-start-1132.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_start_1165(): void
+    {
+        $log = new TestLog('Spigot/spigot-start-1165.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_spigot_start_26_1(): void
+    {
+        $log = new TestLog('Spigot/spigot-start-26-1.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 
@@ -2947,6 +2937,16 @@ class AutoLogsTest extends \PHPUnit\Framework\TestCase
     public function test_velocity(): void
     {
         $log = new TestLog('Velocity/velocity.log');
+        $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
+    }
+
+    /**
+     * @return void
+     * @throws Exception
+     */
+    public function test_waterfall(): void
+    {
+        $log = new TestLog('Waterfall/waterfall.log');
         $this->assertStringEqualsFile($log->getExpectedPath(), $log->getOutput(), $log->getLogPath());
     }
 }

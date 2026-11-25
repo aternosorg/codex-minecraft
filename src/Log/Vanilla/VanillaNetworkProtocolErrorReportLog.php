@@ -1,0 +1,19 @@
+<?php
+
+namespace Aternos\Codex\Minecraft\Log\Vanilla;
+
+use Aternos\Codex\Detective\SinglePatternDetector;
+use Aternos\Codex\Minecraft\Log\Type\NetworkProtocolErrorReportLogTypeInterface;
+
+class VanillaNetworkProtocolErrorReportLog extends VanillaReportLog implements NetworkProtocolErrorReportLogTypeInterface
+{
+    use VanillaNetworkProtocolErrorReportTrait;
+
+    /**
+     * @inheritDoc
+     */
+    public static function getDetectors(): array
+    {
+        return [(new SinglePatternDetector())->setPattern("/---- Minecraft Network Protocol Error Report ----/")];
+    }
+}
