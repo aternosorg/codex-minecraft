@@ -70,11 +70,15 @@ class TestLog
     }
 
     /**
+     * Build the test method name from the path relative to the data folder,
+     * so that log files with the same name in different folders do not collide
+     *
      * @return string
      */
     public function getFunctionName(): string
     {
-        return "test_" . str_replace("-", "_", $this->getName());
+        $path = substr($this->getLogPath(), 0, -strlen(".log"));
+        return "test_" . strtolower(preg_replace("/[^a-z0-9]+/i", "_", $path));
     }
 
     /**

@@ -40,5 +40,14 @@ jobs:
       - name: Install composer dependencies
         run: composer install --no-interaction --prefer-dist --no-progress
 
+      - name: Check that generated tests are up to date
+        run: |
+          composer generate-tests
+          if [ -n "$(git status --porcelain -- test/)" ]; then
+            git status --short -- test/
+            echo "::error::Generated tests are outdated. Run 'composer generate-tests' and commit the result."
+            exit 1
+          fi
+
       - name: Run phpunit tests
         run: vendor/bin/phpunit --colors=always --testdox
