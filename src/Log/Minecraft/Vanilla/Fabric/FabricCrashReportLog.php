@@ -19,13 +19,13 @@ class FabricCrashReportLog extends FabricLog implements CrashReportLogTypeInterf
     {
         return [
             (new MultiPatternDetector())
-                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\t(?:Known )?server brands?: fabric$/im"),
             (new MultiPatternDetector())
-                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\tIs Modded: Definitely; Client brand changed to 'fabric'$/im"),
             (new MultiPatternDetector())
-                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\tIs Modded: Definitely; Server brand changed to 'fabric'$/im"),
         ];
     }

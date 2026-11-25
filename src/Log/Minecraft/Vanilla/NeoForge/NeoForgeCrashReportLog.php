@@ -19,10 +19,10 @@ class NeoForgeCrashReportLog extends NeoForgeLog implements CrashReportLogTypeIn
     {
         return [
             (new MultiPatternDetector())
-                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\tNeoForge: net\.neoforged:/m"),
             (new MultiPatternDetector())
-                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\t\t[^|]*\|[^|]*\|\s*neoforge\s*\|/m"),
         ];
     }

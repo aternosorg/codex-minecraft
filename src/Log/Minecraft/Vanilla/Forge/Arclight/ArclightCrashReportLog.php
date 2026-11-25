@@ -17,16 +17,16 @@ class ArclightCrashReportLog extends ArclightLog implements CrashReportLogTypeIn
     {
         return [
             (new MultiPatternDetector())
-                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\t(?:Known )?server brands?: arclight/im"),
             (new MultiPatternDetector())
-                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\tIs Modded: Definitely; Client brand changed to 'arclight'$/im"),
             // Arclight puts the mod loader before its brand and may append its release name, e.g.
             // "\tIs Modded: Definitely; Server brand changed to 'forge arclight'" or
             // "\tIs Modded: Definitely; Server brand changed to 'neoforge arclight/FeudalKings'"
             (new MultiPatternDetector())
-                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\tIs Modded: Definitely; Server brand changed to '(?:(?:neo)?forge |fabric )?arclight(?:\/[^']+)?'$/im"),
         ];
     }

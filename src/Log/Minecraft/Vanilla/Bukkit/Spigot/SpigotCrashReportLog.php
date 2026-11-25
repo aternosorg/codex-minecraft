@@ -18,10 +18,10 @@ class SpigotCrashReportLog extends SpigotLog implements CrashReportLogTypeInterf
     {
         return [
             (new MultiPatternDetector())
-                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\s+Known server brands: Spigot$/m"),
             (new MultiPatternDetector())
-                ->addPattern("/^---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\s+Is Modded: Definitely; Server brand changed to 'Spigot'$/m")
         ];
     }

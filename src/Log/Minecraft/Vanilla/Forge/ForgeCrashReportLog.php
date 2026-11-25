@@ -19,10 +19,10 @@ class ForgeCrashReportLog extends ForgeLog implements CrashReportLogTypeInterfac
     {
         return [
             (new MultiPatternDetector())
-                ->addPattern("/---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\s*Is Modded: Definitely; Client brand changed to '(?:fml,)?forge'/im"),
             (new MultiPatternDetector())
-                ->addPattern("/---- Minecraft Crash Report ----$/m")
+                ->addPattern(self::CRASH_REPORT_HEADER_PATTERN)
                 ->addPattern("/^\s*Is Modded: Definitely; Server brand changed to '(?:fml,)?forge'/im"),
         ];
     }
