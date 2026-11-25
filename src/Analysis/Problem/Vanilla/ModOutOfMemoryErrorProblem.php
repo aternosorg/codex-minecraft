@@ -2,7 +2,7 @@
 
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Vanilla;
 
-use Aternos\Codex\Minecraft\Analysis\Solution\Vanilla\ModMemoryUsageSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Mod\ModMemoryUsageSolution;
 
 /**
  * {@see OutOfMemoryErrorProblem} on mod loaders, which also suggests removing mods.

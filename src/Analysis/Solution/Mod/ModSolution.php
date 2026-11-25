@@ -1,8 +1,10 @@
 <?php
 
-namespace Aternos\Codex\Minecraft\Analysis\Solution\Forge;
+namespace Aternos\Codex\Minecraft\Analysis\Solution\Mod;
 
-abstract class ModSolution extends ForgeSolution
+use Aternos\Codex\Minecraft\Analysis\Solution\MinecraftSolution;
+
+abstract class ModSolution extends MinecraftSolution
 {
     /**
      * @param string $modName

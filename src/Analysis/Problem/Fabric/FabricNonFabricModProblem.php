@@ -4,7 +4,7 @@ namespace Aternos\Codex\Minecraft\Analysis\Problem\Fabric;
 
 use Aternos\Codex\Analysis\InsightInterface;
 use Aternos\Codex\Minecraft\Analysis\Solution\File\FileDeleteSolution;
-use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallDifferentVersionSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Mod\ModInstallDifferentVersionSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**

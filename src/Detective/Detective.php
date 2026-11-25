@@ -5,7 +5,7 @@ namespace Aternos\Codex\Minecraft\Detective;
 use Aternos\Codex\Minecraft\Log\Minecraft\Bedrock\BedrockContentLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Bedrock\BedrockServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\BungeeCord\BungeeCordProxyLog;
-use Aternos\Codex\Minecraft\Log\Minecraft\BungeeCord\Waterfall\WaterFallProxyLog;
+use Aternos\Codex\Minecraft\Log\Minecraft\BungeeCord\Waterfall\WaterfallProxyLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\CustomSkinLoader\CustomSkinLoaderClientLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Geyser\GeyserProxyLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\MinecraftLauncher\MinecraftLauncherClientLog;
@@ -14,7 +14,7 @@ use Aternos\Codex\Minecraft\Log\Minecraft\Pocketmine\PocketmineServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\PrismLauncher\PrismLauncherClientLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\CraftBukkit\CraftBukkitServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\CraftBukkit\OldCraftBukkitServerLog;
-use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Folia\FoliaCrashReport;
+use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Folia\FoliaCrashReportLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Folia\FoliaServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Glowstone\GlowstoneServerLog;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Bukkit\Paper\PaperCrashReportLog;
@@ -77,7 +77,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
         BedrockContentLog::class,
         FabricServerLog::class,
         BungeeCordProxyLog::class,
-        WaterFallProxyLog::class,
+        WaterfallProxyLog::class,
         VelocityProxyLog::class,
         GeyserProxyLog::class,
         GlowstoneServerLog::class,
@@ -86,7 +86,7 @@ class Detective extends \Aternos\Codex\Detective\Detective
         SpigotCrashReportLog::class,
         PaperCrashReportLog::class,
         PurpurCrashReportLog::class,
-        FoliaCrashReport::class,
+        FoliaCrashReportLog::class,
         FabricCrashReportLog::class,
         QuiltCrashReportLog::class,
         NeoForgeCrashReportLog::class,
