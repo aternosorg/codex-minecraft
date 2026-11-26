@@ -70,11 +70,16 @@ class TestLog
     }
 
     /**
+     * Build the test function name from the path below test/data, so that logs with the same file name
+     * in different folders get different tests, e.g. "Vanilla/Bukkit/Paper/paper-plugin.log"
+     * becomes "test_vanilla_bukkit_paper_paper_plugin"
+     *
      * @return string
      */
     public function getFunctionName(): string
     {
-        return "test_" . str_replace("-", "_", $this->getName());
+        $pathWithoutExtension = substr($this->getLogPath(), 0, -strlen(".log"));
+        return "test_" . strtolower(str_replace(["/", "-", "."], "_", $pathWithoutExtension));
     }
 
     /**
