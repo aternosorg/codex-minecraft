@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Forge;
 
 use Aternos\Codex\Analysis\InsightInterface;
-use Aternos\Codex\Minecraft\Analysis\Solution\Forge\ModInstallSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\Mod\ModInstallSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 class ModDependencyProblem extends ModProblem

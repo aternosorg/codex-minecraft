@@ -2,17 +2,17 @@
 
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla;
 
-use Aternos\Codex\Minecraft\Analyser\Report\NetworkProtocolErrorReport\MinecraftNetworkProtocolErrorReportAnalyser;
+use Aternos\Codex\Minecraft\Analyser\VanillaNetworkProtocolErrorReportAnalyser;
 
 trait VanillaNetworkProtocolErrorReportTrait
 {
     use VanillaReportTrait;
 
     /**
-     * @return MinecraftNetworkProtocolErrorReportAnalyser
+     * @return VanillaNetworkProtocolErrorReportAnalyser
      */
-    public static function getDefaultAnalyser(): MinecraftNetworkProtocolErrorReportAnalyser
+    public static function getDefaultAnalyser(): VanillaNetworkProtocolErrorReportAnalyser
     {
-        return new MinecraftNetworkProtocolErrorReportAnalyser();
+        return new VanillaNetworkProtocolErrorReportAnalyser();
     }
 }

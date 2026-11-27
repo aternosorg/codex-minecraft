@@ -3,7 +3,7 @@
 namespace Aternos\Codex\Minecraft\Analysis\Problem\Fabric;
 
 use Aternos\Codex\Analysis\InsightInterface;
-use Aternos\Codex\Minecraft\Analysis\Solution\UpdateJavaSolution;
+use Aternos\Codex\Minecraft\Analysis\Solution\General\UpdateJavaSolution;
 use Aternos\Codex\Minecraft\Translator\Translator;
 
 /**

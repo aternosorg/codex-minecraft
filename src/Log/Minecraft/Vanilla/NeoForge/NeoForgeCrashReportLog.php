@@ -3,8 +3,8 @@
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\NeoForge;
 
 use Aternos\Codex\Detective\MultiPatternDetector;
-use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\MinecraftCrashReportAnalyser;
-use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\NeoForgeCrashReportAnalyser;
+use Aternos\Codex\Minecraft\Analyser\NeoForgeCrashReportAnalyser;
+use Aternos\Codex\Minecraft\Analyser\VanillaCrashReportAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaCrashReportTrait;
 use Aternos\Codex\Minecraft\Log\Type\CrashReportLogTypeInterface;
 
@@ -29,9 +29,9 @@ class NeoForgeCrashReportLog extends NeoForgeLog implements CrashReportLogTypeIn
 
 
     /**
-     * @return MinecraftCrashReportAnalyser
+     * @return VanillaCrashReportAnalyser
      */
-    public static function getDefaultAnalyser(): MinecraftCrashReportAnalyser
+    public static function getDefaultAnalyser(): VanillaCrashReportAnalyser
     {
         return new NeoForgeCrashReportAnalyser();
     }

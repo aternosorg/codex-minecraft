@@ -3,8 +3,8 @@
 namespace Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\Quilt;
 
 use Aternos\Codex\Detective\MultiPatternDetector;
-use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\MinecraftCrashReportAnalyser;
-use Aternos\Codex\Minecraft\Analyser\Report\CrashReport\QuiltCrashReportAnalyser;
+use Aternos\Codex\Minecraft\Analyser\QuiltCrashReportAnalyser;
+use Aternos\Codex\Minecraft\Analyser\VanillaCrashReportAnalyser;
 use Aternos\Codex\Minecraft\Log\Minecraft\Vanilla\VanillaCrashReportTrait;
 use Aternos\Codex\Minecraft\Log\Type\CrashReportLogTypeInterface;
 
@@ -31,9 +31,9 @@ class QuiltCrashReportLog extends QuiltLog implements CrashReportLogTypeInterfac
     }
 
     /**
-     * @return MinecraftCrashReportAnalyser
+     * @return VanillaCrashReportAnalyser
      */
-    public static function getDefaultAnalyser(): MinecraftCrashReportAnalyser
+    public static function getDefaultAnalyser(): VanillaCrashReportAnalyser
     {
         return new QuiltCrashReportAnalyser();
     }
