@@ -6,6 +6,7 @@ use Aternos\Codex\Minecraft\Analysis\Information\NeoForge\NeoForgeJavaVersionInf
 use Aternos\Codex\Minecraft\Analysis\Information\NeoForge\NeoForgeVanillaVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Information\NeoForge\NeoForgeVersionInformation;
 use Aternos\Codex\Minecraft\Analysis\Information\Vanilla\VanillaVersionInformation;
+use Aternos\Codex\Minecraft\Analysis\Problem\Forge\ClientOnlyModProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Forge\MixinApplyProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\OutOfMemoryErrorProblem;
 use Aternos\Codex\Minecraft\Analysis\Problem\Vanilla\ModOutOfMemoryErrorProblem;
@@ -19,6 +20,7 @@ class NeoForgeAnalyser extends VanillaAnalyser
         $this->addPossibleInsightClass(NeoForgeVersionInformation::class);
         $this->overridePossibleInsightClass(VanillaVersionInformation::class, NeoForgeVanillaVersionInformation::class);
         $this->addPossibleInsightClass(NeoForgeJavaVersionInformation::class);
+        $this->addPossibleInsightClass(ClientOnlyModProblem::class);
         $this->addPossibleInsightClass(MixinApplyProblem::class);
     }
 }

@@ -1,0 +1,595 @@
+{
+    "id": "neoforge\/server",
+    "name": "NeoForge",
+    "type": "Server Log",
+    "version": "1.21.1",
+    "title": "NeoForge 1.21.1 Server Log",
+    "entries": [
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Nov2026 13:15:51.872] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 1,
+                    "content": "[27Nov2026 13:15:51.872] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.265, --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Nov2026 13:15:51.874] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 2,
+                    "content": "[27Nov2026 13:15:51.874] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM **.**.**.**+2-LTS"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Nov2026 13:15:51.876] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+            "lines": [
+                {
+                    "number": 3,
+                    "content": "[27Nov2026 13:15:51.876] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.13.1 by Eclipse Adoptium; OS Linux arch amd64 version 6.8.0-147-generic"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Nov2026 13:15:52.058] [main\/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler\/]:",
+            "lines": [
+                {
+                    "number": 4,
+                    "content": "[27Nov2026 13:15:52.058] [main\/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler\/]: ImmediateWindowProvider not loading because launch target is forgeserver"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Nov2026 13:15:52.125] [main\/INFO] [mixin\/]:",
+            "lines": [
+                {
+                    "number": 5,
+                    "content": "[27Nov2026 13:15:52.125] [main\/INFO] [mixin\/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:\/server\/libraries\/net\/fabricmc\/sponge-mixin\/0.16.4+mixin.0.8.7\/sponge-mixin-0.16.4+mixin.0.8.7.jar%2373!\/ Service=ModLauncher Env=SERVER"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Nov2026 13:15:52.408] [main\/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer\/SCAN]:",
+            "lines": [
+                {
+                    "number": 6,
+                    "content": "[27Nov2026 13:15:52.408] [main\/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer\/SCAN]: Found mod file \"controlify-3.0.1+lts+1.21.1-neoforge.jar\" [locator: {mods folder locator at \/server\/mods}, reader: mod manifest]"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Nov2026 13:16:00.754] [modloading-worker-0\/INFO] [Veil\/]:",
+            "lines": [
+                {
+                    "number": 7,
+                    "content": "[27Nov2026 13:16:00.754] [modloading-worker-0\/INFO] [Veil\/]: Veil is initializing."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[27Nov2026 13:16:00.762] [modloading-worker-0\/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner\/DISTXFORM]:",
+            "lines": [
+                {
+                    "number": 8,
+                    "content": "[27Nov2026 13:16:00.762] [modloading-worker-0\/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner\/DISTXFORM]: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[27Nov2026 13:16:00.762] [modloading-worker-0\/ERROR] [net.neoforged.fml.javafmlmod.FMLModContainer\/LOADING]:",
+            "lines": [
+                {
+                    "number": 9,
+                    "content": "[27Nov2026 13:16:00.762] [modloading-worker-0\/ERROR] [net.neoforged.fml.javafmlmod.FMLModContainer\/LOADING]: Failed to create mod instance. ModID: controlify, class dev.isxander.controlify.ControlifyBootstrap"
+                },
+                {
+                    "number": 10,
+                    "content": "java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                },
+                {
+                    "number": 11,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.common.asm.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:60) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                },
+                {
+                    "number": 12,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94) ~[modlauncher-11.0.5.jar%2364!\/:?]"
+                },
+                {
+                    "number": 13,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-11.0.5.jar%2364!\/:?]"
+                },
+                {
+                    "number": 14,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57) ~[modlauncher-11.0.5.jar%2364!\/:?]"
+                },
+                {
+                    "number": 15,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190) ~[securejarhandler-3.0.8.jar:?]"
+                },
+                {
+                    "number": 16,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?]"
+                },
+                {
+                    "number": 17,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311) ~[securejarhandler-3.0.8.jar:?]"
+                },
+                {
+                    "number": 18,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?]"
+                },
+                {
+                    "number": 19,
+                    "content": "\tat cpw.mods.securejarhandler\/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214) ~[securejarhandler-3.0.8.jar:?]"
+                },
+                {
+                    "number": 20,
+                    "content": "\tat java.base\/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]"
+                },
+                {
+                    "number": 21,
+                    "content": "\tat java.base\/java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]"
+                },
+                {
+                    "number": 22,
+                    "content": "\tat java.base\/java.lang.Class.privateGetDeclaredConstructors(Class.java:3551) ~[?:?]"
+                },
+                {
+                    "number": 23,
+                    "content": "\tat java.base\/java.lang.Class.getConstructors(Class.java:2229) ~[?:?]"
+                },
+                {
+                    "number": 24,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:89) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                },
+                {
+                    "number": 25,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:153) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                },
+                {
+                    "number": 26,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:231) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                },
+                {
+                    "number": 27,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) [?:?]"
+                },
+                {
+                    "number": 28,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) [?:?]"
+                },
+                {
+                    "number": 29,
+                    "content": "\tat java.base\/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) [?:?]"
+                },
+                {
+                    "number": 30,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]"
+                },
+                {
+                    "number": 31,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]"
+                },
+                {
+                    "number": 32,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]"
+                },
+                {
+                    "number": 33,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]"
+                },
+                {
+                    "number": 34,
+                    "content": "\tat java.base\/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "time": null,
+            "prefix": "[27Nov2026 13:16:00.764] [modloading-worker-0\/WARN] [de.keksuccino.melody.Melody\/]:",
+            "lines": [
+                {
+                    "number": 35,
+                    "content": "[27Nov2026 13:16:00.764] [modloading-worker-0\/WARN] [de.keksuccino.melody.Melody\/]: [MELODY] Disabling Melody since it's loaded server-side."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Nov2026 13:16:01.069] [modloading-worker-0\/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge\/]:",
+            "lines": [
+                {
+                    "number": 36,
+                    "content": "[27Nov2026 13:16:01.069] [modloading-worker-0\/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge\/]: Kotlin For Forge Enabled!"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "time": null,
+            "prefix": "[27Nov2026 13:16:02.601] [modloading-worker-0\/INFO] [dev.ryanhcode.sable.Sable\/]:",
+            "lines": [
+                {
+                    "number": 37,
+                    "content": "[27Nov2026 13:16:02.601] [modloading-worker-0\/INFO] [dev.ryanhcode.sable.Sable\/]: Sable loaded!"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[27Nov2026 13:16:02.715] [main\/FATAL] [net.neoforged.fml.ModLoader\/LOADING]:",
+            "lines": [
+                {
+                    "number": 38,
+                    "content": "[27Nov2026 13:16:02.715] [main\/FATAL] [net.neoforged.fml.ModLoader\/LOADING]: Failed to wait for future Mod Construction, 1 errors found"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[27Nov2026 13:16:02.869] [main\/ERROR] [net.minecraft.CrashReport\/]:",
+            "lines": [
+                {
+                    "number": 39,
+                    "content": "[27Nov2026 13:16:02.869] [main\/ERROR] [net.minecraft.CrashReport\/]: Negative index in crash report handler (0\/18)"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[27Nov2026 13:16:02.880] [main\/FATAL] [net.neoforged.neoforge.common.NeoForgeMod\/]:",
+            "lines": [
+                {
+                    "number": 40,
+                    "content": "[27Nov2026 13:16:02.880] [main\/FATAL] [net.neoforged.neoforge.common.NeoForgeMod\/]: Preparing crash report with UUID c4276b48-e7cf-4c2f-b2b7-2d68a588cb90"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[27Nov2026 13:16:02.881] [main\/FATAL] [net.neoforged.neoforge.server.loading.ServerModLoader\/]:",
+            "lines": [
+                {
+                    "number": 41,
+                    "content": "[27Nov2026 13:16:02.881] [main\/FATAL] [net.neoforged.neoforge.server.loading.ServerModLoader\/]: Crash report saved to .\/crash-reports\/crash-2026-11-27_13.16.02-fml.txt"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "time": null,
+            "prefix": "[27Nov2026 13:16:02.883] [main\/FATAL] [net.neoforged.neoforge.common.NeoForgeMod\/]:",
+            "lines": [
+                {
+                    "number": 42,
+                    "content": "[27Nov2026 13:16:02.883] [main\/FATAL] [net.neoforged.neoforge.common.NeoForgeMod\/]: Preparing crash report with UUID d32542e5-57db-4f67-8eb0-9868fc417553"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "time": null,
+            "prefix": "[27Nov2026 13:16:02.883] [main\/ERROR] [net.minecraft.server.Main\/FATAL]:",
+            "lines": [
+                {
+                    "number": 43,
+                    "content": "[27Nov2026 13:16:02.883] [main\/ERROR] [net.minecraft.server.Main\/FATAL]: Failed to start the minecraft server"
+                },
+                {
+                    "number": 44,
+                    "content": "net.neoforged.fml.ModLoadingException: Loading errors encountered:"
+                },
+                {
+                    "number": 45,
+                    "content": "\t- Controlify (controlify) has failed to load correctly"
+                },
+                {
+                    "number": 46,
+                    "content": "\t  java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                },
+                {
+                    "number": 47,
+                    "content": ""
+                },
+                {
+                    "number": 48,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.ModLoader.waitForFuture(ModLoader.java:281) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                },
+                {
+                    "number": 49,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.ModLoader.dispatchParallelTask(ModLoader.java:244) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                },
+                {
+                    "number": 50,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.ModLoader.constructMods(ModLoader.java:152) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                },
+                {
+                    "number": 51,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:142) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                },
+                {
+                    "number": 52,
+                    "content": "\tat TRANSFORMER\/neoforge@21.1.265\/net.neoforged.neoforge.internal.CommonModLoader.begin(CommonModLoader.java:49) ~[neoforge-21.1.265-universal.jar%23156!\/:?]"
+                },
+                {
+                    "number": 53,
+                    "content": "\tat TRANSFORMER\/neoforge@21.1.265\/net.neoforged.neoforge.server.loading.ServerModLoader.load(ServerModLoader.java:34) ~[neoforge-21.1.265-universal.jar%23156!\/:?]"
+                },
+                {
+                    "number": 54,
+                    "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.server.Main.main(Main.java:124) ~[server-1.21.1-20240808.144430-srg.jar%23155!\/:?]"
+                },
+                {
+                    "number": 55,
+                    "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]"
+                },
+                {
+                    "number": 56,
+                    "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]"
+                },
+                {
+                    "number": 57,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                },
+                {
+                    "number": 58,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                },
+                {
+                    "number": 59,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                },
+                {
+                    "number": 60,
+                    "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                },
+                {
+                    "number": 61,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2364!\/:?]"
+                },
+                {
+                    "number": 62,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2364!\/:?]"
+                },
+                {
+                    "number": 63,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2364!\/:?]"
+                },
+                {
+                    "number": 64,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2364!\/:?]"
+                },
+                {
+                    "number": 65,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2364!\/:?]"
+                },
+                {
+                    "number": 66,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2364!\/:?]"
+                },
+                {
+                    "number": 67,
+                    "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2364!\/:?]"
+                },
+                {
+                    "number": 68,
+                    "content": "\tat cpw.mods.bootstraplauncher@2.0.2\/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]"
+                },
+                {
+                    "number": 69,
+                    "content": ""
+                }
+            ]
+        }
+    ],
+    "analysis": {
+        "problems": [
+            {
+                "message": "The mod 'Controlify' cannot run on a server. It is either a client-only mod or uses client-only code.",
+                "counter": 1,
+                "entry": {
+                    "level": 3,
+                    "time": null,
+                    "prefix": "[27Nov2026 13:16:02.883] [main\/ERROR] [net.minecraft.server.Main\/FATAL]:",
+                    "lines": [
+                        {
+                            "number": 43,
+                            "content": "[27Nov2026 13:16:02.883] [main\/ERROR] [net.minecraft.server.Main\/FATAL]: Failed to start the minecraft server"
+                        },
+                        {
+                            "number": 44,
+                            "content": "net.neoforged.fml.ModLoadingException: Loading errors encountered:"
+                        },
+                        {
+                            "number": 45,
+                            "content": "\t- Controlify (controlify) has failed to load correctly"
+                        },
+                        {
+                            "number": 46,
+                            "content": "\t  java.lang.RuntimeException: Attempted to load class net\/minecraft\/client\/gui\/screens\/Screen for invalid dist DEDICATED_SERVER"
+                        },
+                        {
+                            "number": 47,
+                            "content": ""
+                        },
+                        {
+                            "number": 48,
+                            "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.ModLoader.waitForFuture(ModLoader.java:281) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                        },
+                        {
+                            "number": 49,
+                            "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.ModLoader.dispatchParallelTask(ModLoader.java:244) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                        },
+                        {
+                            "number": 50,
+                            "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.ModLoader.constructMods(ModLoader.java:152) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                        },
+                        {
+                            "number": 51,
+                            "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:142) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                        },
+                        {
+                            "number": 52,
+                            "content": "\tat TRANSFORMER\/neoforge@21.1.265\/net.neoforged.neoforge.internal.CommonModLoader.begin(CommonModLoader.java:49) ~[neoforge-21.1.265-universal.jar%23156!\/:?]"
+                        },
+                        {
+                            "number": 53,
+                            "content": "\tat TRANSFORMER\/neoforge@21.1.265\/net.neoforged.neoforge.server.loading.ServerModLoader.load(ServerModLoader.java:34) ~[neoforge-21.1.265-universal.jar%23156!\/:?]"
+                        },
+                        {
+                            "number": 54,
+                            "content": "\tat TRANSFORMER\/minecraft@1.21.1\/net.minecraft.server.Main.main(Main.java:124) ~[server-1.21.1-20240808.144430-srg.jar%23155!\/:?]"
+                        },
+                        {
+                            "number": 55,
+                            "content": "\tat java.base\/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]"
+                        },
+                        {
+                            "number": 56,
+                            "content": "\tat java.base\/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]"
+                        },
+                        {
+                            "number": 57,
+                            "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                        },
+                        {
+                            "number": 58,
+                            "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                        },
+                        {
+                            "number": 59,
+                            "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                        },
+                        {
+                            "number": 60,
+                            "content": "\tat MC-BOOTSTRAP\/fml_loader@4.0.45\/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.45.jar%2359!\/:4.0]"
+                        },
+                        {
+                            "number": 61,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2364!\/:?]"
+                        },
+                        {
+                            "number": 62,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2364!\/:?]"
+                        },
+                        {
+                            "number": 63,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2364!\/:?]"
+                        },
+                        {
+                            "number": 64,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2364!\/:?]"
+                        },
+                        {
+                            "number": 65,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2364!\/:?]"
+                        },
+                        {
+                            "number": 66,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2364!\/:?]"
+                        },
+                        {
+                            "number": 67,
+                            "content": "\tat MC-BOOTSTRAP\/cpw.mods.modlauncher@11.0.5\/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2364!\/:?]"
+                        },
+                        {
+                            "number": 68,
+                            "content": "\tat cpw.mods.bootstraplauncher@2.0.2\/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]"
+                        },
+                        {
+                            "number": 69,
+                            "content": ""
+                        }
+                    ]
+                },
+                "solutions": [
+                    {
+                        "message": "Remove the mod 'Controlify'."
+                    },
+                    {
+                        "message": "Install a different version of the mod 'Controlify'."
+                    }
+                ]
+            }
+        ],
+        "information": [
+            {
+                "message": "Minecraft version: 1.21.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[27Nov2026 13:15:51.872] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[27Nov2026 13:15:51.872] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.265, --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]"
+                        }
+                    ]
+                },
+                "label": "Minecraft version",
+                "value": "1.21.1"
+            },
+            {
+                "message": "NeoForge version: 21.1.265",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[27Nov2026 13:15:51.872] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 1,
+                            "content": "[27Nov2026 13:15:51.872] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.265, --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]"
+                        }
+                    ]
+                },
+                "label": "NeoForge version",
+                "value": "21.1.265"
+            },
+            {
+                "message": "Java version: 21.0.13.1",
+                "counter": 1,
+                "entry": {
+                    "level": 6,
+                    "time": null,
+                    "prefix": "[27Nov2026 13:15:51.876] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]:",
+                    "lines": [
+                        {
+                            "number": 3,
+                            "content": "[27Nov2026 13:15:51.876] [main\/INFO] [cpw.mods.modlauncher.Launcher\/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.13.1 by Eclipse Adoptium; OS Linux arch amd64 version 6.8.0-147-generic"
+                        }
+                    ]
+                },
+                "label": "Java version",
+                "value": "21.0.13.1"
+            }
+        ]
+    }
+}

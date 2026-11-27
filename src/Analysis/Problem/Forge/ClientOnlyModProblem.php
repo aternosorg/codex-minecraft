@@ -13,6 +13,8 @@ use Aternos\Codex\Minecraft\Translator\Translator;
  * Only the fatal case is detected (a "Loading errors encountered" block that names the mod).
  * The plain "Attempted to load class ... for invalid dist DEDICATED_SERVER" line is not matched on its own,
  * because it is also logged for skipped client mixins and caught class scans, which are harmless.
+ *
+ * Used by Forge and NeoForge, which print the "Loading errors encountered" block in slightly different formats.
  */
 class ClientOnlyModProblem extends ModProblem
 {
@@ -20,8 +22,9 @@ class ClientOnlyModProblem extends ModProblem
      * Matches the cause line Forge prints below the failing mod in a "Loading errors encountered" block, e.g.
      * "§7java.lang.RuntimeException: Attempted to load class X for invalid dist DEDICATED_SERVER" or
      * "§7java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing"
+     * NeoForge indents it instead: "\t  java.lang.RuntimeException: Attempted to load class X for invalid dist DEDICATED_SERVER"
      */
-    public const string CLIENT_ONLY_CAUSE = '(?:§7)?(?:[\w.$]+: )*(?:Attempted to load class (\S+) for invalid dist DEDICATED_SERVER|Attempting to load a clientside only mod)';
+    public const string CLIENT_ONLY_CAUSE = '\h*(?:§7)?(?:[\w.$]+: )*(?:Attempted to load class (\S+) for invalid dist DEDICATED_SERVER|Attempting to load a clientside only mod)';
 
     protected string $modId;
     protected ?string $className = null;
@@ -35,13 +38,17 @@ class ClientOnlyModProblem extends ModProblem
     }
 
     /**
+     * Matches the failing mod and the cause line below it, e.g. on Forge
+     * "Backpacked (backpacked) has failed to load correctly" followed by CLIENT_ONLY_CAUSE,
+     * or on NeoForge "\t- Controlify (controlify) has failed to load correctly" followed by CLIENT_ONLY_CAUSE
+     *
      * @inheritDoc
      */
     public static function getPatterns(): array
     {
         return [
             // the name and id stay on one line, otherwise every "(" makes the pattern scan the rest of the entry
-            '/^\h*([^\(\n]+) \(([^\)\n]+)\) (?:has failed to load correctly|encountered an error during[^\n]*)\n' . static::CLIENT_ONLY_CAUSE . '/m'
+            '/^\h*(?:- )?([^\(\n]+) \(([^\)\n]+)\) (?:has failed to load correctly|encountered an error during[^\n]*)\n' . static::CLIENT_ONLY_CAUSE . '/m'
         ];
     }
 
